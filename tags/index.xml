@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on spyrales - site web</title>
-    <link>http://example.org/tags/</link>
+    <link>https://spyrales.github.io/web/tags/</link>
     <description>Recent content in Tags on spyrales - site web</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     <lastBuildDate>Thu, 19 Mar 2020 16:07:10 +0100</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://spyrales.github.io/web/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>communauté</title>
-      <link>http://example.org/tags/communaut%C3%A9/</link>
+      <link>https://spyrales.github.io/web/tags/communaut%C3%A9/</link>
       <pubDate>Thu, 19 Mar 2020 16:07:10 +0100</pubDate>
       
-      <guid>http://example.org/tags/communaut%C3%A9/</guid>
+      <guid>https://spyrales.github.io/web/tags/communaut%C3%A9/</guid>
       <description></description>
     </item>
     
     <item>
       <title>nouveauté</title>
-      <link>http://example.org/tags/nouveaut%C3%A9/</link>
+      <link>https://spyrales.github.io/web/tags/nouveaut%C3%A9/</link>
       <pubDate>Thu, 19 Mar 2020 16:07:10 +0100</pubDate>
       
-      <guid>http://example.org/tags/nouveaut%C3%A9/</guid>
+      <guid>https://spyrales.github.io/web/tags/nouveaut%C3%A9/</guid>
       <description></description>
     </item>
     
