@@ -1,0 +1,24 @@
+branches:
+  only:
+  - master
+language: go
+go:
+  - 1.12.x
+
+cache:
+  directories:
+    - $HOME/.cache/go-build
+    - $HOME/gopath/pkg/mod
+
+install: go get github.com/gohugoio/hugo
+
+before_script:
+  - chmod +x ./_deploy.sh
+
+script:
+  - hugo
+
+deploy:
+  provider: script
+  script: ./_deploy.sh
+  skip_cleanup: true
