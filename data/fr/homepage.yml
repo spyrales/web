@@ -1,0 +1,107 @@
+############################### Banner ##############################
+banner:
+  enable : true
+  bg_image : "images/slider-bg.jpg"
+  title : "Une communauté d'agents de l'Etat pour s'entraider en R et Python"
+  content : "Nous aimons **R** et **Python** et dans cette période de confinement, nous proposons aux agents intéressés de les accompagner dans un parcours de formation."
+  button:
+    enable : true
+    label : "Décrouvez le blog"
+    link : "blog"
+
+############################# About #################################
+about:
+  enable : true
+  title : "Qui sommes-nous ?"
+  description : "Des gents publics, titulaires et non titulaires, travaillant dans le domaine de la statistique ou de la datascience, en central ou en déconcentré"
+  content : "Confinés à nos domiciles, respectueux des consignes du Gouvernement, nous proposons de profiter du temps disponible pour nous former, pour nous perfectionner, pour découvrir de nouvelles pratiques en science des données, et en particulier sur deux langages très utilisés dans ce domaine : R et Python.
+
+
+    *Photo by Thought Catalog on Unsplash*"
+  image : "images/thought-catalog-Nv-vx3kUR2A-unsplash.jpg"
+
+
+######################### Portfolio ###############################
+portfolio:
+  enable : false
+  bg_image : "images/featue-bg.jpg"
+  title : "WE BELIEVE IN GREAT IDEAS"
+  content : "
+  Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+
+
+  Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+
+
+  Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+  "
+  button:
+    enable : true
+    label : "View Works"
+    link : "project"
+
+
+############################# Service ############################
+service:
+  enable : true
+  # service content comes from "data/*/service.yml" file
+
+
+############################ call to action ###########################
+cta:
+  enable : true
+  bg_image : "images/call-to-action-bg.jpg"
+  title : "Nous proposons une nouvelle méthode de travail pour progresser ensemble."
+  content : "Si vous avez des questions sur notre communauté, sur nos valeurs ou encore notre engagement, venez échanger avec nous et juger de par vous-même des travaux que nous menons. Vous pourrez aussi discuter avec notre équipe de choc ouverte et pédagogique !"
+  button:
+    enable : true
+    label : "À votre écoute"
+    link : "contact"
+
+############################# Funfacts ###############################
+funfacts:
+  enable : true
+  title : "Nos trophées"
+  description : "'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, <br> there live the
+          blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics'"
+  funfact_item:
+    # funfacts item loop
+    - icon : "ion-ios-people-outline" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Nombre d'agents impliqués"
+      count : "12"
+      
+    # funfacts item loop
+    - icon : "ion-ios-compose-outline" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Articles écrits"
+      count : "0"
+      
+    # funfacts item loop
+    - icon : "ion-ios-briefcase-outline" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Formations proposées"
+      count : "0"
+      
+    # funfacts item loop
+    - icon : "ion-ios-lightbulb-outline" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Projects communs"
+      count : "0"
+
+  testimonial_slider:
+    # testimonial item loop
+    - name : "Mme X"
+      image : "images/people/team-4.jpg"
+      designation : "CEO-Themefisher"
+      content : "This Company created an e-commerce site with the tools to make our business a success, with innovative
+                ideas we feel that our site has unique elements that make us stand out from the crowd."
+                
+    # testimonial item loop
+    - name : "M Y"
+      image : "images/people/team-ss.jpg"
+      designation : "CEO-Themefisher"
+      content : "This Company created an e-commerce site with the tools to make our business a success, with innovative
+                ideas we feel that our site has unique elements that make us stand out from the crowd."
+                
+    # testimonial item loop
+    - name : "Rose Rio"
+      image : "images/people/team-st.jpg"
+      designation : "Administrateur ministériel des données à Bercy"
+      content : "Se former, découvrir de nouveaux outils, échanger avec des collègues parfois perdus de vue sont autant de motivations pour se développer professionnellement et s'essayer à de nouvelles méthodes de travail, dans la bonne humeur et l'entraide"
