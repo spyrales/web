@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Drop Us A Note on spyrales - site web</title>
+    <link>http://example.org/</link>
+    <description>Recent content in Drop Us A Note on spyrales - site web</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Thu, 19 Mar 2020 16:07:10 +0100</lastBuildDate>
+    
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Carnet rose : naissance de spyrale</title>
+      <link>http://example.org/blog/20200319-blog-creation-communaute/</link>
+      <pubDate>Thu, 19 Mar 2020 16:07:10 +0100</pubDate>
+      
+      <guid>http://example.org/blog/20200319-blog-creation-communaute/</guid>
+      <description>Bienvenue à toutes et à tous !!
+Nous sommes agents publics, titulaires et non titulaires, travaillant dans le domaine de la statistique ou de la datascience, en central ou en déconcentré.</description>
+    </item>
+    
+  </channel>
+</rss>
