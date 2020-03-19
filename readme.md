@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/spyrales/web.svg?branch=master)](https://travis-ci.org/spyrales/web)
+
 # Site web de la communauté spirales 
 
 ## spirales-web by hugo
