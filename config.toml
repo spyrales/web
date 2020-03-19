@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://spyrales.github.io/web/"
 languageCode = "en-us"
 title = "spyrales - site web"
 theme = "airspace"
