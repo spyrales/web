@@ -1,10 +1,10 @@
 [![Build Status](https://travis-ci.org/spyrales/web.svg?branch=master)](https://travis-ci.org/spyrales/web)
 
-# Site web de la communauté spirales 
+# Site web de la communauté spyrales 
 
-## spirales-web by hugo
+## spyrales/web by hugo
 
-Ce repo permet de publier toutes les informations nécessaires - événements, formations, webinaires - que des agents de l'Etat porpose pendant la période de confinement.
+Ce repo permet de publier toutes les informations nécessaires - événements, formations, webinaires - que des agents de l'Etat proposent pendant la période de confinement (et pourquoi, pas au-delà).
 
 Il est propulsé par **Hugo**.
 
