@@ -1,7 +1,7 @@
 ############################### Banner ##############################
 banner:
   enable : true
-  bg_image : "images/slider-bg.jpg"
+  bg_image : "images/neonbrand-1-aA2Fadydc-unsplash.jpg"
   title : "Une communauté d'agents de l'Etat pour s'entraider en R et Python"
   content : "Nous aimons **R** et **Python** et dans cette période de confinement, nous proposons aux agents intéressés de les accompagner dans un parcours de formation."
   button:
@@ -17,7 +17,7 @@ about:
   content : "Confinés à nos domiciles, respectueux des consignes du Gouvernement, nous proposons de profiter du temps disponible pour nous former, pour nous perfectionner, pour découvrir de nouvelles pratiques en science des données, et en particulier sur deux langages très utilisés dans ce domaine : R et Python.
 
 
-    *Photo by Thought Catalog on Unsplash*"
+    *Photo by 'Thought Catalog' on Unsplash*"
   image : "images/thought-catalog-Nv-vx3kUR2A-unsplash.jpg"
 
 
@@ -50,7 +50,7 @@ service:
 ############################ call to action ###########################
 cta:
   enable : true
-  bg_image : "images/call-to-action-bg.jpg"
+  bg_image : "images/nordwood-themes-bJjsKbToY34-unsplash.jpg"
   title : "Nous proposons une nouvelle méthode de travail pour progresser ensemble."
   content : "Si vous avez des questions sur notre communauté, sur nos valeurs ou encore notre engagement, venez échanger avec nous et juger de par vous-même des travaux que nous menons. Vous pourrez aussi discuter avec notre équipe de choc ouverte et pédagogique !"
   button:
@@ -62,18 +62,17 @@ cta:
 funfacts:
   enable : true
   title : "Nos trophées"
-  description : "'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, <br> there live the
-          blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics'"
+  description : "'Tout seul on va plus vite, ensemble on va plus loin.'"
   funfact_item:
     # funfacts item loop
     - icon : "ion-ios-people-outline" #ionicon pack v2 : https://ionicons.com/v2/
       name : "Nombre d'agents impliqués"
-      count : "12"
+      count : "21"
       
     # funfacts item loop
     - icon : "ion-ios-compose-outline" #ionicon pack v2 : https://ionicons.com/v2/
       name : "Articles écrits"
-      count : "0"
+      count : "1"
       
     # funfacts item loop
     - icon : "ion-ios-briefcase-outline" #ionicon pack v2 : https://ionicons.com/v2/
@@ -101,7 +100,7 @@ funfacts:
                 ideas we feel that our site has unique elements that make us stand out from the crowd."
                 
     # testimonial item loop
-    - name : "Rose Rio"
+    - name : "Stéphane Trainel"
       image : "images/people/team-st.jpg"
       designation : "Administrateur ministériel des données à Bercy"
       content : "Se former, découvrir de nouveaux outils, échanger avec des collègues parfois perdus de vue sont autant de motivations pour se développer professionnellement et s'essayer à de nouvelles méthodes de travail, dans la bonne humeur et l'entraide"
