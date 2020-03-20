@@ -1,4 +1,7 @@
 # MacOS
 .DS_Store
-public/
 *.icloud
+# Hugo artifacts
+public/
+# Hugo intermediate files
+resources/
