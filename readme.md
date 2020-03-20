@@ -9,3 +9,9 @@ Ce repo permet de publier toutes les informations nécessaires - événements, f
 Il est propulsé par **Hugo**.
 
 Ce repo utilise **Travis-Ci** pour créer les pages du site automatiquement à chaque commit sur la branche `master` et de les publier sur la branche `gh-pages`.
+
+
+## Crédit photo (on Unsplash)
+
+* NeONBRAND
+* NordWood
