@@ -15,6 +15,9 @@ cp -r ./public/* ./output/
 # Remplacement http en https pour les fonts Google
 sed -i '' 's,http://fonts.googleapis.com/,https://fonts.googleapis.com/,g' ./public/scss/style.min.css
 
+# Suppression reference css.mpa
+sed -i '' '/css.map/d' ./public/plugins/bootstrap/bootstrap.min.css 
+
 # Publication des fichiers sur la branche "gh-pages" de GitHub
 cd output
 git add --all -f ./*
