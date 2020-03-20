@@ -6,7 +6,7 @@ banner:
   content : "Nous aimons **R** et **Python** et dans cette période de confinement, nous proposons aux agents intéressés de les accompagner dans un parcours de formation."
   button:
     enable : true
-    label : "Décrouvez le blog"
+    label : "Découvrez le blog"
     link : "blog"
 
 ############################# About #################################
