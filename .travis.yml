@@ -10,7 +10,9 @@ cache:
     - $HOME/.cache/go-build
     - $HOME/gopath/pkg/mod
 
-install: go get github.com/gohugoio/hugo
+install:
+  - curl -LO https://github.com/gohugoio/hugo/releases/download/v0.67.0/hugo_0.67.0_Linux-64bit.deb
+  - sudo dpkg -i hugo_0.67.0_Linux-64bit.deb
 
 before_script:
   - chmod +x ./_deploy.sh
