@@ -62,7 +62,7 @@ Ou en ssh :
 git clone git@github.com:<namespace>/web.git
 ```
 
-Vous devez ensuite cloner le sous-module git du thème Hugo utilisé par 
+Le site utilise le thème **airspace** ; les fichiers source de ce thème doivent être également téléchargés sans quoi vous ne pourrez pas construire le site localement. Le thème étant référencé comme un sous-module `git`, pour le récupérer vous devez cloner les sous-modules en exécutant :  
 `spyrales/web` :
 
 Placez vous dans le répertoire `web` :
