@@ -89,7 +89,7 @@ C'est très certainement la fonctionnalité de LiveReload que vous utiliserez : 
 Pour lancer le LiveReload, il faut exécuter :
 
 ```bash
-hugo server
+hugo server -D
 ```
 
 Vous devriez obtenir une réponse de ce type :
