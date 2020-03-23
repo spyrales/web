@@ -58,4 +58,4 @@ format PDF.
 **analyse-R** reste un site évolutif en fonction des contributions qui sont les bienvenues. 
 L'ensemble des contenus sont diffusés sous licence *Creative Commons*.
 
-<http://larmarange.github.io/analyse-R/>
+<https://larmarange.github.io/analyse-R/>
