@@ -60,7 +60,9 @@ Tous les packages R ne sont pas installés. Pour une configuration particulière
 
 ## Recommandations
 
-Une hésitation ? Par quoi commencer ? 
+Une hésitation ? Par quoi commencer ?  
+Toutes les formations listées ci-dessus sont excellentes, vous ne pouvez pas vous tromper en choisissant l'une d'entre elles. Prenez le temps de lire sur ce site la présentation de ces formations par leurs auteurs eux-mêmes.  
+Mais si vous êtes pressés et que vous souhaitez foncer tête baissée dans l'apprentissage de R, nous conseillons : 
 
 * Pour les *vrai.e.s* débutant.e.s : utiliser RStudio Cloud et commencer par la [**formation de Julien Barnier**](https://juba.github.io/tidyverse/)
 
