@@ -15,7 +15,7 @@ Ce billet liste quelques ressources intéressantes pour **se former à R**.
 
 ## Pour bien débuter...
 
-... vous avez le choix entre plusieurs sites en ligne.
+... vous avez le choix entre plusieurs formations en ligne.
 
 * Une [**introduction à R et au tidyverse**](https://juba.github.io/tidyverse/index.html) par Julien Barnier (CNRS)
 
