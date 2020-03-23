@@ -66,6 +66,6 @@ Mais si vous êtes pressés et que vous souhaitez foncer tête baissée dans l'a
 
 * Pour les *grands* débutants : utiliser RStudio Cloud (voir le lien ci-dessus) et commencer par la [**formation de Julien Barnier**](https://juba.github.io/tidyverse/)
 
-* Pour celles et ceux ayant un peu de pratique : rendez-vous avec le [**parcours de formations R du MTES**](https://mtes-mct.github.io/parcours-r), et choisir un module
+* Pour celles et ceux ayant un peu de pratique : rendez-vous sur le [**parcours de formations R du MTES**](https://mtes-mct.github.io/parcours-r) et choisissez un module
 
 Enfin, pour toute question, le salon **spyrales-discussion générales** de Tchap (www.tchap.gouv.fr)
