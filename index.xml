@@ -6,10 +6,21 @@
     <description>Recent content in spyrale &gt; accueil on spyrales - site web</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Thu, 19 Mar 2020 16:07:10 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 23 Mar 2020 00:27:36 +0100</lastBuildDate>
     
 	<atom:link href="https://spyrales.github.io/web/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Quelques premières ressources pour se former à R</title>
+      <link>https://spyrales.github.io/web/blog/20200323-blog-ressources-r/</link>
+      <pubDate>Mon, 23 Mar 2020 00:27:36 +0100</pubDate>
+      
+      <guid>https://spyrales.github.io/web/blog/20200323-blog-ressources-r/</guid>
+      <description>Ce billet liste quelques ressources intéressantes pour se former à R.
+Pour bien débuter&amp;hellip; &amp;hellip; vous avez le choix entre plusieurs formations en ligne.
+  Une introduction à R et au tidyverse par Julien Barnier (CNRS)</description>
+    </item>
     
     <item>
       <title>Carnet rose : naissance de spyrale</title>

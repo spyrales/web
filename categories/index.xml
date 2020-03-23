@@ -6,10 +6,19 @@
     <description>Recent content in Categories on spyrales - site web</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Thu, 19 Mar 2020 16:07:10 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 23 Mar 2020 00:27:36 +0100</lastBuildDate>
     
 	<atom:link href="https://spyrales.github.io/web/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Ressources-R</title>
+      <link>https://spyrales.github.io/web/categories/ressources-r/</link>
+      <pubDate>Mon, 23 Mar 2020 00:27:36 +0100</pubDate>
+      
+      <guid>https://spyrales.github.io/web/categories/ressources-r/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Organisation</title>
