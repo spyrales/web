@@ -92,7 +92,7 @@ weight = 6
 [params]
 logo = "images/logo.png"
 # Meta data
-description = "This is meta description"
+description = "spyrales"
 author = "Themefisher"
 # Contact Information
 mobile = "le plus simple est de vous abonner à Tchap !"
@@ -133,7 +133,7 @@ map_marker = "images/marker.png"
 
 [[params.social]]
 icon = "ion-social-twitter-outline" #ionicon pack v2 : https://ionicons.com/v2/
-link = "#"
+link = "https://twitter.com/SpyralesP"
 
 ################################ English Language ########################
 #[Languages.en]
