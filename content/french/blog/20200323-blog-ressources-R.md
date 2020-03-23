@@ -49,7 +49,7 @@ Les auteurs de ces formations vous présenterons sur ce blog, au travers de diff
 
 ## Les outils
 
-Pour celles et ceux qui n'ont pas la possibilité d'installer R et Rstudio sur leur poste de travail, il existe une solution en ligne gratuite : Rstudio Cloud. Cela vous permettra de retrouver un environnement de travail pour débuter sans avoir à installer quoi-que-ce-soit sur votre poste. Il est possible de partager des projets entre membres, ce qui favorise le travail en commun. 
+Pour celles et ceux qui n'ont pas la possibilité d'installer R et RStudio sur leur poste de travail, il existe une solution en ligne gratuite : RStudio Cloud. Cela vous permettra de retrouver un environnement de travail pour débuter sans avoir à installer quoi-que-ce-soit sur votre poste. Il est possible de partager des projets entre membres, ce qui favorise le travail en commun. 
 
 Pour tester RStudio Cloud, Romain Lesur a préparé un environnement de travail. Pour s'y connecter, il vous suffit de : cliquer [**ici**](https://rstudio.cloud/project/1056996) et créer un compte.
 
