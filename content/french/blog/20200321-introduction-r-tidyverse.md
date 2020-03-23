@@ -1,6 +1,6 @@
 ---
 title: "Introduction à R et au tidyverse"
-date: 2020-03-21T17:17:10+01:00
+date: 2020-03-23T17:17:10+01:00
 author: Julien Barnier
 image : "images/blog/bogomil-mihaylov-EPdCJtYPrPE-unsplash.jpg"
 bg_image: "images/featue-bg.jpg"
