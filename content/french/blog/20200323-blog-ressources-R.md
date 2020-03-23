@@ -64,7 +64,7 @@ Une hésitation ? Par quoi commencer ?
 Toutes les formations listées ci-dessus sont excellentes, vous ne pouvez pas vous tromper en choisissant l'une d'entre elles. Prenez le temps de lire sur ce site la présentation de ces formations par leurs auteurs eux-mêmes.  
 Mais si vous êtes pressés et que vous souhaitez foncer tête baissée dans l'apprentissage de R, nous conseillons : 
 
-* Pour les *vrai.e.s* débutant.e.s : utiliser RStudio Cloud et commencer par la [**formation de Julien Barnier**](https://juba.github.io/tidyverse/)
+* Pour les *grands* débutants : utiliser RStudio Cloud (voir le lien ci-dessus) et commencer par la [**formation de Julien Barnier**](https://juba.github.io/tidyverse/)
 
 * Pour celles et ceux ayant un peu de pratique : rendez-vous avec le [**parcours de formations R du MTES**](https://mtes-mct.github.io/parcours-r), et choisir un module
 
