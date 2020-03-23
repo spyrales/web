@@ -1,5 +1,5 @@
 ---
-title: "Carnet rose : naissance de spyrale"
+title: "Carnet rose : naissance de spyrales"
 date: 2020-03-19T16:07:10+01:00
 author: Stéphane Trainel
 image : "images/blog/bogomil-mihaylov-EPdCJtYPrPE-unsplash.jpg"
@@ -13,7 +13,7 @@ type: "post"
 
 Bienvenue à toutes et à tous !!
 
-Nous sommes agents publics, titulaires et non titulaires, travaillant dans le domaine de la statistique ou de la datascience, en central ou en déconcentré. Durant la période de confinement en raison du Covid-19, nous ne pouvons pas accéder à toutes les données sur lesquelles nous travaillons au quotidien et certains de nos travaux se voient repoussés. Nous souhaitons mettre à profit le temps disponible pour nous auto-former et/ou aider nos collègues à se former aux languages Python et/ou R, initier des projets en commun entre agents publics en rapport avec ces deux languages.
+Nous sommes agents publics, titulaires et non titulaires, travaillant dans le domaine de la statistique ou de la datascience, en central ou en déconcentré. Durant la période de confinement en raison du Covid-19, nous ne pouvons pas accéder à toutes les données sur lesquelles nous travaillons au quotidien et certains de nos travaux se voient repoussés. Nous souhaitons mettre à profit le temps disponible pour nous auto-former et/ou aider nos collègues à se former aux langages Python et/ou R, initier des projets en commun entre agents publics en rapport avec ces deux langages de programmation.
 
 Nous créons une communauté d'**entraide bienveillante et ouverte** pour y parvenir. Elle permet de rassembler des agents en recherche de nouvelles compétences et des agents tuteurs pour les accompagner. 
 
