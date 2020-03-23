@@ -26,4 +26,4 @@ Ce billet liste quelques ressources intéressantes pour **se former à R**.
 
 * Le ministère de l'écologie (MTES/MCTRCT) propose également des modules avancés, comme l'analyse multidimensionnelle, la datavisualisation ou encore les publications reproductibles. Ces modules sont animés en 2 journées dans un format présentiel. https://mtes-mct.github.io/parcours-r/
 
-* https://teaching.slmc.fr/perf/index.html 
+* Du perfectionnment à R développé par un agent de l'Insee : https://teaching.slmc.fr/perf/index.html 
