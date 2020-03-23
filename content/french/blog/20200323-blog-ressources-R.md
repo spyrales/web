@@ -21,7 +21,7 @@ Ce billet liste quelques ressources intéressantes pour **se former à R**.
 
 * Une [**formation à R**](https://mtes-mct.github.io/parcours-r/) par des agents du ministère de l'écologie, structurée en modules, dont _2 modules pour découvrir R_
 
-* Une [**initiation à R**](https://teaching.slmc.fr/r/index.html ) développée par Martin Chevalier (Insee)
+* Une [**initiation à R**](https://teaching.slmc.fr/r/index.html ) écrite par Martin Chevalier (Insee)
 
 * Un [parcours découverte pour **réaliser des analyses statistiques et diverses opérations courantes**](http://larmarange.github.io/analyse-R/), comme la manipulation de données ou la production de graphiques, avec R, par Joseph Larmarange (Institut de Recherche pour le Développement)
 
