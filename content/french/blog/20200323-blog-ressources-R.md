@@ -7,7 +7,7 @@ bg_image: "images/featue-bg.jpg"
 categories: ["Ressources-R"]
 tags: ["R","débutant","expert","formation"]
 description: "Liste de ressources pour se former à R"
-draft: true
+draft: false
 type: "post"
 ---
 
