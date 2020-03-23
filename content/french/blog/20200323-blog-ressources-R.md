@@ -27,6 +27,7 @@ Ce billet liste quelques ressources intéressantes pour **se former à R**.
 
 * Formation [**Introduction à R et au tidyverse**](https://juba.github.io/tidyverse/) par Julien Barnier (CNRS) 
 
+Les auteurs de ces formations vous présenterons sur ce blog, au travers de différents billets, le contexte dans lequel ces formations ont été conçues ainsi que les objectifs pédagogiques.
 ## Pour se perfectionner
 
 * Une [**formation à R**](https://mtes-mct.github.io/parcours-r/) par des agents du ministère de l'écologie, structurée en modules, dont _plusieurs modules pour approndir R_ comme l'analyse multidimensionnelle, la datavisualisation ou encore les publications reproductibles, etc.
