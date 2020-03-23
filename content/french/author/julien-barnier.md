@@ -1,5 +1,5 @@
 ---
-title: "Romain Lesur"
+title: "Julien Barnier"
 #email: ""
 bg_image: "images/featue-bg.jpg"
 #description: "Le capital humain au centre de l'action"
