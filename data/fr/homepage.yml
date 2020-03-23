@@ -67,12 +67,12 @@ funfacts:
     # funfacts item loop
     - icon : "ion-ios-people-outline" #ionicon pack v2 : https://ionicons.com/v2/
       name : "Nombre d'agents impliqués"
-      count : "21"
+      count : "68"
       
     # funfacts item loop
     - icon : "ion-ios-compose-outline" #ionicon pack v2 : https://ionicons.com/v2/
       name : "Articles écrits"
-      count : "1"
+      count : "2"
       
     # funfacts item loop
     - icon : "ion-ios-briefcase-outline" #ionicon pack v2 : https://ionicons.com/v2/
@@ -81,7 +81,7 @@ funfacts:
       
     # funfacts item loop
     - icon : "ion-ios-lightbulb-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "Projects communs"
+      name : "Projets communs"
       count : "0"
 
   testimonial_slider:
