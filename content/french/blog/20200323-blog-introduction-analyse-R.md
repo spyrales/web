@@ -33,7 +33,7 @@ de **R** et à des personnes souhaitant approfondir certains domaines. Il est d�
 en différents chapitres qui peuvent se lire de manière indépendante ou les uns à la 
 suite des autres.
 
-Les chapitres sont oragnisées en trois grandes parties :
+Les chapitres sont organisés en trois grandes parties :
 
 1. Manipuler
     - prise en main (premier contact, bases du langage, import de données...)
@@ -59,4 +59,3 @@ format PDF.
 L'ensemble des contenus sont diffusés sous licence *Creative Commons*.
 
 <http://larmarange.github.io/analyse-R/>
-
