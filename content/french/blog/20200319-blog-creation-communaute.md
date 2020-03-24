@@ -6,7 +6,7 @@ image : "images/blog/bogomil-mihaylov-EPdCJtYPrPE-unsplash.jpg"
 bg_image: "images/featue-bg.jpg"
 categories: ["Organisation"]
 tags: ["nouveauté","communauté"]
-description: "création de la communauté spyrale"
+description: "Création de la communauté spyrales"
 draft: false
 type: "post"
 ---
