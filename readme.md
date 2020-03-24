@@ -41,7 +41,7 @@ Vérifiez que la réponse que vous obtenez commence par :
 Hugo Static Site Generator v0.67.0-7F1DA3EF/extended...
 ```
 
-## Installation de Hugo extended 0.67.0 pour Windows
+### Installation de Hugo extended 0.67.0 pour Windows
 
 Commencez par installer **Chocolatey**, le gestionnaire de paquets pour Windows.
 
