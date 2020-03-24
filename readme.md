@@ -26,7 +26,7 @@ Attention :
 - la version **0.67.0** n'est pas la dernière disponible (la dernière version disponible de Hugo comporte un bug qui empêche la génération de ce site web).
 
 Vous pouvez télécharger la version de **Hugo extended 0.67.0** correspondant à
-votre système d'exploitation sur [cette page](https://github.com/gohugoio/hugo/releases/tag/v0.67.0).
+votre système d'exploitation sur [cette page](https://github.com/gohugoio/hugo/releases/tag/v0.67.0) ou bien pour Windows, lire la section ci-après.
 
 Vous pouvez vérifier que Hugo extended a été correctement installé en lançant
 la commande :
