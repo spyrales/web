@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/spyrales/web.svg?branch=master)](https://travis-ci.org/spyrales/web)
 
-# Site web de la communauté spyrales 
+# Site web de la communauté spyrales
 
 ## spyrales/web by hugo
 
@@ -14,7 +14,7 @@ Ce repo utilise **Travis-Ci** pour créer les pages du site automatiquement à c
 
 ## Pré-requis
 
-Pour générer le site web sur votre ordinateur, vous devez avoir `git` d'installé 
+Pour générer le site web sur votre ordinateur, vous devez avoir `git` d'installé
 et savoir utiliser la ligne de commandes.
 
 ## Installation de Hugo extended 0.67.0
@@ -25,10 +25,10 @@ Attention :
 - **Hugo extended** est différent de Hugo, il comporte plus de fonctionnalités dont certaines sont indispensables à la génération de ce site web ;
 - la version **0.67.0** n'est pas la dernière disponible (la dernière version disponible de Hugo comporte un bug qui empêche la génération de ce site web).
 
-Vous pouvez télécharger la version de **Hugo extended 0.67.0** correspondant à 
-votre système d'exploitation sur [cette page](https://github.com/gohugoio/hugo/releases/tag/v0.67.0).
+Vous pouvez télécharger la version de **Hugo extended 0.67.0** correspondant à
+votre système d'exploitation sur [cette page](https://github.com/gohugoio/hugo/releases/tag/v0.67.0) ou bien pour Windows, lire la section ci-après.
 
-Vous pouvez vérifier que Hugo extended a été correctement installé en lançant 
+Vous pouvez vérifier que Hugo extended a été correctement installé en lançant
 la commande :
 
 ```bash
@@ -40,6 +40,38 @@ Vérifiez que la réponse que vous obtenez commence par :
 ```
 Hugo Static Site Generator v0.67.0-7F1DA3EF/extended...
 ```
+
+### Installation de Hugo extended 0.67.0 pour Windows
+
+Commencez par installer **Chocolatey**, le gestionnaire de paquets pour Windows.
+
+Lancez le **Powershell** (`powershell.exe` est accessible via la barre de recherche Windows) et exécutez la commande :
+
+> Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+
+Vous pouvez vérifier que Chocolatey a été correctement installé en lançant la commande :
+
+> choco
+
+Vous obtenez en réponse la version installée :
+
+```
+Chocolatey v0.10.15
+```
+Maintenant que vous disposez d'un gestionnaire de paquets, dans le Powershell tappez la commande:
+
+> choco install hugo-extended --version=0.67.0
+
+Vous pouvez vérifier que Hugo extended a été correctement installé en lançant
+
+> hugo version
+
+Vérifiez que la réponse que vous obtenez commence par :
+
+```
+Hugo Static Site Generator v0.67.0-7F1DA3EF/extended...
+```
+
 
 ## Cloner le repository `web`
 
