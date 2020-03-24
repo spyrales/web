@@ -45,7 +45,7 @@ Hugo Static Site Generator v0.67.0-7F1DA3EF/extended...
 
 Commencez par installer **Chocolatey**, le gestionnaire de paquets pour Windows.
 
-Lancez le **Powershell** (powershell.exe est accessible via la barre de recherche Windows) et executez la commande:
+Lancez le **Powershell** (`powershell.exe` est accessible via la barre de recherche Windows) et exécutez la commande :
 
 > Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
