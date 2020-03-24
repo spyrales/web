@@ -11,3 +11,5 @@ social:
     link : "#"
 ---
 
+Ingénieur CNRS au Centre Max Weber à Lyon, je donne des formations d'introduction à R depuis une douzaine d'années, essentiellement auprès d'un public de chercheur.es et de doctorant.es. Je développe également plusieurs packages dont `questionr`, `explor`, `rmdformats` ou `rainette`
+
