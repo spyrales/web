@@ -47,31 +47,39 @@ Commencez par installer **Chocolatey**, le gestionnaire de paquets pour Windows.
 
 Lancez le **Powershell** (`powershell.exe` est accessible via la barre de recherche Windows) et exécutez la commande :
 
-> Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+```bash
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+```
 
 Vous pouvez vérifier que Chocolatey a été correctement installé en lançant la commande :
 
-> choco
+```bash
+choco
+```
 
 Vous obtenez en réponse la version installée :
 
 ```
 Chocolatey v0.10.15
 ```
+
 Maintenant que vous disposez d'un gestionnaire de paquets, dans le Powershell tappez la commande:
 
-> choco install hugo-extended --version=0.67.0
+```bash
+choco install hugo-extended --version=0.67.0
+```
 
 Vous pouvez vérifier que Hugo extended a été correctement installé en lançant
 
-> hugo version
+```bash
+hugo version
+```
 
 Vérifiez que la réponse que vous obtenez commence par :
 
 ```
 Hugo Static Site Generator v0.67.0-7F1DA3EF/extended...
 ```
-
 
 ## Cloner le repository `web`
 
