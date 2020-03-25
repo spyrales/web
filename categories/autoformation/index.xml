@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>spyrale &gt; accueil on spyrales - site web</title>
-    <link>https://spyrales.github.io/web/</link>
-    <description>Recent content in spyrale &gt; accueil on spyrales - site web</description>
+    <title>Autoformation on spyrales - site web</title>
+    <link>https://spyrales.github.io/web/categories/autoformation/</link>
+    <description>Recent content in Autoformation on spyrales - site web</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     <lastBuildDate>Wed, 25 Mar 2020 18:13:08 +0100</lastBuildDate>
     
-	<atom:link href="https://spyrales.github.io/web/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://spyrales.github.io/web/categories/autoformation/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -37,36 +37,6 @@ Il a été conçu il y a une dizaine d&amp;rsquo;années comme un support de for
       
       <guid>https://spyrales.github.io/web/blog/20200325-blog-initiation-a-r-en-cinq-demi-journees/</guid>
       <description>Ce post très court propose, à celles et ceux qui souhaiteraient profiter du contexte actuel (et de l&amp;rsquo;accès parfois limité en télé-travail aux ressources de nos organisations respectives), de s&amp;rsquo;autoformer à R à partir des supports d&amp;rsquo;une formation que j&amp;rsquo;ai conçue et donnée à l&amp;rsquo;Insee de 2016 à 2018.</description>
-    </item>
-    
-    <item>
-      <title>Quelques premières ressources pour se former à R</title>
-      <link>https://spyrales.github.io/web/blog/20200323-blog-ressources-r/</link>
-      <pubDate>Mon, 23 Mar 2020 00:27:36 +0100</pubDate>
-      
-      <guid>https://spyrales.github.io/web/blog/20200323-blog-ressources-r/</guid>
-      <description>Ce billet liste quelques ressources intéressantes pour se former à R.
-Pour bien débuter&amp;hellip; &amp;hellip; vous avez le choix entre plusieurs formations en ligne.
-  Une introduction à R et au tidyverse par Julien Barnier (CNRS)</description>
-    </item>
-    
-    <item>
-      <title>Carnet rose : naissance de spyrales</title>
-      <link>https://spyrales.github.io/web/blog/20200319-blog-creation-communaute/</link>
-      <pubDate>Thu, 19 Mar 2020 16:07:10 +0100</pubDate>
-      
-      <guid>https://spyrales.github.io/web/blog/20200319-blog-creation-communaute/</guid>
-      <description>Bienvenue à toutes et à tous !!
-Nous sommes agents publics, titulaires et non titulaires, travaillant dans le domaine de la statistique ou de la datascience, en central ou en déconcentré.</description>
-    </item>
-    
-    <item>
-      <title>Stéphane Trainel</title>
-      <link>https://spyrales.github.io/web/author/st%C3%A9phane-trainel/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://spyrales.github.io/web/author/st%C3%A9phane-trainel/</guid>
-      <description>Fonctionnaire de l&amp;rsquo;Institut national de la statistique et des études économiques (Insee), je suis l&amp;rsquo;administrateur ministériel des données de Bercy depuis avril 2019. Au cours de mes postes, j&amp;rsquo;ai cherché à accompagner les agents publics dans leurs métiers, et tout particulièrement pour les aider à développer leur connaissance grâce à la formation ou le tutorat.</description>
     </item>
     
   </channel>

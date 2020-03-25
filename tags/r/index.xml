@@ -6,10 +6,38 @@
     <description>Recent content in R on spyrales - site web</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Mon, 23 Mar 2020 00:27:36 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 25 Mar 2020 18:13:08 +0100</lastBuildDate>
     
 	<atom:link href="https://spyrales.github.io/web/tags/r/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Introduction à R et au tidyverse</title>
+      <link>https://spyrales.github.io/web/blog/20200321-introduction-r-tidyverse/</link>
+      <pubDate>Wed, 25 Mar 2020 18:13:08 +0100</pubDate>
+      
+      <guid>https://spyrales.github.io/web/blog/20200321-introduction-r-tidyverse/</guid>
+      <description>Introduction à R et au tidyverse est un document de formation en ligne à destination de personnes débutant avec le langage R.
+Il a été conçu il y a une dizaine d&amp;rsquo;années comme un support de formation pour une introduction à R auprès de chercheur.</description>
+    </item>
+    
+    <item>
+      <title>Le site analyse-R</title>
+      <link>https://spyrales.github.io/web/blog/20200323-blog-introduction-analyse-r/</link>
+      <pubDate>Wed, 25 Mar 2020 18:12:08 +0100</pubDate>
+      
+      <guid>https://spyrales.github.io/web/blog/20200323-blog-introduction-analyse-r/</guid>
+      <description>analyse-R : Introduction à l&amp;rsquo;analyse d&amp;rsquo;enquêtes avec R et RStudio est un site web présentant comment réaliser des analyses statistiques et diverses opérations courantes (comme la manipulation de données ou la production de graphiques) avec R et RStudio.</description>
+    </item>
+    
+    <item>
+      <title>Une initiation à R en cinq demi-journées</title>
+      <link>https://spyrales.github.io/web/blog/20200325-blog-initiation-a-r-en-cinq-demi-journees/</link>
+      <pubDate>Wed, 25 Mar 2020 18:11:08 +0100</pubDate>
+      
+      <guid>https://spyrales.github.io/web/blog/20200325-blog-initiation-a-r-en-cinq-demi-journees/</guid>
+      <description>Ce post très court propose, à celles et ceux qui souhaiteraient profiter du contexte actuel (et de l&amp;rsquo;accès parfois limité en télé-travail aux ressources de nos organisations respectives), de s&amp;rsquo;autoformer à R à partir des supports d&amp;rsquo;une formation que j&amp;rsquo;ai conçue et donnée à l&amp;rsquo;Insee de 2016 à 2018.</description>
+    </item>
     
     <item>
       <title>Quelques premières ressources pour se former à R</title>
