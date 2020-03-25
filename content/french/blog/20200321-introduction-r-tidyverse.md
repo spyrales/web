@@ -1,13 +1,13 @@
 ---
 title: "Introduction à R et au tidyverse"
-date: 2020-03-23T17:17:10+01:00
+date: 2020-03-25T18:13:08+01:00
 author: Julien Barnier
 image : "https://juba.github.io/tidyverse/resources/logos/core_packages.png"
 bg_image: "images/featue-bg.jpg"
 categories: ["Autoformation"]
 tags: ["R"]
 description: 'Présentation du support de formation "Introduction à R et au tidyverse"'
-draft: true
+draft: false
 type: "post"
 ---
 
@@ -21,15 +21,21 @@ pour devenir un document autonome. Il conserve une approche "SHS" (Sciences
 Humaines et Sociales), mais les notions abordées sont a priori utiles pour
 tous les usages.
 
+
+### Public visé
+
 Ce document est destiné à deux publics potentiels :
 
-- les débutants en R, qui pourront lire l'ensemble en commençant par la partie
+- les **débutants en R**, qui pourront lire l'ensemble en commençant par la partie
   *Introduction à R* : celle-ci ne demande aucun prérequis en informatique et
   se veut la plus accessible possible.
-- les personnes connaissant déjà R mais souhaitant se familiariser avec les
+- les **personnes connaissant déjà R**, mais souhaitant se familiariser avec les
   extensions dites du *tidyverse* : celles-ci pourront se contenter de la
   deuxième partie *Introduction au tidyverse*.
-  
+
+
+### Contenu de la formation
+
 L'ouvrage est une introduction assez complète aux différents outils et notions
 nécessaires pour débuter en R. Vous y trouverez notamment :
 
@@ -43,10 +49,13 @@ nécessaires pour débuter en R. Vous y trouverez notamment :
 - la manipulation des données avec `dplyr` et `tidyr`
 - la création de documents et l'export de résultats avec `rmarkdown`
   
-Chaque partie comprend des exercices corrigés, et une annexe liste
+Chaque partie comprend des exercices corrigés et une annexe liste
 différentes ressources d'apprentissage et d'entraide.
-  
-En revanche vous ne trouverez pas dans cet ouvrage :
+
+
+### Ce que vous ne trouverez pas
+
+En revanche, vous ne trouverez pas dans cet ouvrage :
   
 - une introduction aux méthodes quantitatives d'analyse de données (ça n'est
   pas l'objet)
@@ -59,9 +68,3 @@ HTML, PDF et EPUB à l'adresse suivante :
 https://juba.github.io/tidyverse/
 
 Et je suis évidemment toujours preneur de retours, critiques ou suggestions !
-  
-  
-  
-  
-  
-  
