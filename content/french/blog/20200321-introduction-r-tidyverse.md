@@ -2,7 +2,7 @@
 title: "Introduction à R et au tidyverse"
 date: 2020-03-23T17:17:10+01:00
 author: Julien Barnier
-image : "images/blog/bogomil-mihaylov-EPdCJtYPrPE-unsplash.jpg"
+image : "https://juba.github.io/tidyverse/resources/logos/core_packages.png"
 bg_image: "images/featue-bg.jpg"
 categories: ["Autoformation"]
 tags: ["R"]
