@@ -7,25 +7,26 @@ bg_image: "images/featue-bg.jpg"
 categories: ["Autoformation"]
 tags: ["R"]
 description: 'Se former à R en 5 demi-journées'
-draft: true
+draft: false
 type: "post"
 ---
 
-Ce post très court pour proposer à celles et ceux qui souhaiteraient profiter du contexte actuel (et de l'accès parfois limité en télé-travail aux ressources de nos organisations respectives) pour se former à R à partir des **supports d'une formation que j'ai conçue et donnée à l'Insee de 2016 à 2018**. L'ensemble est librement accessible à l'adresse : [r.slmc.fr](https://teaching.slmc.fr/r/). 
+Ce post très court propose, à celles et ceux qui souhaiteraient profiter du contexte actuel (et de l'accès parfois limité en télé-travail aux ressources de nos organisations respectives), de s'autoformer à R à partir des **supports d'une formation que j'ai conçue et donnée à l'Insee de 2016 à 2018**. L'ensemble est librement accessible à l'adresse : [r.slmc.fr](https://teaching.slmc.fr/r/). 
 
-Ce support, initialement utilisé pour des formations en présentiel de deux jours, a en fait été pensé pour **servir aussi en auto-formation** (et a déjà été utilisé ainsi par de nombreux collègues) : l'ensemble du contenu est séquencé en **parties relativement courtes** avec des **exercices corrigés au fur et à mesure**. En termes de public, il s'adresse à des **statisticien·ne·s raisonnablement à l'aise avec un autre logiciel statistique** (par exemple SAS) et s'appuie pour l'essentiel sur des **données Insee** (un peu datées maintenant) : code officiel géographique, recensement de la population, enquête Emploi en continu, etc.
+Ce support, initialement utilisé pour des formations en présentiel de deux jours, a en fait été pensé pour **servir aussi en auto-formation** (et a déjà été utilisé ainsi par de nombreux collègues) : l'ensemble du contenu est séquencé en **parties relativement courtes** avec des **exercices corrigés au fur et à mesure**. Il s'adresse à des **statisticien·ne·s raisonnablement à l'aise avec un autre logiciel statistique** (par exemple SAS) et s'appuie pour l'essentiel sur des **données Insee** (un peu datées maintenant) : code officiel géographique, recensement de la population, enquête Emploi en continu, etc.
 
 Plus précisément, la formation est organisée en **trois modules** : 
 
-- le [module 1](https://teaching.slmc.fr/r/module1.html) (une demi-journée) vise à faire un premier **tour rapide des fonctionnalités de R** : environnement de travail (RStudio), manipulations statistiques élémentaires, import de données (SAS en particulier). L'objectif de ce premier module est de voir qu'une fois la nouvelle interface maîtrisée, **on retrouve assez facilement des points de repères**.
+- le [**module 1**](https://teaching.slmc.fr/r/module1.html) (une demi-journée) vise à faire un premier **tour rapide des fonctionnalités de R** : environnement de travail (RStudio), manipulations statistiques élémentaires, import de données (SAS en particulier). L'objectif de ce premier module est de **retrouver des points de repère** une fois la nouvelle interface maîtrisée.
 
-- le [module 2](https://teaching.slmc.fr/r/module2.html) (deux demi-journées) constitue un **détour coûteux mais nécessaire** : il vise à vous familiariser avec les **objets fondamentaux de R**, notamment les vecteurs et les listes, qui sont **sous-jacent à la plupart des opérations sur des données** que vous serez amenées à mener au quotidien. 
+- le [**module 2**](https://teaching.slmc.fr/r/module2.html) (deux demi-journées) vise à vous familiariser avec les **objets fondamentaux de R**, notamment les vecteurs et les listes, qui sont **sous-jacent à la plupart des opérations sur des données** que vous serez amenées à mener au quotidien. C'est un détour coûteux, mais nécessaire pour aller plus loin.
 
-    D'expérience, ce deuxième module est **assez difficile pour les stagiaires** dans la mesure où il est **dense et semble assez éloigné de l'application concrète sur des données** ; **accrochez-vous néanmoins**, car ce qui est vu dans ce module constitue les véritables **fondations** de tout votre travail avec R.
+    > D'expérience, ce deuxième module est assez difficile pour les stagiaires dans la mesure où il est dense et semble assez éloigné de l'application concrète sur des données ; **accrochez-vous** néanmoins, car ce qui est vu dans ce module constitue les véritables **fondations** de votre futur travail avec R.
+
     
-- le [module 3](https://teaching.slmc.fr/r/module3.html) (deux demi-journées) **capitalise sur les apprentissages du module 2** pour revenir aux données statistiques "classiques" (des tables), en introduisant le type `data.frame` et l'**ensemble des manipulations utiles au quotidien** : recodage de variables, tri, concaténation, fusion, opérations sur plusieurs variables, etc. (en gros, l'étape DATA de SAS).
+- le [**module 3**](https://teaching.slmc.fr/r/module3.html) (deux demi-journées) vise à **capitaliser sur les apprentissages du module 2** pour revenir aux données statistiques "classiques" (des tables), en introduisant le type `data.frame` et l'**ensemble des manipulations utiles au quotidien** : recodage de variables, tri, concaténation, fusion, opérations sur plusieurs variables, etc. (en gros, l'étape DATA de SAS).
 
-    Ce module propose également un **panorama sur le calcul de statistiques descriptives** (non-pondérées et pondérées) à partir de données de l'enquête Emploi en continu, avec en conclusion une **application pratique (avec correction) sur l'enquête Pisa 2012**.
+    > Ce module propose également un **panorama sur le calcul de statistiques descriptives** (non-pondérées et pondérées) à partir de données de l'enquête Emploi en continu, avec en conclusion une **application pratique (avec correction) sur l'enquête Pisa 2012**.
     
 
 **À noter que les durées indiquées après chaque module sont totalement indicatives** : l'essentiel est d'**aller à son rythme, de ne pas lâcher et si possible de continuer à pratiquer après** (sur un nouveau projet par exemple). 
