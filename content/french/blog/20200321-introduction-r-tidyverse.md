@@ -7,7 +7,7 @@ bg_image: "images/featue-bg.jpg"
 categories: ["Autoformation"]
 tags: ["R"]
 description: 'Présentation du support de formation "Introduction à R et au tidyverse"'
-draft: false
+draft: true
 type: "post"
 ---
 
