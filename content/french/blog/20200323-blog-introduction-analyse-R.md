@@ -7,7 +7,7 @@ bg_image: "images/featue-bg.jpg"
 categories: ["Autoformation"]
 tags: ["R"]
 description: "Présentation du site analyse-R : Introduction à l'analyse d'enquêtes avec R et RStudio"
-draft: false
+draft: true
 type: "post"
 ---
 
