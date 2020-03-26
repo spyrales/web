@@ -39,7 +39,7 @@ environnement de travail pour vous aider !
 
 Comme son nom l'indique, RStudio Cloud est un service "cloud", c'est-à-dire que
 ce sont des ordinateurs situés "quelque part" (c'est ce qu'on appelle le
-"nuage") qui vont exécuter vos programmes. La connection à ce service
+"nuage") qui vont exécuter vos programmes. La connexion à ce service
 s'effectuera au travers de votre navigateur internet.
 
 Pour accéder à RStudio Cloud, il suffit de cliquer sur l'adresse suivante :
