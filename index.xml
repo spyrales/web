@@ -6,10 +6,28 @@
     <description>Recent content in spyrale &gt; accueil on spyrales - site web</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Thu, 26 Mar 2020 10:15:08 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 26 Mar 2020 23:07:52 +0100</lastBuildDate>
     
 	<atom:link href="https://spyrales.github.io/web/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Marylène Henry</title>
+      <link>https://spyrales.github.io/web/author/maryl%C3%A8ne-henry/</link>
+      <pubDate>Thu, 26 Mar 2020 23:07:52 +0100</pubDate>
+      
+      <guid>https://spyrales.github.io/web/author/maryl%C3%A8ne-henry/</guid>
+      <description>Statisticienne à l&amp;rsquo;Insee, Marylène est passionnée par l’utilisation du logiciel R qu&amp;rsquo;elle pratique depuis fin 2016. Elle fait notamment partie de la communauté des R-Ladies (dont la mission est de promouvoir la diversité de genre dans la DataScience avec R dans le monde).</description>
+    </item>
+    
+    <item>
+      <title>Se former à R ou python sans rien installer sur son ordinateur</title>
+      <link>https://spyrales.github.io/web/blog/20200327-blog-se-former-a-r-ou-python-sans-rien-installer-sur-son-ordinateur/</link>
+      <pubDate>Thu, 26 Mar 2020 23:07:52 +0100</pubDate>
+      
+      <guid>https://spyrales.github.io/web/blog/20200327-blog-se-former-a-r-ou-python-sans-rien-installer-sur-son-ordinateur/</guid>
+      <description>Ce billet s&amp;rsquo;adresse tout particulièrement aux personnes qui souhaiteraient pratiquer R et/ou python dans l&amp;rsquo;environnement de travail RStudio. Les formateurs pourront également trouver des informations utiles pour mettre en place un environnement de formation.</description>
+    </item>
     
     <item>
       <title>Parcours de formation à R du MTES - MCTRCT</title>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>formation on spyrales - site web</title>
-    <link>https://spyrales.github.io/web/tags/formation/</link>
-    <description>Recent content in formation on spyrales - site web</description>
+    <title>python on spyrales - site web</title>
+    <link>https://spyrales.github.io/web/tags/python/</link>
+    <description>Recent content in python on spyrales - site web</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     <lastBuildDate>Thu, 26 Mar 2020 23:07:52 +0100</lastBuildDate>
     
-	<atom:link href="https://spyrales.github.io/web/tags/formation/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://spyrales.github.io/web/tags/python/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,17 +18,6 @@
       
       <guid>https://spyrales.github.io/web/blog/20200327-blog-se-former-a-r-ou-python-sans-rien-installer-sur-son-ordinateur/</guid>
       <description>Ce billet s&amp;rsquo;adresse tout particulièrement aux personnes qui souhaiteraient pratiquer R et/ou python dans l&amp;rsquo;environnement de travail RStudio. Les formateurs pourront également trouver des informations utiles pour mettre en place un environnement de formation.</description>
-    </item>
-    
-    <item>
-      <title>Quelques premières ressources pour se former à R</title>
-      <link>https://spyrales.github.io/web/blog/20200323-blog-ressources-r/</link>
-      <pubDate>Mon, 23 Mar 2020 00:27:36 +0100</pubDate>
-      
-      <guid>https://spyrales.github.io/web/blog/20200323-blog-ressources-r/</guid>
-      <description>Ce billet liste quelques ressources intéressantes pour se former à R.
-Pour bien débuter&amp;hellip; &amp;hellip; vous avez le choix entre plusieurs formations en ligne.
-  Une introduction à R et au tidyverse par Julien Barnier (CNRS)</description>
     </item>
     
   </channel>

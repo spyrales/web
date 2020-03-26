@@ -6,10 +6,19 @@
     <description>Recent content in Categories on spyrales - site web</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Thu, 26 Mar 2020 10:15:08 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 26 Mar 2020 23:07:52 +0100</lastBuildDate>
     
 	<atom:link href="https://spyrales.github.io/web/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Environnement de travail</title>
+      <link>https://spyrales.github.io/web/categories/environnement-de-travail/</link>
+      <pubDate>Thu, 26 Mar 2020 23:07:52 +0100</pubDate>
+      
+      <guid>https://spyrales.github.io/web/categories/environnement-de-travail/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Autoformation</title>
