@@ -21,20 +21,25 @@ L'idée étant que chacun ayant dans ses métiers des besoins spécifiques auxqu
 
 Ces documents sont donc destinés à deux publics potentiels :
 
-- les **débutants en R**, qui pourront rentrer dans le language via les deux modules appelés "socle".
+- les **débutants en R**, qui pourront rentrer dans le language via les deux modules appelés "socle" ;
 - les **personnes connaissant déjà R**, mais souhaitant se familiariser sur des parties spécifiques : statistiques, datavisualisation, analyse spatiale, Shiny...
 
 
 ### Contenu de la formation
 
-Le parcours, toujours en construction, permet de balayer différents usages de R. L'approche de la formation est d'être axée sur le tidyverse. Vous y trouverez notamment :
+Le parcours, toujours en construction, permet de balayer différents usages de R. L'approche de la formation est d'être axée sur le tidyverse.
 
-- Un module introductif permettant une prise en main de l'interface de RStudio, de découvrir les grands principes du langage R, les bonnes pratiques d'un projet en R, son potentiel, et apprendre à réaliser des premiers traitements et graphiques ;
-- Un module sur la préparation des données permettant de se familiariser plus en profondeur sur la lecture et le traitement des données à travers notamment les packages {dplyr} et {tidyr} ;
-- Un module sur les statistiques descriptives intégrant des rappels théoriques sur les méthodes usuelles et leur mise en oeuvre avec R ;
-- Un module sur l'analyse des données multi-dimensionnelles intégrant des rappels théoriques sur les méthodes usuelles et leur mise en oeuvre via {factoMineR} et ses extensions ;
-- Un module sur la datavisualisation pour savoir produire des graphiques, des cartes et des tableaux avec R
-- Un module sur l'analyse spatiale permettant d'introduire ces notions à travers R et le package {sf} 
+Les deux modules "socle" : 
+
+- un module introductif permettant une prise en main de l'interface de RStudio, de découvrir les grands principes du langage R, les bonnes pratiques d'un projet en R, son potentiel, et apprendre à réaliser des premiers traitements et graphiques ;
+- un module sur la préparation des données permettant de se familiariser plus en profondeur sur la lecture et le traitement des données à travers notamment les packages {dplyr} et {tidyr}.
+
+Des modules à la carte : 
+
+- un module sur les statistiques descriptives intégrant des rappels théoriques sur les méthodes usuelles et leur mise en oeuvre avec R ;
+- un module sur l'analyse des données multi-dimensionnelles intégrant des rappels théoriques sur les méthodes usuelles et leur mise en oeuvre via {factoMineR} et ses extensions ;
+- un module sur la datavisualisation pour savoir produire des graphiques, des cartes et des tableaux avec R, essentiellement avec le package {gpplot2} ;
+- un module sur l'analyse spatiale permettant d'introduire ces notions à travers R et le package {sf}.
 
 Un module sur les publications reproductibles avec Rmarkdown est en cours de développement, et nous prévoyons également un module sur Shiny et le travail collaboratif.
 
