@@ -86,18 +86,16 @@ funfacts:
 
   testimonial_slider:
     # testimonial item loop
-    - name : "Mme X"
-      image : "images/people/team-4.jpg"
-      designation : "CEO-Themefisher"
-      content : "This Company created an e-commerce site with the tools to make our business a success, with innovative
-                ideas we feel that our site has unique elements that make us stand out from the crowd."
-                
+    - name : "Kim A"
+      image : "images/people/kima.png"
+      designation : "Agent de l'Insee en formation complémentaire à l'ENSAE"
+      content : "J'adore explorer la polyvalence de ces logiciels : le fait de pouvoir faire des cartes, graphiques et même des applis webs avec un même langage permet aux différents métiers de se rencontrer et de communiquer, et à une même personne d'apprendre, avec plaisir et curiosité, plusieurs métiers !"
+
     # testimonial item loop
-    - name : "M Y"
-      image : "images/people/team-ss.jpg"
-      designation : "CEO-Themefisher"
-      content : "This Company created an e-commerce site with the tools to make our business a success, with innovative
-                ideas we feel that our site has unique elements that make us stand out from the crowd."
+    - name : "Marylène Henry"
+      image : "images/people/mhenry.jpeg"
+      designation : "Statistician - Data Evangelist"
+      content : "Quand j'ai décidé de passer de SAS à R, j'ai pu trouver une communauté de passionnés de R active, bienveillante et toujours prête à m'aider. Contribuer à des démarches telles que Spyrales devient maintenant un réflexe. Que l'on soit débutant ou plus expérimenté, l'entraide est indispensable et c'est ce qui rend le travail si agréable."
                 
     # testimonial item loop
     - name : "Stéphane Trainel"
