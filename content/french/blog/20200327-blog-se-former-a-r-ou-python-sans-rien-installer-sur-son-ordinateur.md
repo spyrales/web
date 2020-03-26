@@ -1,6 +1,6 @@
 ---
 title: "Se former à R ou python sans rien installer sur son ordinateur"
-date: 2020-03-26T00:38:50+01:00
+date: 2020-03-26T23:07:52+01:00
 author: "Marylène Henry et Romain Lesur"
 image : "images/blog/R_logo.svg.png"
 bg_image: "images/featue-bg.jpg"
