@@ -65,7 +65,7 @@ transmettre à qui vous souhaitez et qui permettra d'accéder à un copie de vot
 projet.
 
 RStudio Cloud présente deux principaux avantages. D'une part pouvoir démarrer rapidement
-son apprentissage de R sans rien à avoir installer; d'autre part permettre de collaborer avec
+son apprentissage de R sans rien avoir à installer; d'autre part permettre de collaborer avec
 les collègues grâce au partage de projet.
 
 C'est pour ces raisons que RStudio Cloud est un outil parfaitement adapté à la formation.
