@@ -3,7 +3,7 @@
 
 ## Quelques prérequis
 
-Tout d'abord, il est nécessaire de créer un *fork* du site web pour avoir un copie depuis votre compte Github. Pour faire un *fork*, cliquer sur le bouton *fork* en en-têt du projet.
+Tout d'abord, il est nécessaire de créer un *fork* du site web pour avoir un copie depuis votre compte Github. Pour faire un *fork*, cliquer sur le bouton *fork* en en-tête du projet.
 
 Une fois le *fork* créé sur votre compte, il faut créer une copie du *fork* sur votre poste. Vous pouvez lire le tuto. Une fois la copie du site réalisée, n'oubliez pas de tester la visualisation locale du site.
 
@@ -50,7 +50,7 @@ Pour mettre à jour votre *fork*, il faut passer les commandes suivantes :
 ```
 git fetch upstream
 git checkout master
-git push upstream master
+git pull upstream master
 ```
 
 Votre *fork* est maintenant à jour.
