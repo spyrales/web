@@ -75,6 +75,11 @@ Il suffit d'utiliser le projet créé par le formateur et c'est parti ! L'appren
 Pour le formateur, il peut démultiplier ses sessions de formation - il n'y a pas simplement
 le présentiel mais des classes virtuelles peuvent être mises en place.
 
+Le formateur a alors deux principales manières de mettre à disposition un projet pour les stagiaires.
+Soit en créant un projet simple (dans ce cas le stagiaire doit être vigilant en copiant le projet), 
+soit en intégrant les stagiaires dans un atelier (le formateur décide alors d'octroyer des rôles aux 
+stagiaires (lecture seulement, contributeur, mainteneur…).
+
 Il y a toutefois quelques inconvénients à signaler. Le premier est que vous
 devez disposer d'une connexion à internet. Le second est que si le service
 RStudio Cloud est en maintenance, en panne ou est surchargé, vous ne pourrez
