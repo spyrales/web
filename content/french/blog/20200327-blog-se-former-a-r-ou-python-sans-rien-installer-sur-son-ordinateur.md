@@ -80,11 +80,6 @@ Soit en créant un projet simple (dans ce cas le stagiaire doit être vigilant e
 soit en intégrant les stagiaires dans un atelier (le formateur décide alors d'octroyer des rôles aux 
 stagiaires (lecture seulement, contributeur, mainteneur…).
 
-Le formateur a alors deux principales manières de mettre à disposition un projet pour les stagiaires.
-Soit en créant un projet simple (dans ce cas le stagiaire doit être vigilant en copiant le projet), 
-soit en intégrant les stagiaires dans un atelier (le formateur décide alors d'octroyer des rôles aux 
-stagiaires (lecture seulement, contributeur, mainteneur…).
-
 Il y a toutefois quelques inconvénients à signaler. Le premier est que vous
 devez disposer d'une connexion à internet. Le second est que si le service
 RStudio Cloud est en maintenance, en panne ou est surchargé, vous ne pourrez
