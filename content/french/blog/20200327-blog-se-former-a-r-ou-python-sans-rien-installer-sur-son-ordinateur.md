@@ -86,4 +86,4 @@ plus rapide pour débuter et le plus simple pour qu'un autre membre de la
 communauté spyrales vous aide si vous vous retrouvez en difficulté !
 
 Enfin, RStudio Cloud peut également être utilisé pour apprendre **python** car
-ce langage est également installé.
+ce langage est également installé. En conclusion, lancez-vous sur ce formidable outil !
