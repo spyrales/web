@@ -95,9 +95,9 @@ logo = "images/logo.png"
 description = "spyrales"
 author = "Themefisher"
 # Contact Information
-mobile = "le plus simple est de vous abonner à Tchap !"
+phone = "il n'y en a pas... le plus simple est de vous abonner à Tchap : www.tchap.gouv.fr !"
 email = "spyrales.publiques (a) gmail.com"
-location = "partout en France"
+location = "partout en France pour ne pas faire de jaloux"
 # contact form action
 contact_form_action = "https://formspree.io/mpzljzge" # contact form works with : https://formspree.io
 # Google Analitycs
