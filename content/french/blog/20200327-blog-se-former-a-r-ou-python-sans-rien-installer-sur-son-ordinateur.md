@@ -68,9 +68,12 @@ RStudio Cloud présente deux principaux avantages. D'une part pouvoir démarrer 
 son apprentissage de R sans rien à avoir installer; d'autre part permettre de collaborer avec
 les collègues grâce au partage de projet.
 
-Si vous êtes formateur, utiliser RStudio Cloud présente également des
-avantages. En effet, vous pouvez préparer un projet avec des packages déjà
-installés, du contenu (tel que des programmes R ou des fichiers R Markdown) et
+C'est pour ces raisons que RStudio Cloud est un outil parfaitement adapté à la formation.
+Du côté des stagiaires, il réduit les points de frictions consistant à installer R, RStudio,
+les packages utilisés lors de la formation, installer git...
+Il suffit d'utiliser le projet créé par le formateur et c'est parti ! L'apprentissage peut commencer.
+Pour le formateur, il peut démultiplier ses sessions de formation - il n'y a pas simplement
+le présentiel mais des classes virtuelles peuvent être mises en place.
 aussi le paramétrer grâce aux variables d'environnement ou un fichier
 `.Rprofile` _ad hoc_.
 
