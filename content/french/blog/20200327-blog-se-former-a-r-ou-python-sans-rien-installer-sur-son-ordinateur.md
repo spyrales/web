@@ -64,9 +64,9 @@ se trouve dans la barre d'adresse de votre navigateur par exemple,
 transmettre à qui vous souhaitez et qui permettra d'accéder à un copie de votre
 projet.
 
-Pour résumer, les deux principaux avantages du service RStudio Cloud sont d'une
-part, de n'avoir rien à installer sur votre ordinateur et d'autre part, de
-pouvoir collaborer avec des collègues.
+RStudio Cloud présente deux principaux avantages. D'une part pouvoir démarrer rapidement
+son apprentissage de R sans rien à avoir installer; d'autre part permettre de collaborer avec
+les collègues grâce au partage de projet.
 
 Si vous êtes formateur, utiliser RStudio Cloud présente également des
 avantages. En effet, vous pouvez préparer un projet avec des packages déjà
