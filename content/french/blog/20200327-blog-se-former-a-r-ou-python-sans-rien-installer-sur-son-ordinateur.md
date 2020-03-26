@@ -39,7 +39,7 @@ environnement de travail pour vous aider !
 
 Comme son nom l'indique, RStudio Cloud est un service "cloud", c'est-à-dire que
 ce sont des ordinateurs situés "quelque part" (c'est ce qu'on appelle le
-"nuage") qui vont exécuter vos programmes. La connection à ce service
+"nuage") qui vont exécuter vos programmes. La connexion à ce service
 s'effectuera au travers de votre navigateur internet.
 
 Pour accéder à RStudio Cloud, il suffit de cliquer sur l'adresse suivante :
@@ -65,7 +65,7 @@ transmettre à qui vous souhaitez et qui permettra d'accéder à un copie de vot
 projet.
 
 RStudio Cloud présente deux principaux avantages. D'une part pouvoir démarrer rapidement
-son apprentissage de R sans rien à avoir installer; d'autre part permettre de collaborer avec
+son apprentissage de R sans rien avoir à installer; d'autre part permettre de collaborer avec
 les collègues grâce au partage de projet.
 
 C'est pour ces raisons que RStudio Cloud est un outil parfaitement adapté à la formation.
