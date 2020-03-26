@@ -41,7 +41,7 @@ Des modules à la carte :
 - un module sur la datavisualisation pour savoir produire des graphiques, des cartes et des tableaux avec R, essentiellement avec le package {gpplot2} ;
 - un module sur l'analyse spatiale permettant d'introduire ces notions à travers R et le package {sf}.
 
-Un module sur les publications reproductibles avec Rmarkdown est en cours de développement, et nous prévoyons également un module sur Shiny et le travail collaboratif.
+Un module sur les publications reproductibles avec R Markdown est en cours de développement, et nous prévoyons également un module sur Shiny et le travail collaboratif.
 
 Chaque module est prévu pour être dispensé en présentiel sur 2 jours mais peut s'utiliser en autoapprentissage. Dans le contexte du confinement, nous travaillons à exernaliser les différents exercices de ces modules dans un package à part afin de rendre les stagiaires autonome sur la mise en pratique. 
 
