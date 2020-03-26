@@ -37,9 +37,9 @@ de communiquer un lien vers votre projet sur le salon spyrales de Tchap et les
 autres membres de la communauté pourront accéder à une copie de votre
 environnement de travail pour vous aider !
 
-Comme son nom l'indique, RStudio Cloud est un service "cloud", c'est-à-dire que
+Comme son nom l'indique, RStudio Cloud est un service gratuit de type "cloud", c'est-à-dire que
 ce sont des ordinateurs situés "quelque part" (c'est ce qu'on appelle le
-"nuage") qui vont exécuter vos programmes. La connexion à ce service
+"nuage") qui vont exécuter vos programmes. Il est extrêmement important de ne pas y stocker de données sensibles. La connexion à ce service
 s'effectuera au travers de votre navigateur internet.
 
 Pour accéder à RStudio Cloud, il suffit de cliquer sur l'adresse suivante :
