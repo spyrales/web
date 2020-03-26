@@ -7,7 +7,7 @@ bg_image: "images/featue-bg.jpg"
 categories: ["Environnement de travail"]
 tags: ["R","python","débutant","expert","formation"]
 description: "avec RStudio Cloud"
-draft: true
+draft: false
 type: "post"
 ---
 
