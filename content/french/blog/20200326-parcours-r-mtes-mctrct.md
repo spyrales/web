@@ -6,13 +6,13 @@ image : "images/parcours-r.png"
 bg_image: "images/featue-bg.jpg"
 categories: ["Autoformation"]
 tags: ["R"]
-description: 'Présentation du parcours de formation du pôle ministériel '
+description: 'Présentation du parcours de formation du pôle ministériel du Ministère de la Transition écologique et solidaire et du Ministère de la Cohésion des territoires et des Relations avec les collectivités territoriales'
 draft: false
 type: "post"
 ---
 
 
-Le pôle ministériel du Ministère de la transition écologique et solidaire et du Ministère de la Cohésion des territoires et des Relations avec les collectivités territoriales a mis en place depuis 2016 un groupe de référents R. L'objectif de ce collectif est d'accompagner la transition des agents du ministère vers R, afin de répondre aux besoins croissants de traitements et d'analyses de la donnée. Cela a pris la forme, notamment, d'un parcours modulaire de formation à R, dispensé via les centres de formation du pôle ministériel, mais dont les supports sont disponibles librement sur Internet.
+Le pôle ministériel du Ministère de la Transition écologique et solidaire et du Ministère de la Cohésion des territoires et des Relations avec les collectivités territoriales a mis en place depuis 2016 un groupe de référents R. L'objectif de ce collectif est d'accompagner la transition des agents du ministère vers R, afin de répondre aux besoins croissants de traitements et d'analyses de la donnée. Cela a pris la forme, notamment, d'un parcours modulaire de formation à R, dispensé via les centres de formation du pôle ministériel, mais dont les supports sont disponibles librement sur Internet.
 
 
 ### Public visé
