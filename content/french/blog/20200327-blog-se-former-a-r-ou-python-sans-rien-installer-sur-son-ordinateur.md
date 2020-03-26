@@ -74,8 +74,6 @@ les packages utilisés lors de la formation, installer git...
 Il suffit d'utiliser le projet créé par le formateur et c'est parti ! L'apprentissage peut commencer.
 Pour le formateur, il peut démultiplier ses sessions de formation - il n'y a pas simplement
 le présentiel mais des classes virtuelles peuvent être mises en place.
-aussi le paramétrer grâce aux variables d'environnement ou un fichier
-`.Rprofile` _ad hoc_.
 
 Il y a toutefois quelques inconvénients à signaler. Le premier est que vous
 devez disposer d'une connexion à internet. Le second est que si le service
