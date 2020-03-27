@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/spyrales/web.svg?branch=master)](https://travis-ci.org/spyrales/web)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/af05d56e-7f43-4837-aead-437c6cd0e70c/deploy-status)](https://app.netlify.com/sites/spyrales/deploys)
 
 # Site web de la communauté spyrales
 
