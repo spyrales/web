@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Organisation on spyrales - site web</title>
-    <link>https://spyrales.github.io/web/categories/organisation/</link>
+    <link>https://spyrales.netlify.com/categories/organisation/</link>
     <description>Recent content in Organisation on spyrales - site web</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     <lastBuildDate>Thu, 19 Mar 2020 16:07:10 +0100</lastBuildDate>
     
-	<atom:link href="https://spyrales.github.io/web/categories/organisation/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://spyrales.netlify.com/categories/organisation/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Carnet rose : naissance de spyrales</title>
-      <link>https://spyrales.github.io/web/blog/20200319-blog-creation-communaute/</link>
+      <link>https://spyrales.netlify.com/blog/20200319-blog-creation-communaute/</link>
       <pubDate>Thu, 19 Mar 2020 16:07:10 +0100</pubDate>
       
-      <guid>https://spyrales.github.io/web/blog/20200319-blog-creation-communaute/</guid>
+      <guid>https://spyrales.netlify.com/blog/20200319-blog-creation-communaute/</guid>
       <description>Bienvenue à toutes et à tous !!
 Nous sommes agents publics, titulaires et non titulaires, travaillant dans le domaine de la statistique ou de la datascience, en central ou en déconcentré.</description>
     </item>

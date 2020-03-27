@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on spyrales - site web</title>
-    <link>https://spyrales.github.io/web/categories/</link>
+    <link>https://spyrales.netlify.com/categories/</link>
     <description>Recent content in Categories on spyrales - site web</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     <lastBuildDate>Fri, 27 Mar 2020 13:30:00 +0100</lastBuildDate>
     
-	<atom:link href="https://spyrales.github.io/web/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://spyrales.netlify.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Outil</title>
-      <link>https://spyrales.github.io/web/categories/outil/</link>
+      <link>https://spyrales.netlify.com/categories/outil/</link>
       <pubDate>Fri, 27 Mar 2020 13:30:00 +0100</pubDate>
       
-      <guid>https://spyrales.github.io/web/categories/outil/</guid>
+      <guid>https://spyrales.netlify.com/categories/outil/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Environnement de travail</title>
-      <link>https://spyrales.github.io/web/categories/environnement-de-travail/</link>
+      <link>https://spyrales.netlify.com/categories/environnement-de-travail/</link>
       <pubDate>Thu, 26 Mar 2020 23:07:52 +0100</pubDate>
       
-      <guid>https://spyrales.github.io/web/categories/environnement-de-travail/</guid>
+      <guid>https://spyrales.netlify.com/categories/environnement-de-travail/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Autoformation</title>
-      <link>https://spyrales.github.io/web/categories/autoformation/</link>
+      <link>https://spyrales.netlify.com/categories/autoformation/</link>
       <pubDate>Thu, 26 Mar 2020 10:15:08 +0100</pubDate>
       
-      <guid>https://spyrales.github.io/web/categories/autoformation/</guid>
+      <guid>https://spyrales.netlify.com/categories/autoformation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ressources-R</title>
-      <link>https://spyrales.github.io/web/categories/ressources-r/</link>
+      <link>https://spyrales.netlify.com/categories/ressources-r/</link>
       <pubDate>Mon, 23 Mar 2020 00:27:36 +0100</pubDate>
       
-      <guid>https://spyrales.github.io/web/categories/ressources-r/</guid>
+      <guid>https://spyrales.netlify.com/categories/ressources-r/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Organisation</title>
-      <link>https://spyrales.github.io/web/categories/organisation/</link>
+      <link>https://spyrales.netlify.com/categories/organisation/</link>
       <pubDate>Thu, 19 Mar 2020 16:07:10 +0100</pubDate>
       
-      <guid>https://spyrales.github.io/web/categories/organisation/</guid>
+      <guid>https://spyrales.netlify.com/categories/organisation/</guid>
       <description></description>
     </item>
     

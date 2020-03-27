@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on spyrales - site web</title>
-    <link>https://spyrales.github.io/web/author/</link>
+    <link>https://spyrales.netlify.com/author/</link>
     <description>Recent content in Authors on spyrales - site web</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     <lastBuildDate>Thu, 26 Mar 2020 23:07:52 +0100</lastBuildDate>
     
-	<atom:link href="https://spyrales.github.io/web/author/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://spyrales.netlify.com/author/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Marylène Henry</title>
-      <link>https://spyrales.github.io/web/author/maryl%C3%A8ne-henry/</link>
+      <link>https://spyrales.netlify.com/author/maryl%C3%A8ne-henry/</link>
       <pubDate>Thu, 26 Mar 2020 23:07:52 +0100</pubDate>
       
-      <guid>https://spyrales.github.io/web/author/maryl%C3%A8ne-henry/</guid>
+      <guid>https://spyrales.netlify.com/author/maryl%C3%A8ne-henry/</guid>
       <description>Statisticienne à l&amp;rsquo;Insee, Marylène est passionnée par l’utilisation du logiciel R qu&amp;rsquo;elle pratique depuis fin 2016. Elle fait notamment partie de la communauté des R-Ladies (dont la mission est de promouvoir la diversité de genre dans la DataScience avec R dans le monde).</description>
     </item>
     
     <item>
       <title>Stéphane Trainel</title>
-      <link>https://spyrales.github.io/web/author/st%C3%A9phane-trainel/</link>
+      <link>https://spyrales.netlify.com/author/st%C3%A9phane-trainel/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://spyrales.github.io/web/author/st%C3%A9phane-trainel/</guid>
+      <guid>https://spyrales.netlify.com/author/st%C3%A9phane-trainel/</guid>
       <description>Fonctionnaire de l&amp;rsquo;Institut national de la statistique et des études économiques (Insee), je suis l&amp;rsquo;administrateur ministériel des données de Bercy depuis avril 2019. Au cours de mes postes, j&amp;rsquo;ai cherché à accompagner les agents publics dans leurs métiers, et tout particulièrement pour les aider à développer leur connaissance grâce à la formation ou le tutorat.</description>
     </item>
     

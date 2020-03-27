@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Outil on spyrales - site web</title>
-    <link>https://spyrales.github.io/web/categories/outil/</link>
+    <link>https://spyrales.netlify.com/categories/outil/</link>
     <description>Recent content in Outil on spyrales - site web</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     <lastBuildDate>Fri, 27 Mar 2020 13:30:00 +0100</lastBuildDate>
     
-	<atom:link href="https://spyrales.github.io/web/categories/outil/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://spyrales.netlify.com/categories/outil/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Se former ou se perfectionner à Python : c&#39;est maintenant !</title>
-      <link>https://spyrales.github.io/web/blog/20200327-datascientest/</link>
+      <link>https://spyrales.netlify.com/blog/20200327-datascientest/</link>
       <pubDate>Fri, 27 Mar 2020 13:30:00 +0100</pubDate>
       
-      <guid>https://spyrales.github.io/web/blog/20200327-datascientest/</guid>
+      <guid>https://spyrales.netlify.com/blog/20200327-datascientest/</guid>
       <description>Ce billet présente la plateforme datascientest pour les personnes qui souhaiteraient développer leurs compétences en python dans un environnement de travail en ligne.
  &amp;ldquo;Développez vos compétences en Data Science au travers de ces modules sur Python et R.</description>
     </item>
