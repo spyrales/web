@@ -11,7 +11,7 @@ draft: true
 type: "post"
 ---
 
-Ce billet présente la plateforme **datascientest** pour les personnes qui souhaiteraient développeur leurs compétences en **python** dans un environnement de travail en ligne.
+Ce billet présente la plateforme **datascientest** pour les personnes qui souhaiteraient développer leurs compétences en **python** dans un environnement de travail en ligne.
 
 > "Développez vos compétences en Data Science au travers de ces modules sur Python et R. Ils vous fourniront l’essentiel des notions à connaître à leur maîtrise par des applications directes élaborées par nos experts Data."
 
