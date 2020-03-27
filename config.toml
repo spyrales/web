@@ -1,4 +1,4 @@
-baseURL = "https://spyrales.github.io/web/"
+baseURL = "https://spyrales.netlify.com"
 languageCode = "en-us"
 title = "spyrales - site web"
 theme = "airspace"
