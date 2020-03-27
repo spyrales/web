@@ -30,7 +30,7 @@ Trois parcours vous sont proposés :
 Pour les plus motivés : il sera ensuite possible de poursuivre avec Matplotlib, Seaborn et la classification supervisée avec Scikit-Learn (soit 20h de plus)
 
 * Parcours **intermédiaire** : classification supervisée avec Scikit-Learn + Classification Avancée + Méthodes de clustering - durée approx. : 20h
-Pour les plus motivées : il sera possible de continuer avec les méthodes de régressionn, la méthode de réduction de dimension et le Pipeline (soit 20h de plus)
+Pour les plus motivé.e.s : il sera possible de continuer avec les méthodes de régression, la méthode de réduction de dimension et le Pipeline (soit 20h de plus)
 
 * Parcours **NLP** (traitement du langage naturel) : introduction au TextMining, introductoin au DeepLearning avec Keras et Word2Vec - durée approx. : 25h
 
