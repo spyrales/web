@@ -22,7 +22,7 @@ Nous vous proposons de vous former à python via une plateforme datascientest. E
 
 Vous hésitez encore ? Ne tardez pas.
 
-Aucune inquiétude à avoir, car nous vous avons concocté trois parcours pour des profils très diffétents pour coller au mieux à vos envies et de votre disponibilité. Vous pouvez faire un module en une semaine comme en un mois. *Les durées sont indiquées de manière approximative.*
+Aucune inquiétude à avoir, car nous vous avons concocté trois parcours pour des profils très différents pour coller au mieux à vos envies et à votre disponibilité. Vous pouvez faire un module en une semaine comme en un mois. *Les durées sont indiquées de manière approximative.*
 
 Trois parcours vous sont proposés : 
 
