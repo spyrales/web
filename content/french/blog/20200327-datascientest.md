@@ -32,6 +32,6 @@ Pour les plus motivés : il sera ensuite possible de poursuivre avec Matplotlib,
 * Parcours **intermédiaire** : classification supervisée avec Scikit-Learn + Classification Avancée + Méthodes de clustering - durée approx. : 20h
 Pour les plus motivé.e.s : il sera possible de continuer avec les méthodes de régression, la méthode de réduction de dimension et le Pipeline (soit 20h de plus)
 
-* Parcours **NLP** (traitement du langage naturel) : introduction au TextMining, introductoin au DeepLearning avec Keras et Word2Vec - durée approx. : 25h
+* Parcours **NLP** (traitement du langage naturel) : introduction au TextMining, introduction au DeepLearning avec Keras et Word2Vec - durée approx. : 25h
 
 Les membres de *spyrales* peuvent se faire connaître sur le salon Tchap pour débuter leur formation.
