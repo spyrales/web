@@ -2,7 +2,7 @@ if (file.exists('~/.Rprofile')) sys.source('~/.Rprofile', envir = environment())
 if (! "blogdown" %in% .packages(TRUE)) {
   message(
     "Le package `blogdown` n'est pas installé. Vous pouvez l'installer en exécutant :\n",
-    'install.package("blogdown")\n'
+    'install.packages("blogdown")\n'
   )
 }
 
