@@ -12,3 +12,16 @@ if ((! "blogdown" %in% .packages(TRUE)) || !identical(blogdown::hugo_version(), 
     'blogdown::install_hugo("0.67.0")'
   )
 }
+
+if (length(list.files("./themes/airspace")) == 0) {
+  if (nzchar(Sys.which("git"))) {
+    message("\nTéléchargement du thème airspace...")
+    system2("git", c("submodule", "update", "--init", "--recursive"))
+    message("...téléchargement terminé.")
+  } else {
+    message(
+      "Vous devez télécharger le thème en exécutant dans le terminal :\n",
+      "git submodule update --init --recursive"
+    )
+  }
+}
