@@ -9,7 +9,16 @@ Ce repo permet de publier toutes les informations nécessaires - événements, f
 
 Il est propulsé par **Hugo**.
 
-Ce repo utilise **Travis-Ci** pour créer les pages du site automatiquement à chaque commit sur la branche `master` et de les publier sur la branche `gh-pages`.
+Jusqu'au 28 mars 2020, ce repo utilisait **Travis-ci** pour compiler le site 
+à chaque commit et publier les fichiers statiques sur la branche `gh-pages`.
+Or, des problèmes de *blank pages* ont été détectés et n'ont pas trouvé de 
+solutions satisfaisantes.
+La solution **Netlify** - bien qu'imparfaite également - a été jugée moins bugguée.
+
+Depuis le 29 mars, ce repo utilise **Netlify** pour créer les pages du site 
+automatiquement à chaque commit sur la branche `master` et de les publier 
+directement sur https://spyrales.netlify.com. Cette solution permet également
+de pouvoir vérifier le rendu du site à partir d'une `pull request`. 
 
 # Guide : générer le site web sur son ordinateur
 
