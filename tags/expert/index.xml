@@ -6,10 +6,19 @@
     <description>Recent content in expert on spyrales - site web</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Fri, 27 Mar 2020 13:30:00 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 29 Mar 2020 17:30:00 +0100</lastBuildDate>
     
 	<atom:link href="https://spyrales.netlify.com/tags/expert/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Quelques suggestions d&#39;IDE pour programmer en Python</title>
+      <link>https://spyrales.netlify.com/blog/20200329-blog-ide-python/</link>
+      <pubDate>Sun, 29 Mar 2020 17:30:00 +0100</pubDate>
+      
+      <guid>https://spyrales.netlify.com/blog/20200329-blog-ide-python/</guid>
+      <description>La difficulté dans l’apprentissage du langage python n’est pas dans sa syntaxe pour qui a déjà programmé (ou pas !) dans un autre langage. Le langage est structuré classiquement et on s’y retrouve facilement.</description>
+    </item>
     
     <item>
       <title>Se former ou se perfectionner à Python : c&#39;est maintenant !</title>
