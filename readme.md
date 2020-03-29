@@ -26,7 +26,16 @@ Attention :
 - **Hugo extended** est différent de Hugo, il comporte plus de fonctionnalités dont certaines sont indispensables à la génération de ce site web ;
 - la version **0.67.0** n'est pas la dernière disponible (la dernière version disponible de Hugo comporte un bug qui empêche la génération de ce site web).
 
-Vous pouvez télécharger la version de **Hugo extended 0.67.0** correspondant à
+Les utilisateurs de R peuvent facilement installer **Hugo extended 0.67.0** en exécutant : 
+
+```r
+# installer blogdown s'il n'est pas installé :
+install.packages("blogdown")
+# installer Hugo extended 0.67.0 : 
+blogdown::::install_hugo("0.67.0")
+```
+
+Pour les autres, vous pouvez télécharger la version de **Hugo extended 0.67.0** correspondant à
 votre système d'exploitation sur [cette page](https://github.com/gohugoio/hugo/releases/tag/v0.67.0) ou bien pour Windows, lire [la section ci-après](#installation-de-hugo-extended-0670-pour-windows).
 
 Vous pouvez vérifier que Hugo extended a été correctement installé en lançant
@@ -91,6 +100,10 @@ Vous avez deux options :
 
 Choisissez l'url correspondant au choix précédent et clonez le repository.
 
+Les utilisateurs de RStudio pourront utiliser le menu  
+`File > New Project...> Version Control > Git` et coller l'url du repository.
+
+Pour les autres, les lignes de commandes sont les suivantes.  
 En http, cela donnera :
 
 ```bash
@@ -120,7 +133,13 @@ git submodule update --init --recursive
 
 ## Visualiser le site web
 
-Il existe deux principaux modes d'utilisation de Hugo :
+Les utilisateurs de R pourront utiliser : 
+
+```r
+blogdown::serve_site()
+```
+
+Pour les autres, il existe deux principaux modes d'utilisation de Hugo :
 
 - la génération des fichiers du site web : la commande à utiliser est simplement `hugo` et les fichiers correspondant au site web sont alors disponibles dans le répertoire `public` (mais il vous faudra un serveur web local pour examiner le résultat) ;
 - le LiveReload.

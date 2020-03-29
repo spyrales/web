@@ -11,6 +11,8 @@ disqusShortname = "" # get your shortname form here : https://disqus.com
 # disable language
 disableLanguages = []
 DefaultContentLanguage = "fr"
+# ignore blogdown files
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 #################################### Plugins ##############################
 

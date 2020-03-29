@@ -5,3 +5,7 @@
 public/
 # Hugo intermediate files
 resources/
+# R files
+.Rhistory
+# RStudio files
+.Rproj.user
