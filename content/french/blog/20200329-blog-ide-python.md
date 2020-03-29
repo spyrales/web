@@ -15,7 +15,7 @@ La difficulté dans l’apprentissage du langage python n’est pas dans sa synt
 Attention cependant pour les débutants, il existe encore deux versions de ce langage, une 2.7 et une 3.8. Je conseille vivement de commencer directement par la 3.8 car la 2.7 est un canal historique que l’on peut encore trouver ici et là mais de plus en plus rarement.
  
 Pour qui veut butiner dans la documentation claire et complète, je conseille vivement le site officiel https://python.org que l’on peut retrouver en français ici : https://docs.python.org/fr/3/
-
+Les outils possibles ?
 Il existe un très bon (et très copieux) environnement de travail pour programmer en Python (on peut d’ailleurs l’utiliser pour programmer en R avec RStudio): il s’agit d’Anaconda que l’on peut trouver sur le site officiel https://www.anaconda.com/distribution/
 
 Il existe alors plusieurs interfaces pour programmer. Je conseille de même au débutant de commencer par Jupyter Notebook. L’interface est très agréable et l’auto-complétion des mots clés très très pratique !  
