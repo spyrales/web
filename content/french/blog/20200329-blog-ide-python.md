@@ -20,7 +20,7 @@ Il existe un très bon (et très copieux) environnement de travail pour programm
 
 Il existe alors plusieurs interfaces pour programmer. Je conseille de même au débutant de commencer par Jupyter Notebook. L’interface est très agréable et l’auto-complétion des mots clés très très pratique !  
 
-On retrouve dans Anaconda une autre interface qui se nomme Spyder qui ressemble à ce qui peut se faire pour R dans la façon de procéder, sans doute que les utilisateurs assidus de R y retrouveront une interface connue. Je préfère pour ma part Jupyter Notebook, bourré de commodité quand on lui adjoint quelques extensions pratiques !
+On retrouve dans Anaconda une autre interface qui se nomme Spyder qui ressemble à ce qui peut se faire pour R dans la façon de procéder, sans doute que les utilisateurs assidus de R y retrouveront une interface connue. Je préfère pour ma part Jupyter Notebook, bourré de commodités quand on lui adjoint quelques extensions pratiques !
 
 Anaconda  s’installe en local sur votre PC sous Windows, ou Linux (que je conseille !) ou sur Mac (que je conseille vivement car c’est une interface Linux). Attention pour les utilisateurs Mac, j’ai eu quelques problèmes avec l’installation sous Catalina, il faut préférer l’installation par le bash sinon Anaconda y perd son latin car l’installation ne se fait pas au bon endroit. 
 
@@ -32,7 +32,7 @@ Une fois votre environnement de travail choisi, prenez garde. Python a été enr
 Aussi, je vous conseille la lecture de l’excellent article (en anglais mais c’est assez simple) https://www.thepythoncode.com/article/top-python-libraries-for-data-scientists  qui conseille les meilleures bibliothèques pour faire de la data science puisque tel est le but. D’ailleurs le site https://www.thepythoncode.com/ est une mine pour la programmation en Python. 
 
 
-Évidemment tout cela est loin d’être exhaustif et j’ai dû oublier des choses. Ce sont quelques bases pour pouvoir commencer l’esprit tranquille. Si vous vous destinez à une programmation orientée data science, sincèrement, lorgnez en priorité sur les librairies Pandas, Matplotlib, Numpy, puis Scikit-learn (une merveille !). J’aime beaucoup aussi la bibliothèque Seaborn pour des représentations graphiques plus esthétiques et Bokeh (mais celle-ci est plus compliquée pour les débutants). Une fois qu’on a compris le principe d’installation d’une bibliothèque, on a un vaste choix. Par exemple, pour celles et ceux qui manipulent les données géocodées, il existe une bibliothèque exprès pour cela !
+Évidemment tout cela est loin d’être exhaustif et j’ai dû oublier des choses. Ce sont quelques bases pour pouvoir commencer l’esprit tranquille. Si vous vous destinez à une programmation orientée datascience, sincèrement, lorgnez en priorité sur les librairies Pandas, Matplotlib, Numpy, puis Scikit-learn (une merveille !). J’aime beaucoup aussi la bibliothèque Seaborn pour des représentations graphiques plus esthétiques et Bokeh (mais celle-ci est plus compliquée pour les débutants). Une fois qu’on a compris le principe d’installation d’une bibliothèque, on a un vaste choix. Par exemple, pour celles et ceux qui manipulent les données géocodées, il existe une bibliothèque exprès pour cela !
 
 Si vous avez des demandes spécifiques, n’hésitez pas. La communauté est riche d’expériences diverses. 
 
