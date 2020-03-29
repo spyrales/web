@@ -14,7 +14,7 @@ type: "post"
 La difficulté dans l’apprentissage du langage python n’est pas dans sa syntaxe pour qui a déjà programmé (ou pas !) dans un autre langage. Le langage est structuré classiquement et on s’y retrouve facilement. 
 Attention cependant pour les débutants, il existe encore deux versions de ce langage, une 2.7 et une 3.8. Je conseille vivement de commencer directement par la 3.8 car la 2.7 est un canal historique que l’on peut encore trouver ici et là mais de plus en plus rarement.
  
-Pour qui veut butiner dans le documentions, claire et complète, je conseille vivement la doc du site officiel http://python.org que l’on peut retrouver en français ici : https://docs.python.org/fr/3/
+Pour qui veut butiner dans la documentation claire et complète, je conseille vivement le site officiel https://python.org que l’on peut retrouver en français ici : https://docs.python.org/fr/3/
 
 Il existe un très bon (et très copieux) environnement de travail pour programmer en Python (on peut d’ailleurs l’utiliser pour programmer en R avec RStudio): il s’agit d’Anaconda que l’on peut trouver sur le site officiel https://www.anaconda.com/distribution/
 
@@ -35,4 +35,3 @@ Aussi, je vous conseille la lecture de l’excellent article (en anglais mais c�
 Évidemment tout cela est loin d’être exhaustif et j’ai dû oublier des choses. Ce sont quelques bases pour pouvoir commencer l’esprit tranquille. Si vous vous destinez à une programmation orientée datascience, sincèrement, lorgnez en priorité sur les librairies Pandas, Matplotlib, Numpy, puis Scikit-learn (une merveille !). J’aime beaucoup aussi la bibliothèque Seaborn pour des représentations graphiques plus esthétiques et Bokeh (mais celle-ci est plus compliquée pour les débutants). Une fois qu’on a compris le principe d’installation d’une bibliothèque, on a un vaste choix. Par exemple, pour celles et ceux qui manipulent les données géocodées, il existe une bibliothèque exprès pour cela !
 
 Si vous avez des demandes spécifiques, n’hésitez pas. La communauté est riche d’expériences diverses. 
-
