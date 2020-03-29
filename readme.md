@@ -32,7 +32,7 @@ Les utilisateurs de R peuvent facilement installer **Hugo extended 0.67.0** en e
 # installer blogdown s'il n'est pas installé :
 install.packages("blogdown")
 # installer Hugo extended 0.67.0 : 
-blogdown::::install_hugo("0.67.0")
+blogdown::install_hugo("0.67.0")
 ```
 
 Pour les autres, vous pouvez télécharger la version de **Hugo extended 0.67.0** correspondant à
