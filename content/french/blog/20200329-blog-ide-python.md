@@ -28,7 +28,7 @@ Si vous ne pouvez pas installer de logiciels sur votre poste ou que cela vous fa
 
 Au moins trois solutions (que j’ai testées) existent, il s’agit de Google Colab  https://colab.research.google.com/notebooks/intro.ipynb# , de DeepNote https://beta.deepnote.com/, et de Kaggle https://www.kaggle.com/. À elles seules, ces trois solutions mériteraient qu’on développe trois articles différents, je le ferai peut-être si la demande existe !  Quand on connait Jupyter Notebook (mon chouchou), on n’est vraiment pas dépaysé avec les trois solutions citées.
 
-
+## Et les bibliothèques ?
 Une fois votre environnement de travail choisi, prenez garde. Python a été enrichi par une quantité de bibliothèques incroyables. On s’y perd d’ailleurs au début et je peux vous le dire, je m’y suis perdu !! Certes par goût de la découverte, mais pas toujours…
 
 Aussi, je vous conseille la lecture de l’excellent article (en anglais mais c’est assez simple) https://www.thepythoncode.com/article/top-python-libraries-for-data-scientists  qui conseille les meilleures bibliothèques pour faire de la data science puisque tel est le but. D’ailleurs le site https://www.thepythoncode.com/ est une mine pour la programmation en Python. 
