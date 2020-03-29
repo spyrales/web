@@ -5,6 +5,7 @@
 public/
 # Hugo intermediate files
 resources/
-# RStudio project
+# R files
 .Rhistory
+# RStudio files
 .Rproj.user
