@@ -24,7 +24,9 @@ On retrouve dans Anaconda une autre interface qui se nomme Spyder qui ressemble 
 
 Anaconda  s’installe en local sur votre PC sous Windows, ou Linux (que je conseille !) ou sur Mac (que je conseille vivement car c’est une interface Linux). Attention pour les utilisateurs Mac, j’ai eu quelques problèmes avec l’installation sous Catalina, il faut préférer l’installation par le bash sinon Anaconda y perd son latin car l’installation ne se fait pas au bon endroit. 
 
-Vous pouvez également programmer en ligne si vous ne voulez pas installer quoi que ce soit. Au moins trois solutions (que j’ai testées) existent, il s’agit de Google Colab  https://colab.research.google.com/notebooks/intro.ipynb# , de DeepNote https://beta.deepnote.com/, et de Kaggle https://www.kaggle.com/. A elles seules, ces trois solutions mériteraient qu’on développe trois articles différents, je le ferai peut-être si la demande existe !  Quand on connait Jupyter Notebook (mon chouchou) on n’est vraiment pas dépaysé avec les trois solutions citées.
+Si vous ne pouvez pas installer de logiciels sur votre poste ou que cela vous fait un peu peur au début, vous pouvez programmer en ligne.
+
+Au moins trois solutions (que j’ai testées) existent, il s’agit de Google Colab  https://colab.research.google.com/notebooks/intro.ipynb# , de DeepNote https://beta.deepnote.com/, et de Kaggle https://www.kaggle.com/. À elles seules, ces trois solutions mériteraient qu’on développe trois articles différents, je le ferai peut-être si la demande existe !  Quand on connait Jupyter Notebook (mon chouchou), on n’est vraiment pas dépaysé avec les trois solutions citées.
 
 
 Une fois votre environnement de travail choisi, prenez garde. Python a été enrichi par une quantité de bibliothèques incroyables. On s’y perd d’ailleurs au début et je peux vous le dire, je m’y suis perdu !! Certes par goût de la découverte, mais pas toujours…
