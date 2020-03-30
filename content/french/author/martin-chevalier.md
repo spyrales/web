@@ -3,7 +3,7 @@ title: "Martin Chevalier"
 #email: "@martinchevalier"
 bg_image: "images/featue-bg.jpg"
 description: "Le capital humain au centre de l'action"
-draft: true
+draft: false
 social:
   - icon : "ion-social-github-outline" #ionicon pack v2 : https://ionicons.com/v2/
     link : "https://github.com/martinchevalier"
