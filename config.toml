@@ -87,7 +87,7 @@ weight = 6
 
 [[menu.footer]]
 name = "Contact"
-URL = "contact"
+URL = "/contact"
 weight = 6
 
 #################### default parameters ################################
@@ -107,7 +107,7 @@ google_analitycs_id = "" # Your ID
 
 # Preloader
 [params.preloader]
-enable = true
+enable = false
 preloader = "" # use .png , .svg or .gif format
 
 # search
