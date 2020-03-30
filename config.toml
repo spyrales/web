@@ -107,7 +107,7 @@ google_analitycs_id = "" # Your ID
 
 # Preloader
 [params.preloader]
-enable = true
+enable = false
 preloader = "" # use .png , .svg or .gif format
 
 # search
