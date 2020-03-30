@@ -87,7 +87,7 @@ weight = 6
 
 [[menu.footer]]
 name = "Contact"
-URL = "contact"
+URL = "/contact"
 weight = 6
 
 #################### default parameters ################################
