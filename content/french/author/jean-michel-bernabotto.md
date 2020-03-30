@@ -13,4 +13,4 @@ social:
 
 J’étais, il y a déjà quelques années, professeur de mathématiques et de statistiques à l’INSA Centre-Val-de-Loire de Blois. Je suis passé du côté obscur de la force en devenant directeur de cabinet de l’agglomération de Blois.  Malgré tout, j’ai conservé mon goût des sciences et c’est à travers le portage d’un projet sur l’open data dans ma collectivité que je suis revenu à mes premières amours ! J’ai en outre passé un Exécutive Master en Big Data pour l’entreprise. Je programme en Python et la plupart de mes projets sont orientés vers le Machine Learning. 
 
-J’ai envie de partager mes humbles connaissances en ces moments spéciaux où la *solidarité* n’est pas un vain mot. 
+J’ai envie de partager mes humbles connaissances en ces moments spéciaux où la **solidarité** n’est pas un vain mot. 
