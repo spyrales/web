@@ -1,3 +1,4 @@
+---
 title: "Jean-Michel Bernabotto"
 #email: "@jmbernabotto"
 bg_image: "images/featue-bg.jpg"
