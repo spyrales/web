@@ -14,4 +14,4 @@ social:
 
 Fonctionnaire de l'[Institut national de la statistique et des études économiques](https://www.insee.fr) (Insee), après quelques années de développement, j'ai été responsable d'équipes informatiques (exploitation, développement). Je travaille désormais à l'urbanisation du SI de l'Insee en participant également à des projets européens comme l'[Essnet Big Data II](https://webgate.ec.europa.eu/fpfis/mwikis/essnetbigdata/index.php/Main_Page).
 
-Peu pratiquant de R ou Python, toujours curieux, j'essaie de partager et accompagner dans la mesure du possible pour faire progresser mes collègies.
+Peu pratiquant de R ou Python, toujours curieux, j'essaie de partager et accompagner dans la mesure du possible pour faire progresser mes collègues.
