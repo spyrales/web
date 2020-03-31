@@ -1,7 +1,7 @@
 ---
 title: "Quelques conseils culturels en ces temps de confinement"
 date: 2020-03-30T17:30:00+01:00
-author: Jean-Michel Bernabotto
+author: ["Jean-Michel Bernabotto"]
 image : "images/blog/Alan-Turing.jpg"
 bg_image: "images/featue-bg.jpg"
 categories: ["Outil"]

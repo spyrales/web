@@ -1,7 +1,7 @@
 ---
 title: "Carnet rose : naissance de spyrales"
 date: 2020-03-19T16:07:10+01:00
-author: Stéphane Trainel
+author: ["Stéphane Trainel"]
 image : "images/blog/bogomil-mihaylov-EPdCJtYPrPE-unsplash.jpg"
 bg_image: "images/featue-bg.jpg"
 categories: ["Organisation"]

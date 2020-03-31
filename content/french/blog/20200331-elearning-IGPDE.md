@@ -1,7 +1,7 @@
 ---
 title: "Petit détour vers d'autres formations en ligne proposées par l'IGPDE !"
 date: 2020-03-31T13:30:00+01:00
-author: Stéphane Trainel
+author: ["Stéphane Trainel"]
 image : "images/blog/igpde.png"
 bg_image: "images/featue-bg.jpg"
 categories: ["Actualités"]

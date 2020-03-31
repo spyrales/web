@@ -1,7 +1,7 @@
 ---
 title: "Introduction à R et au tidyverse"
 date: 2020-03-25T18:13:08+01:00
-author: Julien Barnier
+author: ["Julien Barnier"]
 image : "https://juba.github.io/tidyverse/resources/logos/core_packages.png"
 bg_image: "images/featue-bg.jpg"
 categories: ["Autoformation"]
