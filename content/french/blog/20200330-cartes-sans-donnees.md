@@ -2,7 +2,7 @@
 title: "Dessiner une caRte sans données, un puits sans fond ?"
 date: 2020-03-30T17:30:00+01:00
 author: Kim Antunez
-image : "images/blog/20200330-cartes-sans-donnees/unnamed-chunk-13-1.png"
+image : "images/blog/20200330-cartes-sans-donnees/unnamed-chunk-16-1.png"
 bg_image: "images/featue-bg.jpg"
 categories: ["Autoformation"]
 tags: ["r","débutant"]
@@ -10,6 +10,7 @@ description: "Il n’est pas nécessaire de travailler dans un institut public o
 draft: false
 type: "post"
 ---
+
 
 Cet article est un aperçu d’une présentation que je réfléchis à faire
 depuis quelques semaines… Le temps étant au confinement, je me lance
@@ -26,7 +27,7 @@ tout ceci depuis sa console R).
 
 Lançons-nous ensemble !
 
-### Etape 1 : récupération des données
+### Etape 1 : récupération des données sur le COVID-19
 
 Pour cette étape de récupération de données, j’ai choisi de vous
 présenter le package `BARIS`[1] qui est relié à l’API du portail
@@ -45,16 +46,16 @@ rechercher par mot clef des données sur le portail data.gouv.
     ## # A tibble: 10 x 11
     ##    id    title organization page  views frequency created_at last_modified
     ##    <chr> <chr> <chr>        <chr> <chr> <chr>     <chr>      <chr>        
-    ##  1 5e6a~ "Chi~ OpenCOVID19~ http~ 3     daily     2020-03-1~ 2020-03-22T0~
-    ##  2 5e77~ "Ens~ Ça reste ou~ http~ 0     punctual  2020-03-2~ 2020-03-22T1~
-    ##  3 5e7c~ "Lie~ Ça reste ou~ http~ 0     hourly    2020-03-2~ 2020-03-27T1~
-    ##  4 5e74~ "Don~ Santé publi~ http~ 15    unknown   2020-03-2~ 2020-03-30T1~
-    ##  5 5e7e~ "Don~ Santé publi~ http~ 10    daily     2020-03-2~ 2020-03-29T1~
+    ##  1 5e6a~ "Chi~ OpenCOVID19~ http~ 7     daily     2020-03-1~ 2020-03-22T0~
+    ##  2 5e7c~ "Lie~ Ça reste ou~ http~ 0     hourly    2020-03-2~ 2020-03-27T1~
+    ##  3 5e77~ "Ens~ Ça reste ou~ http~ 0     punctual  2020-03-2~ 2020-03-22T1~
+    ##  4 5e74~ "Don~ Santé publi~ http~ 18    unknown   2020-03-2~ 2020-03-30T1~
+    ##  5 5e7e~ "Don~ Santé publi~ http~ 16    daily     2020-03-2~ 2020-03-30T1~
     ##  6 5e79~ "Cen~ Toulouse mé~ http~ 0     unknown   2020-03-2~ 2020-03-24T0~
     ##  7 5e7e~ "Off~ Île-de-Fran~ http~ 0     unknown   2020-03-2~ 2020-03-28T0~
     ##  8 5e7d~ "Les~ Ville d'Iss~ http~ 0     unknown   2020-03-2~ 2020-03-27T0~
     ##  9 5e75~ "Evo~ Collectivit~ http~ 0     unknown   2020-03-2~ 2020-03-21T0~
-    ## 10 5e75~ "Tau~ Collectivit~ http~ 0     unknown   2020-03-2~ 2020-03-21T0~
+    ## 10 5e82~ "Don~ Collectivit~ http~ 0     unknown   2020-03-3~ 2020-03-31T0~
     ## # ... with 3 more variables: last_update <chr>, archived <chr>, deleted <chr>
 
 Je choisis ensuite d’explorer le premier répertoire proposé, celui
@@ -100,16 +101,61 @@ On choisit, par exemple, la base CSV.
 Nous verrons plus tard comment mettre en forme cette base de données
 afin de réaliser une carte.
 
-### Etape 2 : récupération du fond de carte
+### Etape 2 : récupération des données de population
+
+Afin de pouvoir comparer les statistiques concernant le COVID-19
+(personnes hospitalisées, guéries…) entre les différents territoires, il
+peut être intéressant de les rapporter à la population du territoire.
+
+Les données de population sont notamment disponibles dans le package
+`COGugaison`[2], que je connais bien puisque j’en suis l’auteure. Ce
+package R a pour objectif global de manipuler des données communales
+produites à différents millésimes et de les agréger à différents niveaux
+supra-communaux.
+
+    #devtools::install_github("antuki/COGugaison")
+    library(COGugaison)
+
+Les données de population sont disponibles dans les bases contenues dans
+le package comme ici :
+
+    bdd_pop <- COG2020
+    head(bdd_pop)
+
+    ##   CODGEO                  LIBGEO   POP
+    ## 1  01001 L'Abergement-Clémenciat   776
+    ## 2  01002   L'Abergement-de-Varey   248
+    ## 3  01004       Ambérieu-en-Bugey 14035
+    ## 4  01005     Ambérieux-en-Dombes  1689
+    ## 5  01006                 Ambléon   111
+    ## 6  01007                Ambronay  2726
+
+La fonction `nivsupra` permet d’agréger les tables de données communales
+à de nombreux échelons supra-communaux administratifs, par exemple au
+niveau départemental.
+
+    bdd_pop_dep <- nivsupra(bdd_pop,nivsupra="DEP")
+    head(bdd_pop_dep)
+
+    ##   DEP                  LIBGEO     POP
+    ## 1  01                     Ain  643350
+    ## 2  02                   Aisne  534490
+    ## 3  03                  Allier  337988
+    ## 4  04 Alpes-de-Haute-Provence  163915
+    ## 5  05            Hautes-Alpes  141284
+    ## 6  06         Alpes-Maritimes 1083310
+
+### Etape 3 : récupération du fond de carte
 
 Pour cette étape de récupération de fond de carte, j’ai choisi de vous
-présenter le package `CARTElette`[2], que je connais bien puisque j’en
-suis l’auteure. Il permet de récupérer des couches cartographiques
-(communales et supra-communales) correspondant à la situation du
-découpage des territoires français (communes et niveaux supra-communaux,
-France et Outre-mer) au premier janvier de chaque année.
+présenter le package `CARTElette`[3], que je connais bien aussi puisque
+j’en suis aussi l’auteure. Il permet de récupérer des couches
+cartographiques (communales et supra-communales) correspondant à la
+situation du découpage des territoires français (communes et niveaux
+supra-communaux, France et Outre-mer) au premier janvier de chaque
+année.
 
-Le package `sf`[3], quant à lui, est un des packages qui permet la
+Le package `sf`[4], quant à lui, est un des packages qui permet la
 manipulation de couches cartographiques dans R.
 
     #devtools::install_github("antuki/CARTElette/CARTElette@RPackage")
@@ -124,17 +170,16 @@ statistiques sur le COVID au niveau départemental.
     par(mar=c(0,0,0,0)) # enlever les marges
     plot(st_geometry(DEP)) # afficher le fond
 
-![](https://spyrales.netlify.com/images/blog/20200330-cartes-sans-donnees/unnamed-chunk-8-1.png)
+![](https://spyrales.netlify.com/images/blog/20200330-cartes-sans-donnees/unnamed-chunk-11-1.png)
 
-
-### Etape 3 : Mise en forme de la base de données
+### Etape 4 : Mise en forme de la base de données
 
 Revenons à notre base de données de tout à l’heure et voyons ce qu’elle
-contient.
+contient
 
     str(bdd)
 
-    ## Classes 'tbl_df', 'tbl' and 'data.frame':    4343 obs. of  14 variables:
+    ## Classes 'tbl_df', 'tbl' and 'data.frame':    4528 obs. of  14 variables:
     ##  $ date          : chr  "2020-01-24" "2020-01-24" "2020-01-24" "2020-01-24" ...
     ##  $ granularite   : chr  "departement" "departement" "departement" "departement" ...
     ##  $ maille_code   : chr  "DEP-16" "DEP-17" "DEP-19" "DEP-23" ...
@@ -156,11 +201,11 @@ indicateurs que nous allons cartographier par **département** à la
 **dernière date disponible** :
 
 1.  Le nombre de personnes guéries **`gueris`**
-2.  Le ratio du nombre de personnes guéries par rapport au nombre de
-    décès **`gueris_par_deces` (= `gueris` / `deces`)**
+2.  Le ratio du nombre de décès pour 100 000 habitants **`ratio_deces`
+    (= 100 \* `deces` / `POP`)**
 
 Pour réaliser les différentes opérations nécessaires dans la base de
-données nous allons utiliser le package `dplyr`[4]. Pour plus
+données nous allons utiliser le package `dplyr`[5]. Pour plus
 d’informations concernant ce package, vous pouvez vous référer à
 différents tutoriels en ligne ainsi qu’à [ce billet de
 blog](https://spyrales.netlify.com/blog/20200321-introduction-r-tidyverse/).
@@ -172,20 +217,21 @@ blog](https://spyrales.netlify.com/blog/20200321-introduction-r-tidyverse/).
       filter(granularite == "departement") %>% #données par département
       filter(date == max(date)) %>% # dernière date disponible
       mutate(DEP=substr(maille_code,5,length(maille_code))) %>% #recodage de maille_code en enlevant le préfixe "DEP-"
-      mutate(gueris_par_deces = gueris / deces) %>% # création de la nouvelle variable 
-      select(DEP,gueris,gueris_par_deces) # sélection des colonnes à garder
+      left_join(bdd_pop_dep,by="DEP") %>% # ajouter les données de population
+      mutate(ratio_deces = 100000 * deces / POP) %>% # création de la nouvelle variable 
+      select(DEP,gueris,ratio_deces) # sélection des colonnes à garder
 
     head(bdd_nettoyee)
 
     ## # A tibble: 6 x 3
-    ##   DEP   gueris gueris_par_deces
-    ##   <chr>  <int>            <dbl>
-    ## 1 01        23             3.83
-    ## 2 02        96             2.29
-    ## 3 03        32             8   
-    ## 4 04        21           Inf   
-    ## 5 05        27            27   
-    ## 6 06       116             6.82
+    ##   DEP   gueris ratio_deces
+    ##   <chr>  <int>       <dbl>
+    ## 1 01        24       1.55 
+    ## 2 02        67       8.23 
+    ## 3 03        39       1.18 
+    ## 4 04        28       0.610
+    ## 5 05        33       0.708
+    ## 6 06       117       1.85
 
 On intègre ensuite notre base de données à la couche cartographique des
 départements chargée auparavant.
@@ -200,32 +246,25 @@ départements chargée auparavant.
     ## bbox:           xmin: 2.278638 ymin: 43.48031 xmax: 7.716108 ymax: 50.0695
     ## epsg (SRID):    4326
     ## proj4string:    +proj=longlat +datum=WGS84 +no_defs
-    ##   DEP                     nom gueris gueris_par_deces
-    ## 1  01                     Ain     23         3.833333
-    ## 2  02                   Aisne     96         2.285714
-    ## 3  03                  Allier     32         8.000000
-    ## 4  04 Alpes-de-Haute-Provence     21              Inf
-    ## 5  05            Hautes-Alpes     27        27.000000
-    ## 6  06         Alpes-Maritimes    116         6.823529
-    ##                         geometry
-    ## 1 MULTIPOLYGON (((5.897203 46...
-    ## 2 MULTIPOLYGON (((3.687484 49...
-    ## 3 MULTIPOLYGON (((2.370688 46...
-    ## 4 MULTIPOLYGON (((6.709564 43...
-    ## 5 MULTIPOLYGON (((6.64167 44....
-    ## 6 MULTIPOLYGON (((7.070675 43...
+    ##   DEP                     nom gueris ratio_deces                       geometry
+    ## 1  01                     Ain     24   1.5543639 MULTIPOLYGON (((5.897203 46...
+    ## 2  02                   Aisne     67   8.2321465 MULTIPOLYGON (((3.687484 49...
+    ## 3  03                  Allier     39   1.1834740 MULTIPOLYGON (((2.370688 46...
+    ## 4  04 Alpes-de-Haute-Provence     28   0.6100723 MULTIPOLYGON (((6.709564 43...
+    ## 5  05            Hautes-Alpes     33   0.7077942 MULTIPOLYGON (((6.64167 44....
+    ## 6  06         Alpes-Maritimes    117   1.8461936 MULTIPOLYGON (((7.070675 43...
 
-### Etape 4 : La carte tant attendue
+### Etape 5 : La carte tant attendue
 
 Pour cette dernière étape de cartographie, j’ai choisi de vous présenter
-le package `cartography`[5]. Il permet de créer et d’intégrer des cartes
+le package `cartography`[6]. Il permet de créer et d’intégrer des cartes
 dans votre workflow sur R. Les représentations cartographiques proposées
 sont nombreuses (symboles proportionnels, choroplèthes, typologies,
 cartes de flux ou de discontinuités).
 
 Je n’en dirai pas davantage sur les fonctions qui suivent : d’une part
 parce que vous trouverez toutes les explications nécessaires dans la
-documentation du package et cette petite 
+documentation du package et cette petite
 [antisèche](http://riatelab.github.io/cartography/vignettes/cheatsheet/cartography_cheatsheet.pdf)
 et d’autre part, je préfère aussi vous laisser emporter dans la
 découverte du fabuleux monde de la statistique spatiale.
@@ -238,29 +277,29 @@ découverte du fabuleux monde de la statistique spatiale.
     # Fond de carte
     plot(sf::st_geometry(DEP))
 
-    # Carte choroplèthe (guéris / décès)
-    choroLayer(x = DEP, var = "gueris_par_deces",
-              breaks = quantile(DEP$gueris_par_deces,
+    # Carte choroplèthe (décès pour 100 000 habitants)
+    choroLayer(x = DEP, var = "ratio_deces",
+              breaks = quantile(DEP$ratio_deces,
                                 seq(0, 1, 0.25),na.rm = TRUE),
-               col = carto.pal("green.pal", 4),lwd = 0.4,
+               col = carto.pal("red.pal", 4),lwd = 0.4,
                border = "black",
                legend.values.rnd = 1,
                colNA = "grey",
                legend.horiz = FALSE,legend.pos = "left",
-               legend.title.txt = "Nombre de guéris\npour un décès",
+               legend.title.txt = "Nombre de décès\n pour 100 000 habitants",
                legend.nodata = "Donnée\nmanquante",
                add=TRUE
     )
 
     # Ronds proportionnels (guéris)
     propSymbolsLayer(x=DEP, var = "gueris",
-                     col=NA,
+                     col="#ADFF2F4D", #Deux dernières lettres = 30 % de transparence
                      legend.pos="topright",
-                     legend.title.txt = "Nombre de guéris",
+                     legend.title.txt = "Nombre de\npersonnes guéries",
                      add = TRUE)
 
     # Légende
-    layoutLayer(title = paste0("Personnes guéries du COVID-19 le ",
+    layoutLayer(title = paste0("Guérisons et décès du COVID-19 le ",
                                max(bdd$date)), 
                 sources = paste0("OpenCOVID19-fr, le ",max(bdd$date)),
                 author = "antuki, 2020", 
@@ -272,36 +311,40 @@ découverte du fabuleux monde de la statistique spatiale.
                 scale=FALSE
                 )
 
-![](https://spyrales.netlify.com/images/blog/20200330-cartes-sans-donnees/unnamed-chunk-13-1.png)
+![](https://spyrales.netlify.com/images/blog/20200330-cartes-sans-donnees/unnamed-chunk-16-1.png)
 
 Bonne découverte… !
 
+#### Et ensuite ?
 
-#### Et ensuite ? 
-
-- Si vous êtes motivés, je pourrai prolonger l'article en vous montrant comment réaliser des cartes avec `ggplot2` et même des cartes interactives avec `leaflet` !
-- Différentes ressources en cartographie disponibles sur [mon blog](https://antuki.github.io/presentations/) ou sur [mon github](https://github.com/antuki).
-
-
-
+-   Si vous êtes motivés, je pourrai prolonger l’article en vous
+    montrant comment réaliser des cartes avec `ggplot2` et même des
+    cartes interactives avec `leaflet` !
+-   Différentes ressources en cartographie disponibles sur [mon
+    blog](https://antuki.github.io/presentations/) ou sur [mon
+    github](https://github.com/antuki).
 
 [1] Mohamed El Fodil Ihaddaden (2020). BARIS: Access and Import Data
 from the French Open Data Portal. R package version 1.0.0.
 <https://CRAN.R-project.org/package=BARIS>
 
-[2] Kim Antunez (2020). CARTElette : Création de couches cartographiques
-à partir du code officiel géographique (COG) et des couches IGN. Package
-R version 1.0.1. <https://github.com/antuki/CARTElette>
+[2] Kim Antunez (2020). COGugaison: Gestion des codes officiels
+géographiques (COG). R package version 1.0.2.
+<http://github.com/antuki/COGugaison>
 
-[3]  Pebesma, E., 2018. Simple Features for R: Standardized Support for
+[3] Kim Antunez (2020). CARTElette: Création de couches cartographiques
+à partir du code officiel géographique (COG) et des couches IGN. R
+package version 1.0.1. <http://github.com/antuki/CARTElette/CARTElette>
+
+[4]  Pebesma, E., 2018. Simple Features for R: Standardized Support for
 Spatial Vector Data. The R Journal 10 (1),
 439-446,<doi:10.32614/RJ-2018-009>
 <https://CRAN.R-project.org/package=sf>
 
-[4] Hadley Wickham, Romain François, Lionel Henry and Kirill Müller
+[5] Hadley Wickham, Romain François, Lionel Henry and Kirill Müller
 (2020). dplyr: A Grammar of Data Manipulation. R package version 0.8.5.
 <https://CRAN.R-project.org/package=dplyr>
 
-[5] Giraud, T. and Lambert, N. (2016). cartography: Create and Integrate
+[6] Giraud, T. and Lambert, N. (2016). cartography: Create and Integrate
 Maps in your R Workflow. JOSS, 1(4). <doi:10.21105/joss.00054>.
 <https://CRAN.R-project.org/package=cartography>
