@@ -1,7 +1,7 @@
 ---
 title: "Se former ou se perfectionner à Python : c'est maintenant !"
 date: 2020-03-27T13:30:00+01:00
-author: Stéphane Trainel
+author: ["Stéphane Trainel"]
 image : "images/blog/datascientest.png"
 bg_image: "images/featue-bg.jpg"
 categories: ["Outil"]

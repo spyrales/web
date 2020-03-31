@@ -1,7 +1,7 @@
 ---
 title: "Une initiation à R en cinq demi-journées"
 date: 2020-03-25T18:11:08+01:00
-author: Martin Chevalier
+author: ["Martin Chevalier"]
 image : "images/blog/renata-adrienn-ebvCsRypmxM-unsplash.jpg"
 bg_image: "images/featue-bg.jpg"
 categories: ["Autoformation"]
