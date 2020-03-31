@@ -225,8 +225,8 @@ cartes de flux ou de discontinuités).
 
 Je n’en dirai pas davantage sur les fonctions qui suivent : d’une part
 parce que vous trouverez toutes les explications nécessaires dans la
-documentation du package et cette petite [cheat
-sheet](http://riatelab.github.io/cartography/vignettes/cheatsheet/cartography_cheatsheet.pdf)
+documentation du package et cette petite 
+[antisèche](http://riatelab.github.io/cartography/vignettes/cheatsheet/cartography_cheatsheet.pdf)
 et d’autre part, je préfère aussi vous laisser emporter dans la
 découverte du fabuleux monde de la statistique spatiale.
 
