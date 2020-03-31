@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Actualités on spyrales - site web</title>
+    <link>https://spyrales.netlify.com/categories/actualit%C3%A9s/</link>
+    <description>Recent content in Actualités on spyrales - site web</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Tue, 31 Mar 2020 13:30:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://spyrales.netlify.com/categories/actualit%C3%A9s/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Petit détour vers d&#39;autres formations en ligne proposées par l&#39;IGPDE !</title>
+      <link>https://spyrales.netlify.com/blog/20200331-elearning-igpde/</link>
+      <pubDate>Tue, 31 Mar 2020 13:30:00 +0100</pubDate>
+      
+      <guid>https://spyrales.netlify.com/blog/20200331-elearning-igpde/</guid>
+      <description>Vous le savez, le numérique est au centre de la transformation de l’action publique (selon le Gartner, 90% des transformations sont numériques). Les administrations doivent au quotidien maitriser le numérique pour améliorer les services aux usagers (entreprises, citoyens, associations, etc.</description>
+    </item>
+    
+  </channel>
+</rss>

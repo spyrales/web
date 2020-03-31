@@ -6,10 +6,19 @@
     <description>Recent content in formation on spyrales - site web</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Sun, 29 Mar 2020 17:30:00 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 31 Mar 2020 13:30:00 +0100</lastBuildDate>
     
 	<atom:link href="https://spyrales.netlify.com/tags/formation/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Petit détour vers d&#39;autres formations en ligne proposées par l&#39;IGPDE !</title>
+      <link>https://spyrales.netlify.com/blog/20200331-elearning-igpde/</link>
+      <pubDate>Tue, 31 Mar 2020 13:30:00 +0100</pubDate>
+      
+      <guid>https://spyrales.netlify.com/blog/20200331-elearning-igpde/</guid>
+      <description>Vous le savez, le numérique est au centre de la transformation de l’action publique (selon le Gartner, 90% des transformations sont numériques). Les administrations doivent au quotidien maitriser le numérique pour améliorer les services aux usagers (entreprises, citoyens, associations, etc.</description>
+    </item>
     
     <item>
       <title>Quelques suggestions d&#39;IDE pour programmer en Python</title>
