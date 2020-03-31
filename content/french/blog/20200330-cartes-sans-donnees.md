@@ -1,7 +1,7 @@
 ---
 title: "Dessiner une caRte sans données, un puits sans fond ?"
 date: 2020-03-30T17:30:00+01:00
-author: Kim Antunez
+author: ["Kim Antunez"]
 image : "images/blog/20200330-cartes-sans-donnees/unnamed-chunk-16-1.png"
 bg_image: "images/featue-bg.jpg"
 categories: ["Autoformation"]
