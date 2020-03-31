@@ -218,7 +218,7 @@ départements chargée auparavant.
 ### Etape 4 : La carte tant attendue
 
 Pour cette dernière étape de cartographie, j’ai choisi de vous présenter
-le package `cartography`[5]. Il permet de créer et d’intégrer des carte
+le package `cartography`[5]. Il permet de créer et d’intégrer des cartes
 dans votre workflow sur R. Les représentations cartographiques proposées
 sont nombreuses (symboles proportionnels, choroplèthes, typologies,
 cartes de flux ou de discontinuités).
