@@ -170,7 +170,7 @@ statistiques sur le COVID au niveau départemental.
     par(mar=c(0,0,0,0)) # enlever les marges
     plot(st_geometry(DEP)) # afficher le fond
 
-![](https://spyrales.netlify.com/images/blog/20200330-cartes-sans-donnees/unnamed-chunk-11-1.png)
+![](/images/blog/20200330-cartes-sans-donnees/unnamed-chunk-11-1.png)
 
 ### Etape 4 : Mise en forme de la base de données
 
@@ -208,7 +208,7 @@ Pour réaliser les différentes opérations nécessaires dans la base de
 données nous allons utiliser le package `dplyr`[5]. Pour plus
 d’informations concernant ce package, vous pouvez vous référer à
 différents tutoriels en ligne ainsi qu’à [ce billet de
-blog](https://spyrales.netlify.com/blog/20200321-introduction-r-tidyverse/).
+blog]({{< relref "20200321-introduction-r-tidyverse" >}}).
 
     #install.packages("dplyr")
     library(dplyr)
@@ -311,7 +311,7 @@ découverte du fabuleux monde de la statistique spatiale.
                 scale=FALSE
                 )
 
-![](https://spyrales.netlify.com/images/blog/20200330-cartes-sans-donnees/unnamed-chunk-16-1.png)
+![](/images/blog/20200330-cartes-sans-donnees/unnamed-chunk-16-1.png)
 
 Bonne découverte… !
 
