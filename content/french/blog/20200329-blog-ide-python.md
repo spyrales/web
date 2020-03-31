@@ -1,7 +1,7 @@
 ---
 title: "Quelques suggestions d'IDE pour programmer en Python"
 date: 2020-03-29T17:30:00+01:00
-author: Jean-Michel Bernabotto
+author: ["Jean-Michel Bernabotto"]
 image : "images/blog/docpython.png"
 bg_image: "images/featue-bg.jpg"
 categories: ["Outil"]
