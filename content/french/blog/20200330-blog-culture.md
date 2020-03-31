@@ -13,6 +13,8 @@ type: "post"
 
 Dans ce petit billet, je vous propose une liste très subjective et très personnelle de quelques oeuvres qui pourront vous faire passer de très bons moments chez vous ! J'ai préféré des oeuvres plutôt récentes même si je n'ai pas pu m'empécher de faire figurer un de mes films fétiches qui est bien moins récent. Devinez lequel...! N'hésitez pas à étoffer cette liste...
 
+J'ai ajouté les liens vers les librairies indépendantes que je préfère aux grandes enseignes américaines dont une en particulier (sic !). Certains livres sont plus difficiles à trouver en France. En revanche, comme la plupart sont des livres récents, vous pouvez les trouver en version électroniques Epub, pdf...
+
 ## 3 essais ##
 
 * Quand la machine apprend de Yann Le Cun 
