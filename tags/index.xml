@@ -6,10 +6,28 @@
     <description>Recent content in Tags on spyrales - site web</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Sun, 29 Mar 2020 17:30:00 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 30 Mar 2020 17:30:00 +0100</lastBuildDate>
     
 	<atom:link href="https://spyrales.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>IA</title>
+      <link>https://spyrales.netlify.com/tags/ia/</link>
+      <pubDate>Mon, 30 Mar 2020 17:30:00 +0100</pubDate>
+      
+      <guid>https://spyrales.netlify.com/tags/ia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lectures</title>
+      <link>https://spyrales.netlify.com/tags/lectures/</link>
+      <pubDate>Mon, 30 Mar 2020 17:30:00 +0100</pubDate>
+      
+      <guid>https://spyrales.netlify.com/tags/lectures/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>débutant</title>

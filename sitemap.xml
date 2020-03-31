@@ -4,12 +4,42 @@
   
   <url>
     <loc>https://spyrales.netlify.com/categories/</loc>
-    <lastmod>2020-03-29T17:30:00+01:00</lastmod>
+    <lastmod>2020-03-30T17:30:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://spyrales.netlify.com/blog/</loc>
-    <lastmod>2020-03-29T17:30:00+01:00</lastmod>
+    <lastmod>2020-03-30T17:30:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://spyrales.netlify.com/tags/ia/</loc>
+    <lastmod>2020-03-30T17:30:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://spyrales.netlify.com/tags/lectures/</loc>
+    <lastmod>2020-03-30T17:30:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://spyrales.netlify.com/categories/outil/</loc>
+    <lastmod>2020-03-30T17:30:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://spyrales.netlify.com/blog/20200330-blog-culture/</loc>
+    <lastmod>2020-03-30T17:30:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://spyrales.netlify.com/</loc>
+    <lastmod>2020-03-30T17:30:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://spyrales.netlify.com/tags/</loc>
+    <lastmod>2020-03-30T17:30:00+01:00</lastmod>
   </url>
   
   <url>
@@ -28,27 +58,12 @@
   </url>
   
   <url>
-    <loc>https://spyrales.netlify.com/categories/outil/</loc>
-    <lastmod>2020-03-29T17:30:00+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://spyrales.netlify.com/tags/python/</loc>
     <lastmod>2020-03-29T17:30:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://spyrales.netlify.com/blog/20200329-blog-ide-python/</loc>
-    <lastmod>2020-03-29T17:30:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://spyrales.netlify.com/</loc>
-    <lastmod>2020-03-29T17:30:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://spyrales.netlify.com/tags/</loc>
     <lastmod>2020-03-29T17:30:00+01:00</lastmod>
   </url>
   

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>lectures on spyrales - site web</title>
+    <link>https://spyrales.netlify.com/tags/lectures/</link>
+    <description>Recent content in lectures on spyrales - site web</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Mon, 30 Mar 2020 17:30:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://spyrales.netlify.com/tags/lectures/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Quelques conseils culturels en ces temps de confinement</title>
+      <link>https://spyrales.netlify.com/blog/20200330-blog-culture/</link>
+      <pubDate>Mon, 30 Mar 2020 17:30:00 +0100</pubDate>
+      
+      <guid>https://spyrales.netlify.com/blog/20200330-blog-culture/</guid>
+      <description>Dans ce petit billet, je vous propose une liste très subjective et très personnelle de quelques oeuvres qui pourront vous faire passer de très bons moments chez vous ! J&amp;rsquo;ai préféré des oeuvres plutôt récentes même si je n&amp;rsquo;ai pas pu m&amp;rsquo;empécher de faire figurer un de mes films fétiches qui est bien moins récent.</description>
+    </item>
+    
+  </channel>
+</rss>
