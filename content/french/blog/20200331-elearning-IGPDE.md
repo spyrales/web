@@ -17,6 +17,7 @@ Les administrations doivent au quotidien maitriser le numérique pour améliorer
 les services aux usagers (entreprises, citoyens, associations, etc.) : simplification
 des démarches administratives, développement de l'identité numérique, régulation par la donnée, etc.
 
+La transformation numérique passe par trois étapes : numérisation, automatisation et intelligence artificielle. Les développement qu'il est possible de faire en R et Python contribuent très largement à une de ces trois étapes. Il peut alors vous sembler intéressant d'acquérir une culture numérique.
 Si vous souhaitez tester vos compétences numériques, je vous **conseille la plateforme [pix](https://pix.fr)**. 
 Vous pouvez vous y inscrire *gratuitement*. J'ai fait quelques modules ; ils sont assez courts
 (entre 20 et 30 minutes pour certains) et intéressants pour se faire 
