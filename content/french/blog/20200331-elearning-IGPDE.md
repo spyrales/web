@@ -19,7 +19,7 @@ des démarches administratives, développement de l'identité numérique, régul
 
 Si vous souhaitez tester vos compétences numériques, je vous **conseille la plateforme [pix](https://pix.fr)**. 
 Vous pouvez vous y inscrire *gratuitement*. J'ai fait quelques modules ; ils sont assez courts
-(entre 20 et 30 minutes pour certaijns) et intéressants pour se faire 
+(entre 20 et 30 minutes pour certains) et intéressants pour se faire 
 un petit bilan personnel. Certains modules adaptent les questions en fonction de votre profil
 (il y a un petit moteur d'IA pour ajuster les questions à vos précédentes réponses).
 
@@ -73,4 +73,3 @@ Et comme d'habitude, si vous avez des questions ou des remarques, rendez-vous su
 - Comprendre le bitcoin et la blockchain (OpenClassrooms)
 - Développez votre réseau professionnel (OpenClassrooms)
 - Développez vos compétences numériques (Ministère de l'Éducation Nationale). PIX est un projet public de plateforme en ligne d’évaluation et de certification des compétences numériques, en cours de développement.
-
