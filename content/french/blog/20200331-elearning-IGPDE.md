@@ -5,7 +5,7 @@ author: Stéphane Trainel
 image : "images/blog/igpde.png"
 bg_image: "images/featue-bg.jpg"
 categories: ["Actualités"]
-tags: [débutant","expert","formation"]
+tags: ["débutant","expert","formation"]
 description: "Il y a aussi une vie après R et Python..."
 draft: false
 type: "post"
