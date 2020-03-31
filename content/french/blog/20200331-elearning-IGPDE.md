@@ -36,7 +36,8 @@ par différents organismes publics ou privés.
 Vous pouvez vous inscrire [ici](https://www.bercynumerique.finances.gouv.fr/aller-plus-loin-avec-la-formation).
 
 Enfin, vous pouvez aussi jeter un oeil sur le site [Bercy numérique](https://www.bercynumerique.finances.gouv.fr),
-qui accompagner les agents dans le numérique au quotidien.
+qui accompagne les agents dans le numérique au quotidien.
+
 
 
 Et comme d'habitude, si vous avez des questions ou des remarques, rendez-vous sur le salon *spyrales* de *Tchap* 
