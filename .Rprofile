@@ -24,4 +24,10 @@ if (length(list.files("./themes/airspace")) == 0) {
       "git submodule update --init --recursive"
     )
   }
+} else {
+  if (nzchar(Sys.which("git"))) {
+    message("\nMise à jour du thème airspace...")
+    system2("git", c("submodule", "update"))
+    message("...mise à jour terminée.")
+  }
 }
