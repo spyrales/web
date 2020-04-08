@@ -6,7 +6,7 @@
     <description>Recent content in Tags on spyrales - site web</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Tue, 31 Mar 2020 13:30:00 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2020 15:30:00 +0100</lastBuildDate>
     
 	<atom:link href="https://spyrales.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,18 @@
     <item>
       <title>débutant</title>
       <link>https://spyrales.netlify.com/tags/d%C3%A9butant/</link>
-      <pubDate>Tue, 31 Mar 2020 13:30:00 +0100</pubDate>
+      <pubDate>Wed, 08 Apr 2020 15:30:00 +0100</pubDate>
       
       <guid>https://spyrales.netlify.com/tags/d%C3%A9butant/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>formation</title>
+      <link>https://spyrales.netlify.com/tags/formation/</link>
+      <pubDate>Wed, 08 Apr 2020 15:30:00 +0100</pubDate>
+      
+      <guid>https://spyrales.netlify.com/tags/formation/</guid>
       <description></description>
     </item>
     
@@ -26,15 +35,6 @@
       <pubDate>Tue, 31 Mar 2020 13:30:00 +0100</pubDate>
       
       <guid>https://spyrales.netlify.com/tags/expert/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>formation</title>
-      <link>https://spyrales.netlify.com/tags/formation/</link>
-      <pubDate>Tue, 31 Mar 2020 13:30:00 +0100</pubDate>
-      
-      <guid>https://spyrales.netlify.com/tags/formation/</guid>
       <description></description>
     </item>
     

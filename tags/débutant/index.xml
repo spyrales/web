@@ -6,10 +6,19 @@
     <description>Recent content in débutant on spyrales - site web</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Tue, 31 Mar 2020 13:30:00 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2020 15:30:00 +0100</lastBuildDate>
     
 	<atom:link href="https://spyrales.netlify.com/tags/d%C3%A9butant/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Premiers pas avec Onyxia la plateforme datascience de l&#39;Insee</title>
+      <link>https://spyrales.netlify.com/blog/20200408-premierspas-onyxia/</link>
+      <pubDate>Wed, 08 Apr 2020 15:30:00 +0100</pubDate>
+      
+      <guid>https://spyrales.netlify.com/blog/20200408-premierspas-onyxia/</guid>
+      <description>Suite à la présentation de la plateforme Onyxia par l&amp;rsquo;Insee - la vidéo peut être revue ici - ce court billet présente quelques premiers pas pour créer un service RStudio. Elle met à disposition des services pour s&amp;rsquo;autoformer à R et Python dans un cadre Etat.</description>
+    </item>
     
     <item>
       <title>Petit détour vers d&#39;autres formations en ligne proposées par l&#39;IGPDE !</title>
