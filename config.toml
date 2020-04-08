@@ -60,12 +60,12 @@ link = "plugins/google-map/gmap.js"
 
 [[menu.main]]
 name = "Blog"
-URL = "blog"
+URL = "blog/"
 weight = 4
   
 [[menu.main]]
 name = "Contact"
-URL = "contact"
+URL = "contact/"
 weight = 6
 
 
@@ -87,7 +87,7 @@ weight = 6
 
 [[menu.footer]]
 name = "Contact"
-URL = "/contact"
+URL = "contact/"
 weight = 6
 
 #################### default parameters ################################
@@ -120,7 +120,7 @@ enable = true
 [params.nav_button]
 enable = true
 label = "Get A Quote"
-link = "contact"
+link = "contact/"
 
 # google map
 [params.gmap]
