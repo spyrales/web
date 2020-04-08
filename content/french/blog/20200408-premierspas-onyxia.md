@@ -23,7 +23,7 @@ Une fois ce petit rappel, faisons quelques pas !
 
 ## Accèder à la plateforme
 
-Tout d'abord, la plateforme est accessible [ici](https://spyrales.sspcloud.fr/accueil).
+Tout d'abord, la plateforme est accessible [ici](https://spyrales.sspcloud.fr/).
 
 Pour s'y connecter, il faut un compte. Les adresses en *.insee.fr* ou en *.gouv.fr* peuvent créer un compte.
 Pour les membres de la communauté spyrales qui sont sans adresse gouvernementale (ou non accessible actuellement),
