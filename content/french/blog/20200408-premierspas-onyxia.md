@@ -53,7 +53,7 @@ Besoin d'un environnement R pour traiter des données en opendata ? C'est possib
 
 Voici comment.
 
-1. Cliquer sur **catalogue**
+1. Cliquer sur **catalogue** à partir du menu *hamburger* en haut à gauche
 
 2. Les services construits à la demande sont rassemblés dans **Datascience**. Cliquer sur le petit icone *repertoire* en dessous du descriptif.
 
