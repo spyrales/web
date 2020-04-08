@@ -39,7 +39,7 @@ Et qu'y trouve-ton sur Onyxia ? Pas moins de 11 services. Ils sont immédiatemen
 * Keycloack : un gestionnaire d'identité
 * Neo4J : pour construire des bases de données par graphe
 * Openrefine : un outil assez puissant pour restructurer des données
-* Jupyter : un outil *netbook* accessible dans son navigateur pour coder en Python
+* Jupyter : un outil *notebook* accessible dans son navigateur pour coder en Python, R ou Julia
 * Rstudio : un outil également accessible dans son navigateur pour coder en R
 * Ubuntu : un environnement Linux 
 * Vscode : un outil de développement multi-langage (paramétré ici pliutôt en Python)
