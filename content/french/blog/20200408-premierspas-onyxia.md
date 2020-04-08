@@ -11,7 +11,7 @@ draft: false
 type: "post"
 ---
 
-Ce billet propose de découvrir en quelques lignes la plateforme Onyxia proposée par l'Insee.
+Suite à la présentation de la plateforme Onyxia par l'Insee - la vidéo peut être revue [ici](https://minio.lab.sspcloud.fr/f2wbnp/presentation-onyxia.mkv) - ce court billet présente quelques premiers pas pour créer un service RStudio.
 Elle met à disposition des services pour s'autoformer à R et Python dans un cadre *Etat*.
 
 Il est rappelé que la plateforme est temporaire et n'a pas de niveau de service.
