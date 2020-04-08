@@ -1,5 +1,5 @@
 ---
-title: "Premiers pas avec Onyxia la plateforme datasciende de l'Insee"
+title: "Premiers pas avec Onyxia la plateforme datascience de l'Insee"
 date: 2020-04-08T15:30:00+01:00
 author: ["Stéphane Trainel"]
 image : "images/blog/onyxia-accueil.png"
@@ -81,4 +81,3 @@ Voici comment.
 8. Revenir à l'interface Rstudio. Coller le mot de passe et voilà connecté ! 
 
 ![](/images/blog/onyxia-rstudio.png)
-
