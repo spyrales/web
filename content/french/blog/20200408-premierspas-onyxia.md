@@ -47,7 +47,7 @@ Et qu'y trouve-ton sur Onyxia ? Pas moins de 11 services. Ils sont immédiatemen
 * PgAdmin : un outil pour administrer une base de données Postgresql
 
 
-## Créer un service Rstudio
+## Créer un service RStudio
 
 Besoin d'un environnement R pour traiter des données en opendata ? C'es possible.
 
