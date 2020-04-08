@@ -42,7 +42,7 @@ Et qu'y trouve-ton sur Onyxia ? Pas moins de 11 services. Ils sont immédiatemen
 * Jupyter : un outil *notebook* accessible dans son navigateur pour coder en Python, R ou Julia
 * Rstudio : un outil également accessible dans son navigateur pour coder en R
 * Ubuntu : un environnement Linux 
-* Vscode : un outil de développement multi-langage (paramétré ici pliutôt en Python)
+* VScode : un outil de développement multi-langage (paramétré ici plutôt pour Python)
 * Postgresql : une base de données 
 * PgAdmin : un outil pour administrer une base de données Postgresql
 
