@@ -49,7 +49,7 @@ Et qu'y trouve-ton sur Onyxia ? Pas moins de 11 services. Ils sont immédiatemen
 
 ## Créer un service RStudio
 
-Besoin d'un environnement R pour traiter des données en opendata ? C'es possible.
+Besoin d'un environnement R pour traiter des données en opendata ? C'est possible.
 
 Voici comment.
 
