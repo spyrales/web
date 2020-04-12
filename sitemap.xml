@@ -53,16 +53,6 @@
   </url>
   
   <url>
-    <loc>https://spyrales.netlify.com/categories/autoformation/</loc>
-    <lastmod>2020-03-30T17:30:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://spyrales.netlify.com/blog/20200330-cartes-sans-donnees/</loc>
-    <lastmod>2020-03-30T17:30:00+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://spyrales.netlify.com/tags/ia/</loc>
     <lastmod>2020-03-30T17:30:00+01:00</lastmod>
   </url>
@@ -79,11 +69,6 @@
   
   <url>
     <loc>https://spyrales.netlify.com/blog/20200330-blog-culture/</loc>
-    <lastmod>2020-03-30T17:30:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://spyrales.netlify.com/tags/r/</loc>
     <lastmod>2020-03-30T17:30:00+01:00</lastmod>
   </url>
   
@@ -138,8 +123,18 @@
   </url>
   
   <url>
+    <loc>https://spyrales.netlify.com/tags/r/</loc>
+    <lastmod>2020-03-26T23:07:52+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://spyrales.netlify.com/blog/20200327-blog-se-former-a-r-ou-python-sans-rien-installer-sur-son-ordinateur/</loc>
     <lastmod>2020-03-26T23:07:52+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://spyrales.netlify.com/categories/autoformation/</loc>
+    <lastmod>2020-03-26T10:15:08+01:00</lastmod>
   </url>
   
   <url>
