@@ -7,7 +7,7 @@ bg_image: "images/featue-bg.jpg"
 categories: ["Autoformation"]
 tags: ["r","débutant"]
 description: "Il n’est pas nécessaire de travailler dans un institut public ou de recherche pour réaliser des cartes intéressantes et éclairantes avec R."
-draft: false
+draft: true
 type: "post"
 ---
 
