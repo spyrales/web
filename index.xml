@@ -31,6 +31,15 @@
     </item>
     
     <item>
+      <title>Dessiner une caRte sans données, un puits sans fond ?</title>
+      <link>https://spyrales.netlify.com/blog/20200330-cartes-sans-donnees/</link>
+      <pubDate>Mon, 30 Mar 2020 17:30:00 +0100</pubDate>
+      
+      <guid>https://spyrales.netlify.com/blog/20200330-cartes-sans-donnees/</guid>
+      <description>Cet article est un aperçu d’une présentation que je réfléchis à faire depuis quelques semaines… Le temps étant au confinement, je me lance donc dans ce petit billet de blog en attendant le retour de jours meilleurs.</description>
+    </item>
+    
+    <item>
       <title>Quelques conseils culturels en ces temps de confinement</title>
       <link>https://spyrales.netlify.com/blog/20200330-blog-culture/</link>
       <pubDate>Mon, 30 Mar 2020 17:30:00 +0100</pubDate>
@@ -66,6 +75,16 @@ C&amp;rsquo;est quoi ma dernière version déjà ?</description>
       <guid>https://spyrales.netlify.com/blog/20200327-datascientest/</guid>
       <description>Ce billet présente la plateforme datascientest pour les personnes qui souhaiteraient développer leurs compétences en python dans un environnement de travail en ligne.
  &amp;ldquo;Développez vos compétences en Data Science au travers de ces modules sur Python et R.</description>
+    </item>
+    
+    <item>
+      <title>Kim Antunez</title>
+      <link>https://spyrales.netlify.com/author/kim-antunez/</link>
+      <pubDate>Thu, 26 Mar 2020 23:07:52 +0100</pubDate>
+      
+      <guid>https://spyrales.netlify.com/author/kim-antunez/</guid>
+      <description>Kim est statisticienne publique, passionnée par le logiciel R et ses nombreuses possibilités. Ses centres d’intérêt principaux sont les données d’enquête, la datavisualisation et l’analyse spatiale.
+Durant son parcours professionnel, elle a eu la chance de mettre ses connaissances en R en application en créant notamment une application web RShiny pour le ministère des Solidarités et de la Santé.</description>
     </item>
     
     <item>

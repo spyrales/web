@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="fr-fr"><head>
+  <meta charset="utf-8">
+  <title>Dessiner une caRte sans données, un puits sans fond ?</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Il n’est pas nécessaire de travailler dans un institut public ou de recherche pour réaliser des cartes intéressantes et éclairantes avec R.">
+  <meta name="author" content="Themefisher">
+  <meta name="generator" content="Hugo 0.67.0" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://spyrales.netlify.com/plugins/bootstrap/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="https://spyrales.netlify.com/plugins/Ionicons/css/ionicons.min.css">
+  
+  <link rel="stylesheet" href="https://spyrales.netlify.com/plugins/magnific-popup/magnific-popup.css">
+  
+  <link rel="stylesheet" href="https://spyrales.netlify.com/plugins/slick/slick.css">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://spyrales.netlify.com/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://spyrales.netlify.com/images/favicon.png" type="image/x-icon">
+  <link rel="icon" href="https://spyrales.netlify.com/images/favicon.png" type="image/x-icon">
+
+</head><body>
+<header class="navigation">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        
+        <nav class="navbar">
+          
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">
+              <img src="https://spyrales.netlify.com/images/logo.png" alt="spyrales - site web" class="img-responsive">
+            </a>
+          </div>
+          
+          <div class="collapse navbar-collapse" id="navigation">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="https://spyrales.netlify.com">Accueil</a></li>
+
+              
+              
+              <li><a href="https://spyrales.netlify.com/blog/">Blog</a></li>
+              
+              
+              
+              <li><a href="https://spyrales.netlify.com/contact/">Contact</a></li>
+              
+              
+
+              
+
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="page-title bg-2" style="background-image: url('https://spyrales.netlify.com/images/featue-bg.jpg');">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>Dessiner une caRte sans données, un puits sans fond ?</h1>
+          <p>Il n’est pas nécessaire de travailler dans un institut public ou de recherche pour réaliser des cartes intéressantes et éclairantes avec R.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="page-wrapper">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<div class="post post-single">
+					<h2 class="post-title">Dessiner une caRte sans données, un puits sans fond ?</h2>
+					<div class="post-meta">
+						<ul>
+              <li><i class="ion-calendar"></i> March 30, 2020</li>
+              <li><i class="ion-android-people"></i>
+                Écrit par
+                
+                <a class="text-primary" href="/author/kim-antunez">Kim Antunez</a>
+                
+              </li>
+              <li><i class="ion-pricetags"></i> 
+                
+                <a href="/tags/r">R</a>
+								
+                , <a href="/tags/d%c3%a9butant">Débutant</a>
+								
+              </li>
+            </ul>
+					</div>
+					<div class="post-thumb">
+						<img class="img-responsive" src="/images/blog/20200330-cartes-sans-donnees/unnamed-chunk-16-1.png" alt="Dessiner une caRte sans données, un puits sans fond ?">
+					</div>
+					<div class="post-content post-excerpt">
+						<p>Cet article est un aperçu d’une présentation que je réfléchis à faire
+depuis quelques semaines… Le temps étant au confinement, je me lance
+donc dans ce petit billet de blog en attendant le retour de jours
+meilleurs.</p>
+<p>Je pense que la réponse à la question posée dans le titre de cet article
+est <strong>« NON ! »</strong>… Ce que je veux vous montrer dans ce billet, c’est
+qu’il n’est pas nécessaire de travailler dans un institut public ou de
+recherche pour réaliser des cartes intéressantes et éclairantes. TOUT LE
+MONDE peut réaliser une carte, en solo, et de A à Z depuis R
+(récupération de données, des fonds de carte et réalisation de la carte,
+tout ceci depuis sa console R).</p>
+<p>Lançons-nous ensemble !</p>
+<h3 id="etape-1--récupération-des-données-sur-le-covid-19">Etape 1 : récupération des données sur le COVID-19</h3>
+<p>Pour cette étape de récupération de données, j’ai choisi de vous
+présenter le package <code>BARIS</code>[1] qui est relié à l’API du portail
+officiel français des données ouvertes : <a href="https://www.data.gouv.fr/">https://www.data.gouv.fr/</a>.</p>
+<pre><code>#devtools::install_github(&quot;feddelegrand7/BARIS&quot;)
+library(BARIS)
+</code></pre>
+<p>L’actualité étant telle qu’elle est, j’ai choisi d’explorer des données
+statistiques sur les cas de COVID-19. L’instruction suivante permet de
+rechercher par mot clef des données sur le portail data.gouv.</p>
+<pre><code>ressources_covid &lt;- BARIS_search(query = &quot;covid&quot;, n_pages = 10)
+ressources_covid
+
+## # A tibble: 10 x 11
+##    id    title organization page  views frequency created_at last_modified
+##    &lt;chr&gt; &lt;chr&gt; &lt;chr&gt;        &lt;chr&gt; &lt;chr&gt; &lt;chr&gt;     &lt;chr&gt;      &lt;chr&gt;        
+##  1 5e6a~ &quot;Chi~ OpenCOVID19~ http~ 7     daily     2020-03-1~ 2020-03-22T0~
+##  2 5e7c~ &quot;Lie~ Ça reste ou~ http~ 0     hourly    2020-03-2~ 2020-03-27T1~
+##  3 5e77~ &quot;Ens~ Ça reste ou~ http~ 0     punctual  2020-03-2~ 2020-03-22T1~
+##  4 5e74~ &quot;Don~ Santé publi~ http~ 18    unknown   2020-03-2~ 2020-03-30T1~
+##  5 5e7e~ &quot;Don~ Santé publi~ http~ 16    daily     2020-03-2~ 2020-03-30T1~
+##  6 5e79~ &quot;Cen~ Toulouse mé~ http~ 0     unknown   2020-03-2~ 2020-03-24T0~
+##  7 5e7e~ &quot;Off~ Île-de-Fran~ http~ 0     unknown   2020-03-2~ 2020-03-28T0~
+##  8 5e7d~ &quot;Les~ Ville d'Iss~ http~ 0     unknown   2020-03-2~ 2020-03-27T0~
+##  9 5e75~ &quot;Evo~ Collectivit~ http~ 0     unknown   2020-03-2~ 2020-03-21T0~
+## 10 5e82~ &quot;Don~ Collectivit~ http~ 0     unknown   2020-03-3~ 2020-03-31T0~
+## # ... with 3 more variables: last_update &lt;chr&gt;, archived &lt;chr&gt;, deleted &lt;chr&gt;
+</code></pre>
+<p>Je choisis ensuite d’explorer le premier répertoire proposé, celui
+appelé “Open-Covid”. Je peux alors avoir quelques informations sur le
+contenu de ce répertoire.</p>
+<pre><code>code_ressource &lt;- ressources_covid[1,1]
+BARIS_explain(code_ressource) 
+
+## [1] &quot;L'information officielle sur la progression de l'épidémie en France est assez fragmentée, et n'est presque jamais structurée sous forme de données.  L'objectif de ce jeu de données est de consolider l'information officielle, et de la rendre disponible dans des formats ouverts et aisément réutilisables (JSON, CSV…).  ### Granularité  Les données sont proposées selon plusieurs granularités : monde, pays (France), région et département. Les données à la maille du département sont actuellement très fragmentaires.  ### Sources utilisées  - Santé publique France - Préfectures - Agences Régionales de Santé - Ministère des Solidarités et de la Santé  ### Code source et issues Lien vers le projet de collecte de données. Signalez les problèmes et erreurs de données en créant des issues à l'adresse suivante :  https://github.com/opencovid19-fr/data&quot;
+</code></pre>
+<p>J’y apprends que son objectif est de consolider les informations
+officielles concernant l’épidémie en mettant à disposition des données
+aisément réutilisables. Réutilisons-les donc ici et creusons le contenu
+du répertoire.</p>
+<pre><code>BARIS_resources(code_ressource)
+
+## # A tibble: 2 x 6
+##   id            title     format published     url                   description
+##   &lt;chr&gt;         &lt;chr&gt;     &lt;chr&gt;  &lt;chr&gt;         &lt;chr&gt;                 &lt;lgl&gt;      
+## 1 0b66ca39-162~ chiffres~ csv    2020-03-12T1~ https://github.com/o~ NA         
+## 2 58aee810-ddd~ chiffres~ json   2020-03-12T1~ https://github.com/o~ NA
+</code></pre>
+<p>On choisit, par exemple, la base CSV.</p>
+<pre><code>code_base &lt;- BARIS_resources(code_ressource)[1,1]
+bdd &lt;- BARIS_extract(resourceId = code_base, format = &quot;csv&quot;)
+head(bdd)
+
+## # A tibble: 6 x 14
+##   date  granularite maille_code maille_nom cas_confirmes deces reanimation
+##   &lt;chr&gt; &lt;chr&gt;       &lt;chr&gt;       &lt;chr&gt;              &lt;int&gt; &lt;int&gt;       &lt;int&gt;
+## 1 2020~ departement DEP-16      Charente               0    NA          NA
+## 2 2020~ departement DEP-17      Charente-~             0    NA          NA
+## 3 2020~ departement DEP-19      Corrèze                0    NA          NA
+## 4 2020~ departement DEP-23      Creuse                 0    NA          NA
+## 5 2020~ departement DEP-24      Dordogne               0    NA          NA
+## 6 2020~ departement DEP-33      Gironde                1    NA          NA
+## # ... with 7 more variables: hospitalises &lt;int&gt;, gueris &lt;int&gt;, depistes &lt;int&gt;,
+## #   source_nom &lt;chr&gt;, source_url &lt;chr&gt;, source_archive &lt;chr&gt;, source_type &lt;chr&gt;
+</code></pre>
+<p>Nous verrons plus tard comment mettre en forme cette base de données
+afin de réaliser une carte.</p>
+<h3 id="etape-2--récupération-des-données-de-population">Etape 2 : récupération des données de population</h3>
+<p>Afin de pouvoir comparer les statistiques concernant le COVID-19
+(personnes hospitalisées, guéries…) entre les différents territoires, il
+peut être intéressant de les rapporter à la population du territoire.</p>
+<p>Les données de population sont notamment disponibles dans le package
+<code>COGugaison</code>[2], que je connais bien puisque j’en suis l’auteure. Ce
+package R a pour objectif global de manipuler des données communales
+produites à différents millésimes et de les agréger à différents niveaux
+supra-communaux.</p>
+<pre><code>#devtools::install_github(&quot;antuki/COGugaison&quot;)
+library(COGugaison)
+</code></pre>
+<p>Les données de population sont disponibles dans les bases contenues dans
+le package comme ici :</p>
+<pre><code>bdd_pop &lt;- COG2020
+head(bdd_pop)
+
+##   CODGEO                  LIBGEO   POP
+## 1  01001 L'Abergement-Clémenciat   776
+## 2  01002   L'Abergement-de-Varey   248
+## 3  01004       Ambérieu-en-Bugey 14035
+## 4  01005     Ambérieux-en-Dombes  1689
+## 5  01006                 Ambléon   111
+## 6  01007                Ambronay  2726
+</code></pre>
+<p>La fonction <code>nivsupra</code> permet d’agréger les tables de données communales
+à de nombreux échelons supra-communaux administratifs, par exemple au
+niveau départemental.</p>
+<pre><code>bdd_pop_dep &lt;- nivsupra(bdd_pop,nivsupra=&quot;DEP&quot;)
+head(bdd_pop_dep)
+
+##   DEP                  LIBGEO     POP
+## 1  01                     Ain  643350
+## 2  02                   Aisne  534490
+## 3  03                  Allier  337988
+## 4  04 Alpes-de-Haute-Provence  163915
+## 5  05            Hautes-Alpes  141284
+## 6  06         Alpes-Maritimes 1083310
+</code></pre>
+<h3 id="etape-3--récupération-du-fond-de-carte">Etape 3 : récupération du fond de carte</h3>
+<p>Pour cette étape de récupération de fond de carte, j’ai choisi de vous
+présenter le package <code>CARTElette</code>[3], que je connais bien aussi puisque
+j’en suis aussi l’auteure. Il permet de récupérer des couches
+cartographiques (communales et supra-communales) correspondant à la
+situation du découpage des territoires français (communes et niveaux
+supra-communaux, France et Outre-mer) au premier janvier de chaque
+année.</p>
+<p>Le package <code>sf</code>[4], quant à lui, est un des packages qui permet la
+manipulation de couches cartographiques dans R.</p>
+<pre><code>#devtools::install_github(&quot;antuki/CARTElette/CARTElette@RPackage&quot;)
+library(CARTElette)
+#install.packages(&quot;sf&quot;)
+library(sf)
+</code></pre>
+<p>Je charge donc ici la carte des départements en 2019 (dernière donnée
+mise à disposition par l’IGN) avec l’objectif de représenter différentes
+statistiques sur le COVID au niveau départemental.</p>
+<pre><code>par(mar=c(0,0,0,0)) # enlever les marges
+plot(st_geometry(DEP)) # afficher le fond
+</code></pre>
+<p><img src="/images/blog/20200330-cartes-sans-donnees/unnamed-chunk-11-1.png" alt=""></p>
+<h3 id="etape-4--mise-en-forme-de-la-base-de-données">Etape 4 : Mise en forme de la base de données</h3>
+<p>Revenons à notre base de données de tout à l’heure et voyons ce qu’elle
+contient</p>
+<pre><code>str(bdd)
+
+## Classes 'tbl_df', 'tbl' and 'data.frame':    4528 obs. of  14 variables:
+##  $ date          : chr  &quot;2020-01-24&quot; &quot;2020-01-24&quot; &quot;2020-01-24&quot; &quot;2020-01-24&quot; ...
+##  $ granularite   : chr  &quot;departement&quot; &quot;departement&quot; &quot;departement&quot; &quot;departement&quot; ...
+##  $ maille_code   : chr  &quot;DEP-16&quot; &quot;DEP-17&quot; &quot;DEP-19&quot; &quot;DEP-23&quot; ...
+##  $ maille_nom    : chr  &quot;Charente&quot; &quot;Charente-Maritime&quot; &quot;Corrèze&quot; &quot;Creuse&quot; ...
+##  $ cas_confirmes : int  0 0 0 0 0 1 1 0 0 0 ...
+##  $ deces         : int  NA NA NA NA NA NA NA NA NA NA ...
+##  $ reanimation   : int  NA NA NA NA NA NA NA NA NA NA ...
+##  $ hospitalises  : int  NA NA NA NA NA NA 1 NA NA NA ...
+##  $ gueris        : int  NA NA NA NA NA NA NA NA NA NA ...
+##  $ depistes      : int  NA NA NA NA NA NA NA NA NA NA ...
+##  $ source_nom    : chr  &quot;ARS Nouvelle-Aquitaine&quot; &quot;ARS Nouvelle-Aquitaine&quot; &quot;ARS Nouvelle-Aquitaine&quot; &quot;ARS Nouvelle-Aquitaine&quot; ...
+##  $ source_url    : chr  &quot;https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aqu&quot;| __truncated__ &quot;https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aqu&quot;| __truncated__ &quot;https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aqu&quot;| __truncated__ &quot;https://www.nouvelle-aquitaine.ars.sante.fr/communique-de-presse-coronavirus-point-de-situation-en-nouvelle-aqu&quot;| __truncated__ ...
+##  $ source_archive: chr  &quot;&quot; &quot;&quot; &quot;&quot; &quot;&quot; ...
+##  $ source_type   : chr  &quot;agences-regionales-sante&quot; &quot;agences-regionales-sante&quot; &quot;agences-regionales-sante&quot; &quot;agences-regionales-sante&quot; ...
+##  - attr(*, &quot;.internal.selfref&quot;)=&lt;externalptr&gt;
+</code></pre>
+<p>Grâce aux données fournies par cette base nous allons calculer deux
+indicateurs que nous allons cartographier par <strong>département</strong> à la
+<strong>dernière date disponible</strong> :</p>
+<ol>
+<li>Le nombre de personnes guéries <strong><code>gueris</code></strong></li>
+<li>Le ratio du nombre de décès pour 100 000 habitants <strong><code>ratio_deces</code>
+(= 100 * <code>deces</code> / <code>POP</code>)</strong></li>
+</ol>
+<p>Pour réaliser les différentes opérations nécessaires dans la base de
+données nous allons utiliser le package <code>dplyr</code>[5]. Pour plus
+d’informations concernant ce package, vous pouvez vous référer à
+différents tutoriels en ligne ainsi qu’à <a href="/blog/20200321-introduction-r-tidyverse/">ce billet de
+blog</a>.</p>
+<pre><code>#install.packages(&quot;dplyr&quot;)
+library(dplyr)
+
+bdd_nettoyee &lt;- bdd %&gt;% 
+  filter(granularite == &quot;departement&quot;) %&gt;% #données par département
+  filter(date == max(date)) %&gt;% # dernière date disponible
+  mutate(DEP=substr(maille_code,5,length(maille_code))) %&gt;% #recodage de maille_code en enlevant le préfixe &quot;DEP-&quot;
+  left_join(bdd_pop_dep,by=&quot;DEP&quot;) %&gt;% # ajouter les données de population
+  mutate(ratio_deces = 100000 * deces / POP) %&gt;% # création de la nouvelle variable 
+  select(DEP,gueris,ratio_deces) # sélection des colonnes à garder
+
+head(bdd_nettoyee)
+
+## # A tibble: 6 x 3
+##   DEP   gueris ratio_deces
+##   &lt;chr&gt;  &lt;int&gt;       &lt;dbl&gt;
+## 1 01        24       1.55 
+## 2 02        67       8.23 
+## 3 03        39       1.18 
+## 4 04        28       0.610
+## 5 05        33       0.708
+## 6 06       117       1.85
+</code></pre>
+<p>On intègre ensuite notre base de données à la couche cartographique des
+départements chargée auparavant.</p>
+<pre><code>DEP &lt;- DEP %&gt;% 
+  left_join(bdd_nettoyee,by=c(&quot;DEP&quot;))
+head(DEP)
+
+## Simple feature collection with 6 features and 4 fields
+## geometry type:  MULTIPOLYGON
+## dimension:      XY
+## bbox:           xmin: 2.278638 ymin: 43.48031 xmax: 7.716108 ymax: 50.0695
+## epsg (SRID):    4326
+## proj4string:    +proj=longlat +datum=WGS84 +no_defs
+##   DEP                     nom gueris ratio_deces                       geometry
+## 1  01                     Ain     24   1.5543639 MULTIPOLYGON (((5.897203 46...
+## 2  02                   Aisne     67   8.2321465 MULTIPOLYGON (((3.687484 49...
+## 3  03                  Allier     39   1.1834740 MULTIPOLYGON (((2.370688 46...
+## 4  04 Alpes-de-Haute-Provence     28   0.6100723 MULTIPOLYGON (((6.709564 43...
+## 5  05            Hautes-Alpes     33   0.7077942 MULTIPOLYGON (((6.64167 44....
+## 6  06         Alpes-Maritimes    117   1.8461936 MULTIPOLYGON (((7.070675 43...
+</code></pre>
+<h3 id="etape-5--la-carte-tant-attendue">Etape 5 : La carte tant attendue</h3>
+<p>Pour cette dernière étape de cartographie, j’ai choisi de vous présenter
+le package <code>cartography</code>[6]. Il permet de créer et d’intégrer des cartes
+dans votre workflow sur R. Les représentations cartographiques proposées
+sont nombreuses (symboles proportionnels, choroplèthes, typologies,
+cartes de flux ou de discontinuités).</p>
+<p>Je n’en dirai pas davantage sur les fonctions qui suivent : d’une part
+parce que vous trouverez toutes les explications nécessaires dans la
+documentation du package et cette petite
+<a href="http://riatelab.github.io/cartography/vignettes/cheatsheet/cartography_cheatsheet.pdf">antisèche</a>
+et d’autre part, je préfère aussi vous laisser emporter dans la
+découverte du fabuleux monde de la statistique spatiale.</p>
+<pre><code>library(cartography)
+
+# Marges
+par(mar=c(1.5,1.5,1.5,1.5))
+
+# Fond de carte
+plot(sf::st_geometry(DEP))
+
+# Carte choroplèthe (décès pour 100 000 habitants)
+choroLayer(x = DEP, var = &quot;ratio_deces&quot;,
+          breaks = quantile(DEP$ratio_deces,
+                            seq(0, 1, 0.25),na.rm = TRUE),
+           col = carto.pal(&quot;red.pal&quot;, 4),lwd = 0.4,
+           border = &quot;black&quot;,
+           legend.values.rnd = 1,
+           colNA = &quot;grey&quot;,
+           legend.horiz = FALSE,legend.pos = &quot;left&quot;,
+           legend.title.txt = &quot;Nombre de décès\n pour 100 000 habitants&quot;,
+           legend.nodata = &quot;Donnée\nmanquante&quot;,
+           add=TRUE
+)
+
+# Ronds proportionnels (guéris)
+propSymbolsLayer(x=DEP, var = &quot;gueris&quot;,
+                 col=&quot;#ADFF2F4D&quot;, #Deux dernières lettres = 30 % de transparence
+                 legend.pos=&quot;topright&quot;,
+                 legend.title.txt = &quot;Nombre de\npersonnes guéries&quot;,
+                 add = TRUE)
+
+# Légende
+layoutLayer(title = paste0(&quot;Guérisons et décès du COVID-19 le &quot;,
+                           max(bdd$date)), 
+            sources = paste0(&quot;OpenCOVID19-fr, le &quot;,max(bdd$date)),
+            author = &quot;antuki, 2020&quot;, 
+            postitle = &quot;center&quot;,
+            theme = &quot;green.pal&quot;, 
+            col = &quot;darkred&quot;, coltitle = &quot;white&quot;, 
+            tabtitle = TRUE, 
+            frame = TRUE,
+            scale=FALSE
+            )
+</code></pre>
+<p><img src="/images/blog/20200330-cartes-sans-donnees/unnamed-chunk-16-1.png" alt=""></p>
+<p>Bonne découverte… !</p>
+<h4 id="et-ensuite-">Et ensuite ?</h4>
+<ul>
+<li>Si vous êtes motivés, je pourrai prolonger l’article en vous
+montrant comment réaliser des cartes avec <code>ggplot2</code> et même des
+cartes interactives avec <code>leaflet</code> !</li>
+<li>Différentes ressources en cartographie disponibles sur <a href="https://antuki.github.io/presentations/">mon
+blog</a> ou sur <a href="https://github.com/antuki">mon
+github</a>.</li>
+</ul>
+<p>[1] Mohamed El Fodil Ihaddaden (2020). BARIS: Access and Import Data
+from the French Open Data Portal. R package version 1.0.0.
+<a href="https://CRAN.R-project.org/package=BARIS">https://CRAN.R-project.org/package=BARIS</a></p>
+<p>[2] Kim Antunez (2020). COGugaison: Gestion des codes officiels
+géographiques (COG). R package version 1.0.2.
+<a href="http://github.com/antuki/COGugaison">http://github.com/antuki/COGugaison</a></p>
+<p>[3] Kim Antunez (2020). CARTElette: Création de couches cartographiques
+à partir du code officiel géographique (COG) et des couches IGN. R
+package version 1.0.1. <a href="http://github.com/antuki/CARTElette/CARTElette">http://github.com/antuki/CARTElette/CARTElette</a></p>
+<p>[4]  Pebesma, E., 2018. Simple Features for R: Standardized Support for
+Spatial Vector Data. The R Journal 10 (1),
+439-446,<a href="doi:10.32614/RJ-2018-009">doi:10.32614/RJ-2018-009</a>
+<a href="https://CRAN.R-project.org/package=sf">https://CRAN.R-project.org/package=sf</a></p>
+<p>[5] Hadley Wickham, Romain François, Lionel Henry and Kirill Müller
+(2020). dplyr: A Grammar of Data Manipulation. R package version 0.8.5.
+<a href="https://CRAN.R-project.org/package=dplyr">https://CRAN.R-project.org/package=dplyr</a></p>
+<p>[6] Giraud, T. and Lambert, N. (2016). cartography: Create and Integrate
+Maps in your R Workflow. JOSS, 1(4). <a href="doi:10.21105/joss.00054">doi:10.21105/joss.00054</a>.
+<a href="https://CRAN.R-project.org/package=cartography">https://CRAN.R-project.org/package=cartography</a></p>
+
+					</div>
+					<div class="post-comments">
+						
+					</div>
+				</div>
+			</div>
+      <div class="col-md-4">
+        <aside class="sidebar">
+  
+  <div class="widget widget-latest-post">
+    <h4 class="widget-title">Derniers articles</h4>
+    
+    <div class="media">
+      <a class="pull-left" href="https://spyrales.netlify.com/blog/20200408-premierspas-onyxia/">
+        <img class="media-object" src="/images/blog/onyxia-accueil.png" alt="Premiers pas avec Onyxia la plateforme datascience de l&#39;Insee">
+      </a>
+      <div class="media-body">
+        <h4 class="media-heading"><a href="https://spyrales.netlify.com/blog/20200408-premierspas-onyxia/">Premiers pas avec Onyxia la plateforme datascience de l&#39;Insee</a></h4>
+        <p>Suite à la présentation de la plateforme Onyxia …</p>
+      </div>
+    </div>
+    
+    <div class="media">
+      <a class="pull-left" href="https://spyrales.netlify.com/blog/20200331-elearning-igpde/">
+        <img class="media-object" src="/images/blog/igpde.png" alt="Petit détour vers d&#39;autres formations en ligne proposées par l&#39;IGPDE !">
+      </a>
+      <div class="media-body">
+        <h4 class="media-heading"><a href="https://spyrales.netlify.com/blog/20200331-elearning-igpde/">Petit détour vers d&#39;autres formations en ligne proposées par l&#39;IGPDE !</a></h4>
+        <p>Vous le savez, le numérique est au centre de la …</p>
+      </div>
+    </div>
+    
+    <div class="media">
+      <a class="pull-left" href="https://spyrales.netlify.com/blog/20200330-cartes-sans-donnees/">
+        <img class="media-object" src="/images/blog/20200330-cartes-sans-donnees/unnamed-chunk-16-1.png" alt="Dessiner une caRte sans données, un puits sans fond ?">
+      </a>
+      <div class="media-body">
+        <h4 class="media-heading"><a href="https://spyrales.netlify.com/blog/20200330-cartes-sans-donnees/">Dessiner une caRte sans données, un puits sans fond ?</a></h4>
+        <p>Cet article est un aperçu d’une présentation que …</p>
+      </div>
+    </div>
+    
+    <div class="media">
+      <a class="pull-left" href="https://spyrales.netlify.com/blog/20200330-blog-culture/">
+        <img class="media-object" src="/images/blog/Alan-Turing.jpg" alt="Quelques conseils culturels en ces temps de confinement">
+      </a>
+      <div class="media-body">
+        <h4 class="media-heading"><a href="https://spyrales.netlify.com/blog/20200330-blog-culture/">Quelques conseils culturels en ces temps de confinement</a></h4>
+        <p>Dans ce petit billet, je vous propose une liste …</p>
+      </div>
+    </div>
+    
+  </div>
+  
+
+  
+  <div class="widget widget-category">
+    <h4 class="widget-title">Catégories</h4>
+    <ul class="widget-category-list">
+      <li><a href="/categories/actualit%c3%a9s">Actualités</a></li>
+      <li><a href="/categories/autoformation">Autoformation</a></li>
+      <li><a href="/categories/environnement-de-travail">Environnement de travail</a></li>
+      <li><a href="/categories/organisation">Organisation</a></li>
+      <li><a href="/categories/outil">Outil</a></li>
+      <li><a href="/categories/ressources-r">Ressources r</a></li>
+    </ul>
+  </div> 
+
+  
+  <div class="widget widget-tag">
+    <h4 class="widget-title">Mots clefs</h4>
+    <ul class="widget-tag-list">
+      <li><a href="/tags/communaut%c3%a9">Communauté</a></li>
+      <li><a href="/tags/d%c3%a9butant">Débutant</a></li>
+      <li><a href="/tags/expert">Expert</a></li>
+      <li><a href="/tags/formation">Formation</a></li>
+      <li><a href="/tags/git">Git</a></li>
+      <li><a href="/tags/github">Github</a></li>
+      <li><a href="/tags/ia">Ia</a></li>
+      <li><a href="/tags/lectures">Lectures</a></li>
+      <li><a href="/tags/nouveaut%c3%a9">Nouveauté</a></li>
+      <li><a href="/tags/python">Python</a></li>
+      <li><a href="/tags/r">R</a></li>
+    </ul>
+  </div> 
+</aside>
+
+      </div>
+		</div>
+	</div>
+</section>
+
+<footer class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<img src="/images/favicon.png">
+				<p class="copyright">Avec <strong>Spyrales</strong>, nous créons une communauté d&rsquo;agents publics pour s&rsquo;autoformer et s&rsquo;entraider en traitement de la donnée, en <em>R</em> et en <em>python</em>.</p>
+				<div class="footer-manu">
+					<ul>
+            
+            <li><a href="https://twitter.com/SpyralesP"><i class="ion-social-twitter-outline"></i></a></li>
+            
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-3">
+		        <p>Plan du site</p>
+				<div class="footer-manu">
+		            
+		            <p><a href="blog/">Blog</a></p>
+		            
+		            <p><a href="contact/">Contact</a></p>
+		            
+				</div>
+			</div>
+			<div class="col-md-5">
+				<p class="copyright">L&rsquo;ensemble du contenu de ce site (notamment les articles du blog) sont en <a href="https://www.etalab.gouv.fr/licence-version-2-0-de-la-licence-ouverte-suite-a-la-consultation-et-presentation-du-decret">licence ouverte v2</a>. Le thème utilisé <a href="https://themefisher.com">Themefisher</a> est copyright © 2019 - All Rights Reserved.</p>
+				<p class="copyright">Une initiative soutenue par la <a href="https://www.numerique.gouv.fr" target="_blank">direction interministérielle du numérique (Dinum)</a></p>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+
+
+
+
+<script src="https://spyrales.netlify.com/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://spyrales.netlify.com/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://spyrales.netlify.com/plugins/slick/slick.min.js"></script>
+
+<script src="https://spyrales.netlify.com/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+<script src="https://spyrales.netlify.com/plugins/shuffle/shuffle.min.js"></script>
+
+<script src="https://spyrales.netlify.com/plugins/google-map/gmap.js"></script>
+
+
+
+
+<script src="https://spyrales.netlify.com/js/script.min.js"></script>
+
+
+
+</body>
+
+</html>
