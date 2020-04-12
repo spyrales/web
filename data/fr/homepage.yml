@@ -72,7 +72,7 @@ funfacts:
     # funfacts item loop
     - icon : "ion-ios-compose-outline" #ionicon pack v2 : https://ionicons.com/v2/
       name : "articles publiés"
-      count : "11"
+      count : "14"
       
     # funfacts item loop
     - icon : "ion-ios-briefcase-outline" #ionicon pack v2 : https://ionicons.com/v2/
