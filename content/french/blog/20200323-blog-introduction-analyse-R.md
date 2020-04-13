@@ -1,7 +1,7 @@
 ---
 title: "Le site analyse-R"
 date: 2020-03-25T18:12:08+01:00
-author: Joseph Larmarange
+author: ["Joseph Larmarange"]
 image : "images/blog/capture_analyse-R.png"
 bg_image: "images/featue-bg.jpg"
 categories: ["Autoformation"]

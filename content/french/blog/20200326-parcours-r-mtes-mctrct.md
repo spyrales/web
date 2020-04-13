@@ -1,7 +1,7 @@
 ---
 title: "Parcours de formation à R du MTES - MCTRCT"
 date: 2020-03-26T10:15:08+01:00
-author: Maël Theulière
+author: ["Maël Theulière"]
 image : "images/parcours-r.png"
 bg_image: "images/featue-bg.jpg"
 categories: ["Autoformation"]

@@ -1,7 +1,7 @@
 ---
 title: "Quelques premières ressources pour se former à R"
 date: 2020-03-23T00:27:36+01:00
-author: Romain Lesur et Stéphane Trainel
+author: ["Romain Lesur", "Stéphane Trainel"]
 image : "images/blog/R_logo.svg.png"
 bg_image: "images/featue-bg.jpg"
 categories: ["Ressources-R"]

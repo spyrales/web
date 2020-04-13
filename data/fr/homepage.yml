@@ -7,7 +7,7 @@ banner:
   button:
     enable : true
     label : "Découvrez le blog"
-    link : "blog"
+    link : "blog/"
 
 ############################# About #################################
 about:
@@ -56,7 +56,7 @@ cta:
   button:
     enable : true
     label : "À votre écoute"
-    link : "contact"
+    link : "contact/"
 
 ############################# Funfacts ###############################
 funfacts:
@@ -66,23 +66,23 @@ funfacts:
   funfact_item:
     # funfacts item loop
     - icon : "ion-ios-people-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "Nombre d'agents impliqués"
-      count : "131"
+      name : "agents impliqués"
+      count : "214"
       
     # funfacts item loop
     - icon : "ion-ios-compose-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "Articles écrits"
-      count : "8"
+      name : "articles publiés"
+      count : "14"
       
     # funfacts item loop
     - icon : "ion-ios-briefcase-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "Formations proposées"
+      name : "formations proposées"
       count : "3"
       
     # funfacts item loop
-    - icon : "ion-ios-lightbulb-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "Projets communs"
-      count : "0"
+    - icon : "ion-ios-flask-outline" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "longueurs nage libre dans la piscine"
+      count : "2"
 
   testimonial_slider:
     # testimonial item loop
