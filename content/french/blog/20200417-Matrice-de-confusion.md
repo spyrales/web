@@ -19,7 +19,7 @@ Dans cet article, nous allons voir comment une matrice de confusion donne une vu
 
 Retrouvez le notebook complet à l'adresse :
 
-https://mybinder.org/v2/gh/jmbernabotto/MachineLearning/master?filepath=matrice_de_confusion_ROC_AUC.ipynb
+[mybinder.org](https://mybinder.org/v2/gh/jmbernabotto/MachineLearning/master?filepath=matrice_de_confusion_ROC_AUC.ipynb)
 
 Bonne (re)découverte et n'hésitez pas à me solliciter pour corriger les fautes qui ce seront fortuitement glissées ici et là !
 
