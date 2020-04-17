@@ -6,7 +6,7 @@ image : "images/blog/matrice_confusion.png"
 bg_image: "images/featue-bg.jpg"
 categories: ["Outil"]
 tags: ["python","débutant","expert","formation", "ML"]
-description: "Quelques idées d'IDE !"
+description: "Matrice de confusion, courbe ROC et AUC"
 draft: false
 type: "post"
 ---
