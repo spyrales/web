@@ -4,7 +4,7 @@ author: ["Jean-Michel Bernabotto"]
 image : "images/blog/matrice_confusion.png"
 bg_image: "images/featue-bg.jpg"
 categories: ["Outil"]
-tags: ["python","débutant","expert","formation"]
+tags: ["python","débutant","expert","formation", "ML"]
 description: "Quelques idées d'IDE !"
 draft: false
 type: "post"
