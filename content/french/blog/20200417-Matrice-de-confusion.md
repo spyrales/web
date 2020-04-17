@@ -1,12 +1,12 @@
 ---
-title: "Quelques suggestions d'IDE pour programmer en Python"
+title: "Matrice de confusion, courbe ROC et AUC"
 date: 2020-04-17T21:30:00+01:00
 author: ["Jean-Michel Bernabotto"]
 image : "images/blog/matrice_confusion.png"
 bg_image: "images/featue-bg.jpg"
 categories: ["Outil"]
 tags: ["python","débutant","expert","formation", "ML"]
-description: "Matrice de confusion, courbe ROC et AUC"
+description: null
 draft: false
 type: "post"
 ---
