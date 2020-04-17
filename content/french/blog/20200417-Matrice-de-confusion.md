@@ -1,5 +1,6 @@
+---
 title: "Quelques suggestions d'IDE pour programmer en Python"
-date: 2020-4-17T21:30:00+01:00
+date: 2020-04-17T21:30:00+01:00
 author: ["Jean-Michel Bernabotto"]
 image : "images/blog/matrice_confusion.png"
 bg_image: "images/featue-bg.jpg"
@@ -8,6 +9,7 @@ tags: ["python","débutant","expert","formation", "ML"]
 description: "Matrice de confusio, courbe ROC et AUC"
 draft: false
 type: "post"
+---
 
 # La matrice de confusion pour les nuls !
 
