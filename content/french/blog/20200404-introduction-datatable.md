@@ -1,18 +1,20 @@
 ---
 title: "Introduction à datatable pour les utilisateurs de R"
-date: 2020-04-04T18:13:08+01:00
+date: 2020-04-18T18:13:08+01:00
 author: ["Lino Galiana"]
 image : "https://linogaliana.netlify.com/img/headers/datatable.png"
-categories: ["Autoformation","R"]
+bg_image: "images/featue-bg.jpg"
+categories: ["R","Autoformation"]
 tags: ["R","datatable"]
-description: 'Présentation d'une introduction à l'approche `data.table` en `R`'
-draft: true
+description: "Présentation d'une introduction à l'approche `data.table` en `R`"
+draft: false
 type: "post"
 ---
 
-
 Ce post vise à présenter une introduction à `data.table`, écrite à 6 mains, disponible
-[en suivant ce lien](https://linogaliana.netlify.com/post/datatable/datatable-intro/).
+sur <https://linogaliana.netlify.com/post/datatable/datatable-intro/>.
+
+
 `data.table` est un package `R` offrant un écosystème complet pour traiter de manière
 efficace des données en `R`.
 
@@ -27,102 +29,34 @@ les crochets `dt[...]` permettent de faire beaucoup plus de choses
 instructions à l’intérieur
 des crochets peuvent être envisagées
 comme des requêtes SQL mises en forme différemment.
+
 La forme générale de l’opérateur `[...]` est la suivante: `DT[i, j, by]`.
 Si on fait un parallèle avec `SQL`, i correspond au WHERE,
 j au SELECT et by au GROUP BY.
 Cette manipulation peut se lire comme ceci:
-*"on part du data.table DT, on sélectionne certaines lignes
-avec i, puis on calcule j pour chaque groupe défini par by""*
-Cela permet une syntaxe très concise, appréciable dans de gros projets informatiques:
+*"on part du data.table `DT`, on sélectionne certaines lignes
+avec `i`, puis on calcule `j` pour chaque groupe défini par `by`"*
 
-<table class='table'>
-<tr> <th>`r print_html_only("**Base R**")`</th>
-<th>`r print_html_only("**dplyr**")`</th>
-<th>`r print_html_only("**data.table**")`</th> <tr>
-<tr>
-<td>
-```{r}
-aggregate(
-  dt[dt[["x"]] > 3]$y,
-  by = list(dt[dt[["x"]] > 3]$z),
-  FUN = sum)
-```
-</td>
-<td>
-```{r}
-dt %>%
-  dplyr::filter(x > 3) %>%
-  dplyr::group_by(z) %>%
-  dplyr::summarise(sum(y))
-```
-</td>
-<td>
-```{r}
-dt[x > 3, sum(y), by = z]
-```
-</td>
-<tr>
-</table>
-
-</div>
-
+La syntaxe de `data.table` est très concise, ce qui est
+appréciable dans de gros projets informatiques. De plus,
+si vous êtes amenés à rédiger des fonctions
+génériques utilisant des noms
+de variables en argument, il est également recommandé d'utiliser
+`data.table` plutôt que `dplyr`.
   
-  
-
-[Introduction à R et au tidyverse](https://juba.github.io/tidyverse/) est un
-document de formation en ligne à destination de personnes débutant avec le
-langage R.
-
-Il a été conçu il y a une dizaine d'années comme un support de formation pour
-une introduction à R auprès de chercheur.es en sociologie. Il a depuis évolué
-pour devenir un document autonome. Il conserve une approche "SHS" (Sciences
-Humaines et Sociales), mais les notions abordées sont a priori utiles pour
-tous les usages.
+Néanmoins, l'argument principal en faveur de `data.table` reste **l'efficacité**.
+`data.table` est la solution la plus adaptée pour traiter des données
+volumineuses sans base de données ou en l'absence d'une infrastructure
+*big data* de type `Spark`. Les opérations sur un `data.table`
+demanderont beaucoup moins de RAM que sur d'autres types de 
+`data.frames`. Si vous n'êtes toujours pas convaincu des performances de `data.table`,
+vous avez plusieurs comparatifs de 
+langages [ici](https://h2oai.github.io/db-benchmark/).
 
 
-### Public visé
-
-Ce document est destiné à deux publics potentiels :
-
-- les **débutants en R**, qui pourront lire l'ensemble en commençant par la partie
-  *Introduction à R* : celle-ci ne demande aucun prérequis en informatique et
-  se veut la plus accessible possible.
-- les **personnes connaissant déjà R**, mais souhaitant se familiariser avec les
-  extensions dites du *tidyverse* : celles-ci pourront se contenter de la
-  deuxième partie *Introduction au tidyverse*.
+La suite est disponible à l'adresse
+<https://linogaliana.netlify.com/post/datatable/datatable-intro/>
 
 
-### Contenu de la formation
-
-L'ouvrage est une introduction assez complète aux différents outils et notions
-nécessaires pour débuter en R. Vous y trouverez notamment :
-
-- une prise en main de l'interface de RStudio et des grands principes du
-  langage R
-- comment charger des données, appliquer des analyses univariées ou bivariées
-  simples
-- l'importation et exportation de données depuis ou vers différents formats
-- la réalisation de graphiques avec l'extension `ggplot2`
-- le recodage de variables qualitatives
-- la manipulation des données avec `dplyr` et `tidyr`
-- la création de documents et l'export de résultats avec `rmarkdown`
-  
-Chaque partie comprend des exercices corrigés et une annexe liste
-différentes ressources d'apprentissage et d'entraide.
 
 
-### Ce que vous ne trouverez pas
-
-En revanche, vous ne trouverez pas dans cet ouvrage :
-  
-- une introduction aux méthodes quantitatives d'analyse de données (ça n'est
-  pas l'objet)
-- un guide de référence complet de R : si vous développez déjà dans un autre
-  langage, d'autres documents seront peut-être plus concis et plus efficaces.
-	
-Le document est diffusé sous licence libre et il est librement accessible en
-HTML, PDF et EPUB à l'adresse suivante :
-
-https://juba.github.io/tidyverse/
-
-Et je suis évidemment toujours preneur de retours, critiques ou suggestions !
