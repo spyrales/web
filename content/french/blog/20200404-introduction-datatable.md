@@ -14,28 +14,60 @@ type: "post"
 Ce post vise à présenter une introduction à `data.table`, écrite à 6 mains, disponible
 [en suivant ce lien](https://linogaliana.netlify.com/post/datatable/datatable-intro/).
 `data.table` est un package `R` offrant un écosystème complet pour traiter de manière
-efficace des données en `R`. Il s'agit, en premier lieu, d'un *package* proposant
+efficace des données en `R`.
+
+Il s'agit, en premier lieu, d'un *package* proposant
 une version améliorée du data.frame de base: le... `data.table`.
 Avec ce `data.frame` évolué, la plupart des opérations sont effectuées dans 
-les crochets (`[...]`)
-
-<!------
-La fonction fondamentale de `data.table` est l’opérateur `[...]` (crochets).
-Dans un `data.frame` de base, les crochets `df[...]` servent uniquement à
+les crochets (`[...]`). Dans un `data.frame` de base, les crochets
+`df[...]` servent uniquement à
 sélectionner des lignes ou des colonnes. Dans un `data.table`,
 les crochets `dt[...]` permettent de faire beaucoup plus de choses
 (quasiment tout, en pratique). En fait, les
 instructions à l’intérieur
 des crochets peuvent être envisagées
 comme des requêtes SQL mises en forme différemment.
-
 La forme générale de l’opérateur `[...]` est la suivante: `DT[i, j, by]`.
-Si on fait un parallèle avec `SQL`, i correspond au WHERE, j au SELECT et by au GROUP BY. Cette manipulation peut se lire comme ceci: "on part du data.table DT, on sélectionne certaines lignes avec i, puis on calcule j pour chaque groupe défini par by.
------->
+Si on fait un parallèle avec `SQL`, i correspond au WHERE,
+j au SELECT et by au GROUP BY.
+Cette manipulation peut se lire comme ceci:
+*"on part du data.table DT, on sélectionne certaines lignes
+avec i, puis on calcule j pour chaque groupe défini par by""*
+Cela permet une syntaxe très concise, appréciable dans de gros projets informatiques:
 
+<table class='table'>
+<tr> <th>`r print_html_only("**Base R**")`</th>
+<th>`r print_html_only("**dplyr**")`</th>
+<th>`r print_html_only("**data.table**")`</th> <tr>
+<tr>
+<td>
+```{r}
+aggregate(
+  dt[dt[["x"]] > 3]$y,
+  by = list(dt[dt[["x"]] > 3]$z),
+  FUN = sum)
+```
+</td>
+<td>
+```{r}
+dt %>%
+  dplyr::filter(x > 3) %>%
+  dplyr::group_by(z) %>%
+  dplyr::summarise(sum(y))
+```
+</td>
+<td>
+```{r}
+dt[x > 3, sum(y), by = z]
+```
+</td>
+<tr>
+</table>
 
-`data.table` est devenu une solution incontournable en 
+</div>
 
+  
+  
 
 [Introduction à R et au tidyverse](https://juba.github.io/tidyverse/) est un
 document de formation en ligne à destination de personnes débutant avec le
