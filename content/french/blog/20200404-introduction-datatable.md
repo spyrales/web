@@ -6,7 +6,7 @@ image : "https://linogaliana.netlify.com/img/headers/datatable.png"
 bg_image: "images/featue-bg.jpg"
 categories: ["R","Autoformation"]
 tags: ["R","datatable"]
-description: "Présentation d'une introduction à l'approche `data.table` en `R`"
+description: "Présentation d'une introduction à l'approche data.table en R"
 draft: false
 type: "post"
 ---
