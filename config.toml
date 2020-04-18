@@ -60,12 +60,12 @@ link = "plugins/google-map/gmap.js"
 
 [[menu.main]]
 name = "Blog"
-URL = "blog"
+URL = "blog/"
 weight = 4
   
 [[menu.main]]
 name = "Contact"
-URL = "contact"
+URL = "contact/"
 weight = 6
 
 
@@ -86,15 +86,20 @@ weight = 6
 #weight = 3
 
 [[menu.footer]]
+name = "Blog"
+URL = "blog/"
+weight = 4
+
+[[menu.footer]]
 name = "Contact"
-URL = "/contact"
+URL = "contact/"
 weight = 6
 
 #################### default parameters ################################
 [params]
 logo = "images/logo.png"
 # Meta data
-description = "spyrales"
+description = "Avec **Spyrales**, nous créons une communauté d'agents publics pour s'autoformer et s'entraider en traitement de la donnée, en *R* et en *python*."
 author = "Themefisher"
 # Contact Information
 phone = "il n'y en a pas... le plus simple est de vous abonner à Tchap : www.tchap.gouv.fr !"
@@ -120,7 +125,7 @@ enable = true
 [params.nav_button]
 enable = true
 label = "Get A Quote"
-link = "contact"
+link = "contact/"
 
 # google map
 [params.gmap]
@@ -156,4 +161,4 @@ languageCode = "fr-fr"
 contentDir = "content/french"
 weight = 1 
 home = "Accueil"
-# copyright
+copyright = "L'ensemble du contenu de ce site (notamment les articles du blog) sont en [licence ouverte v2](https://www.etalab.gouv.fr/licence-version-2-0-de-la-licence-ouverte-suite-a-la-consultation-et-presentation-du-decret). Le thème utilisé [Themefisher](https://themefisher.com) est copyright &copy; 2019 - All Rights Reserved."
