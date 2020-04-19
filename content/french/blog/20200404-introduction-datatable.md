@@ -1,7 +1,7 @@
 ---
 title: "Introduction à datatable pour les utilisateurs de R"
 date: 2020-04-18T18:13:08+01:00
-author: ["Lino Galiana"]
+author: ["Lino Galiana", "Olivier Meslin"]
 image : "https://linogaliana.netlify.com/img/headers/datatable.png"
 bg_image: "images/featue-bg.jpg"
 categories: ["R","Autoformation"]
