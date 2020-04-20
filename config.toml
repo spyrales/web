@@ -62,7 +62,12 @@ link = "plugins/google-map/gmap.js"
 name = "Blog"
 URL = "blog/"
 weight = 4
-  
+
+[[menu.main]]
+name = "Liens utiles"
+URL = "bookmark/"
+weight = 4
+
 [[menu.main]]
 name = "Contact"
 URL = "contact/"
