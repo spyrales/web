@@ -3,17 +3,67 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://spyrales.netlify.com/blog/20200420-pycharmce/</loc>
-    <lastmod>2020-04-20T15:30:00+01:00</lastmod>
+    <loc>https://spyrales.netlify.com/author/</loc>
+    <lastmod>2020-04-21T12:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://spyrales.netlify.com/categories/autoformation/</loc>
+    <lastmod>2020-04-21T12:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://spyrales.netlify.com/categories/</loc>
-    <lastmod>2020-04-20T15:30:00+01:00</lastmod>
+    <lastmod>2020-04-21T12:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://spyrales.netlify.com/tags/datatable/</loc>
+    <lastmod>2020-04-21T12:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://spyrales.netlify.com/blog/</loc>
+    <lastmod>2020-04-21T12:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://spyrales.netlify.com/bookmark/</loc>
+    <lastmod>2020-04-21T12:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://spyrales.netlify.com/blog/20200418-introduction-datatable/</loc>
+    <lastmod>2020-04-21T12:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://spyrales.netlify.com/author/lino-galiana/</loc>
+    <lastmod>2020-04-21T12:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://spyrales.netlify.com/tags/r/</loc>
+    <lastmod>2020-04-21T12:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://spyrales.netlify.com/categories/r/</loc>
+    <lastmod>2020-04-21T12:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://spyrales.netlify.com/</loc>
+    <lastmod>2020-04-21T12:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://spyrales.netlify.com/tags/</loc>
+    <lastmod>2020-04-21T12:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://spyrales.netlify.com/blog/20200420-pycharmce/</loc>
     <lastmod>2020-04-20T15:30:00+01:00</lastmod>
   </url>
   
@@ -34,16 +84,6 @@
   
   <url>
     <loc>https://spyrales.netlify.com/tags/python/</loc>
-    <lastmod>2020-04-20T15:30:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://spyrales.netlify.com/</loc>
-    <lastmod>2020-04-20T15:30:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://spyrales.netlify.com/tags/</loc>
     <lastmod>2020-04-20T15:30:00+01:00</lastmod>
   </url>
   
@@ -138,11 +178,6 @@
   </url>
   
   <url>
-    <loc>https://spyrales.netlify.com/author/</loc>
-    <lastmod>2020-03-26T23:07:52+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://spyrales.netlify.com/author/kim-antunez/</loc>
     <lastmod>2020-03-26T23:07:52+01:00</lastmod>
   </url>
@@ -153,18 +188,8 @@
   </url>
   
   <url>
-    <loc>https://spyrales.netlify.com/tags/r/</loc>
-    <lastmod>2020-03-26T23:07:52+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://spyrales.netlify.com/blog/20200327-blog-se-former-a-r-ou-python-sans-rien-installer-sur-son-ordinateur/</loc>
     <lastmod>2020-03-26T23:07:52+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://spyrales.netlify.com/categories/autoformation/</loc>
-    <lastmod>2020-03-26T10:15:08+01:00</lastmod>
   </url>
   
   <url>
@@ -239,6 +264,10 @@
   
   <url>
     <loc>https://spyrales.netlify.com/author/martin-chevalier/</loc>
+  </url>
+  
+  <url>
+    <loc>https://spyrales.netlify.com/author/olivier-meslin/</loc>
   </url>
   
   <url>
