@@ -19,7 +19,7 @@ https://github.com/spyrales/la-piscine
 https://spyrales.sspcloud.fr
 
 
-## les replays et présentations
+## Les replays et présentations
 - présentation GCP :  
 https://minio.lab.sspcloud.fr/strainel/presentation%20GC-20200410.mkv
 
