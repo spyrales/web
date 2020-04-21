@@ -7,10 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     <copyright>L&#39;ensemble du contenu de ce site (notamment les articles du blog) sont en [licence ouverte v2](https://www.etalab.gouv.fr/licence-version-2-0-de-la-licence-ouverte-suite-a-la-consultation-et-presentation-du-decret). Le thème utilisé [Themefisher](https://themefisher.com) est copyright &amp;copy; 2019 - All Rights Reserved.</copyright>
-    <lastBuildDate>Fri, 17 Apr 2020 21:30:00 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 20 Apr 2020 15:30:00 +0100</lastBuildDate>
     
 	<atom:link href="https://spyrales.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ide</title>
+      <link>https://spyrales.netlify.com/tags/ide/</link>
+      <pubDate>Mon, 20 Apr 2020 15:30:00 +0100</pubDate>
+      
+      <guid>https://spyrales.netlify.com/tags/ide/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pycharm</title>
+      <link>https://spyrales.netlify.com/tags/pycharm/</link>
+      <pubDate>Mon, 20 Apr 2020 15:30:00 +0100</pubDate>
+      
+      <guid>https://spyrales.netlify.com/tags/pycharm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://spyrales.netlify.com/tags/python/</link>
+      <pubDate>Mon, 20 Apr 2020 15:30:00 +0100</pubDate>
+      
+      <guid>https://spyrales.netlify.com/tags/python/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>débutant</title>
@@ -45,15 +72,6 @@
       <pubDate>Fri, 17 Apr 2020 21:30:00 +0100</pubDate>
       
       <guid>https://spyrales.netlify.com/tags/ml/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>python</title>
-      <link>https://spyrales.netlify.com/tags/python/</link>
-      <pubDate>Fri, 17 Apr 2020 21:30:00 +0100</pubDate>
-      
-      <guid>https://spyrales.netlify.com/tags/python/</guid>
       <description></description>
     </item>
     
