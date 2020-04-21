@@ -89,7 +89,7 @@ L'onglet `Version control`  (qui est plus réactif que la fenêtre de suivi de v
 dans le contrôle de version (`Default Changelist`) et les fichiers qui ne sont pas (encore) pris en 
 compte dans le contrôle de version (`Unversioned Files`). Prenons l'exemple de ce projet, je viens 
 d'ajouter cet article de blog au projet `web` (`git add`), il va donc apparaître dans le `Default changelist`. 
-Comme je n'ai pas encore fait de commit, il apparaît en vert comme ceci: 
+Comme je n'ai pas encore fait de `commit`, il apparaît en vert comme ceci: 
 
 ![git add](/images/blog/AR-gitadd.JPG)
 
@@ -97,7 +97,7 @@ Lorsque l'on a fait plusieurs changements et
 que l'on souhaite voir les modifications d'un `commit` à l'autre, 
 on peut également les visualiser dans cette fenêtre. 
 Par exemple, après le premier `commit` de cet article, j'écris
-cette nouvelle phrase, et elle va apparaitre dans le *viewer* de la 
+cette nouvelle phrase, et elle va apparaître dans le *viewer* de la 
 façon suivante:
 
 ![git add](/images/blog/AR-gitcommit.jpg)
@@ -114,11 +114,11 @@ fichiers de nomenclature en santé pour la [Documentation collaborative du
 Système National des Données de Santé](https://documentation-snds.health-data-hub.fr/)
 rapidement.
 
-Pycharm nous avertit systématiquement lorsque de nouveaux fichiers sont ajoutés à 
+`Pycharm` nous avertit systématiquement lorsque de nouveaux fichiers sont ajoutés à 
 notre projet ou que l'on crée de nouveaux scripts pour les ajouter ou non au projet 
 (et ils apparaitront en rouge dans l'arborescence du projet à gauche).
 Par sécurité, je préfère les ajouter *via* la ligne de commande pour toujours vérifier
-avant que je suis sur la bonne branche.
+avant que je suis sur la bonne branche pour pouvoir ensuite faire mes `commit`.
 
 ### Le sous-onglet Log
 
@@ -145,19 +145,20 @@ d'exécuter des scripts Python. Celui-ci peut être défini
 Ceux-ci servent à définir un environnement d’exécution d’un script `python`, notamment les packages disponibles ou la version de Python utilisée. 
 
 J'utilise personnellement ces environnements `conda` grâce à la connexion
- d'`Anaconda` avec Pycharm.
+ d'`Anaconda` avec `Pycharm`.
 On peut en fait définir par projet ce que l'on souhaite comme version de Python 
-et comme versions des packages. Toutes ces informations vont constituer l'environnement `conda` dans lequel on exécutera nos scripts.
-Les environnements sont également partageables ce qui permet une plus
+et comme versions des packages. Toutes ces informations vont constituer l'environnement `conda` dans lequel 
+on exécutera nos scripts.
+Les environnements sont également [partageables](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#sharing-an-environment) ce qui permet une plus
 grande **reproductibilité** du code. 
 
-Ceci n'est pas vraiment spécifique à Pycharm, toutefois, je trouve que
+Ceci n'est pas vraiment spécifique à `Pycharm`, toutefois, je trouve que
 le changement d'un environnement `conda` à l'autre et l'installation de nouveaux
-packages ou l'upgrade de version est facilité dans Pycharm. 
-Utiliser Pycharm combiné à Anaconda permet aussi de [régulièrement mettre à jour
+packages ou la mise à jour de version sont facilités dans `Pycharm`. 
+Utiliser `Pycharm` combiné à `Anaconda` permet aussi de [régulièrement mettre à jour
 `conda`](https://www.anaconda.com/keeping-anaconda-date/) pour avoir les dernières
-versions disponibles des différents packages. On peut updater un environnement spécifique
-ce qui permet de **ne pas avoir de conflit de versions de packages** dans un projet.
+versions disponibles des différents packages. On peut mettre à jour un environnement spécifique ce qui permet de ne pas avoir 
+de **conflit de versions de packages** dans un projet.
 
 </div>
 
