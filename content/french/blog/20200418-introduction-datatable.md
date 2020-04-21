@@ -55,7 +55,7 @@ langages [ici](https://h2oai.github.io/db-benchmark/).
 
 
 La suite est disponible à l'adresse
-<https://linogaliana.netlify.com/post/datatable/datatable-intro/>
+<https://linogaliana.netlify.com/post/datatable/datatable-intro/>.
 
 
 
