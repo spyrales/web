@@ -2,7 +2,7 @@
 title: "Lino Galiana"
 date: 2020-04-18T23:07:52+01:00
 bg_image: "images/featue-bg.jpg"
-photo: "https://avatars3.githubusercontent.com/u/33896139?s=400&u=4338ba917f75a54df6281f8c2704c51b186e0988&v=4"
+photo: "https://avatars3.githubusercontent.com/u/33896139"
 social:
   - icon : "ion-social-github-outline" #ionicon pack v2 : https://ionicons.com/v2/
     link: https://github.com/linogaliana
