@@ -39,7 +39,7 @@ avec `i`, puis on calcule `j` pour chaque groupe défini par `by`"*
 
 La syntaxe de `data.table` est très concise, ce qui est
 appréciable dans de gros projets informatiques. De plus,
-si vous êtes amenés à rédiger des fonctions
+si vous êtes amené à rédiger des fonctions
 génériques utilisant des noms
 de variables en argument, il est également recommandé d'utiliser
 `data.table` plutôt que `dplyr`.
@@ -56,6 +56,5 @@ langages [ici](https://h2oai.github.io/db-benchmark/).
 
 La suite est disponible à l'adresse
 <https://linogaliana.netlify.com/post/datatable/datatable-intro/>.
-
 
 
