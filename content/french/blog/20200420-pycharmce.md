@@ -17,11 +17,11 @@ type: "post"
 
 `Pycharm` est un **environnement de développement** de [JetBrains](https://www.jetbrains.com/).
 Il existe plusieurs éditions de cet IDE, dont `Pycharm Community Edition`, qui est gratuite et *open source*.
-Cet IDE présente de très nombreux avantages et de très nombreuses fonctionnalités pour la programmation 
-en Python, ce qui en fait un IDE un peu plus difficile d'abord que Jupyter Lab mais beaucoup plus
-agréable pour coder selon moi.
+Cet IDE présente des fonctionnalités que je trouve très pratiques pour la programmation 
+en Python. Sa prise en main est moins immédiate que celle de `Jupyter Lab` mais 
+`Pycharm` est, selon moi, plus agréable pour coder au quotidien.
 Je n'aborderai que certains points qui facilitent quotidiennement mon travail.
-J'utilise personnellement Python 3.7 avec Pycharm CE, [Anaconda](https://anaconda.org/anaconda/python) 
+J'utilise personnellement Python 3.7 avec `Pycharm CE`, associé à [Anaconda](https://anaconda.org/anaconda/python) 
 et [Git Bash](https://gitforwindows.org/). 
 
 </div>
@@ -30,9 +30,9 @@ et [Git Bash](https://gitforwindows.org/).
 
 <div style="text-align: justify"> 
 
-Le script écrit dans Pycharm est diagnostiqué au moment où on l'écrit. 
-Il existe tout un ensemble de codes couleur pour signaler les erreurs et les *warnings* et lorsque
-l'on survole une erreur, Pycharm **nous explique l'erreur et nous propose une solution**.
+Le script écrit dans `Pycharm` est diagnostiqué au moment où on l'écrit. 
+Il existe tout un ensemble de codes couleur pour signaler les erreurs et les *warnings*.
+Lorsque l'on survole une erreur, `Pycharm` **nous explique l'erreur et nous propose une solution**.
 En haut à droite du script on peut voir le **diagnostic complet** (*Analysis completed*) qui montre 
 le nombre total de problèmes rencontrés
 et on peut naviguer facilement entre ceux-ci grâce à leur mise en valeur dans la barre de défilement.
@@ -106,7 +106,7 @@ On peut aussi définir ce que l'on souhaite ignorer comme changements, par exemp
 les espaces et les sauts de lignes, s'ils ne nous intéressent pas. On peut mettre en
 valeur différents éléments : les lignes où il y a eu des modifications, 
 ou bien encore les mots entre lesquels on observe des modifications.
-Sur Gitlab.com,
+Sur gitlab.com,
 pour les fichiers trop volumineux, la comparaison n'est pas toujours possible
 alors que dans cet onglet, le *side-by-side viewer* est toujours disponible. 
 Pour donner un exemple concret, j'ai pu ainsi voir les différences entre deux
@@ -117,14 +117,14 @@ rapidement.
 Pycharm nous avertit systématiquement lorsque de nouveaux fichiers sont ajoutés à 
 notre projet ou que l'on crée de nouveaux scripts pour les ajouter ou non au projet 
 (et ils apparaitront en rouge dans l'arborescence du projet à gauche).
-Je préfère personnellement les ajouter via la ligne de commande pour toujours vérifier
+Par sécurité, je préfère les ajouter *via* la ligne de commande pour toujours vérifier
 avant que je suis sur la bonne branche.
 
-### Le sous onglet Log
+### Le sous-onglet Log
 
-Le deuxième sous onglet intéressant de l'onglet `Version control` est le `Log`.
+Le deuxième sous-onglet intéressant de l'onglet `Version control` est le `Log`.
 Ce dernier permet de visualiser concrètement les différentes branches, leurs 
-avancées les unes par rapport aux autres et tout l'historique des commit. 
+avancées les unes par rapport aux autres et tout l'historique des `commit`. 
 Prenons l'exemple de la documentation collaborative du SNDS, un projet sur lequel
 il y a de nombreux contributeurs, de nombreuses MR, chacune associée à une branche différente.
 Le log permet de visualiser les différentes branches sur lesquelles on travaille 
@@ -142,22 +142,22 @@ Un projet est associé à un *Project interpreter*, qui va nous permettre
 d'exécuter des scripts Python. Celui-ci peut être défini
 à partir de plusieurs types d'environnements, dont les environnements 
 `conda`.
-J'utilise personnellement ces environnements `conda` grâce à `Anaconda` dans Pycharm.
+Ceux-ci servent à définir un environnement d’exécution d’un script `python`, notamment les packages disponibles ou la version de Python utilisée. 
+
+J'utilise personnellement ces environnements `conda` grâce à la connexion
+ d'`Anaconda` avec Pycharm.
 On peut en fait définir par projet ce que l'on souhaite comme version de Python 
 et comme versions des packages. Toutes ces informations vont constituer l'environnement `conda` dans lequel on exécutera nos scripts.
 Les environnements sont également partageables ce qui permet une plus
 grande **reproductibilité** du code. 
 
 Ceci n'est pas vraiment spécifique à Pycharm, toutefois, je trouve que
-le changement d'un environnement conda à l'autre et l'installation de nouveaux
+le changement d'un environnement `conda` à l'autre et l'installation de nouveaux
 packages ou l'upgrade de version est facilité dans Pycharm. 
 Utiliser Pycharm combiné à Anaconda permet aussi de [régulièrement mettre à jour
 `conda`](https://www.anaconda.com/keeping-anaconda-date/) pour avoir les dernières
 versions disponibles des différents packages. On peut updater un environnement spécifique
 ce qui permet de **ne pas avoir de conflit de versions de packages** dans un projet.
-
-Cela permet aussi de générer un fichier de requirements.txt assez rapidement puisque
-les fichiers obtenus avec `pip freeze > requirements.txt` sont ceux du conda env.
 
 </div>
 
@@ -166,9 +166,8 @@ les fichiers obtenus avec `pip freeze > requirements.txt` sont ceux du conda env
 ## Conclusion
 
 Pour conclure, il existe aussi de nombreux `Plugins` supplémentaires comme le
- *viewer side by side* de `Markdown` pour suivre à la fois le fichier
- .md et le rendu du texte écrit dans les fichiers
-markdown, ce qui permet d'améliorer le processus de **documentation**.
+ *viewer side by side* de `Markdown` pour suivre le rendu du texte écrit dans les fichiers
+`Markdown`, ce qui permet d'améliorer le processus de **documentation**.
 
 Enfin, il existe aussi un onglet `TODO` qui permet de référencer tous les endroits
 du projet où l'on a noté un `TODO` afin de pouvoir constituer une liste de 
