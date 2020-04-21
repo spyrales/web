@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     <copyright>L&#39;ensemble du contenu de ce site (notamment les articles du blog) sont en [licence ouverte v2](https://www.etalab.gouv.fr/licence-version-2-0-de-la-licence-ouverte-suite-a-la-consultation-et-presentation-du-decret). Le thème utilisé [Themefisher](https://themefisher.com) est copyright &amp;copy; 2019 - All Rights Reserved.</copyright>
-    <lastBuildDate>Wed, 08 Apr 2020 15:30:00 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 17 Apr 2020 21:30:00 +0100</lastBuildDate>
     
 	<atom:link href="https://spyrales.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Matrice de confusion, courbe ROC et AUC</title>
+      <link>https://spyrales.netlify.com/blog/20200417-matrice-de-confusion/</link>
+      <pubDate>Fri, 17 Apr 2020 21:30:00 +0100</pubDate>
+      
+      <guid>https://spyrales.netlify.com/blog/20200417-matrice-de-confusion/</guid>
+      <description>Vous êtes-vous déjà retrouvé dans une situation où vous vous attendiez à ce que votre modèle d&amp;rsquo;apprentissage machine soit très performant, mais où il s&amp;rsquo;est avéré peu précis ? Vous avez fait tout le travail nécessaire - alors où le modèle de classification s&amp;rsquo;est-il trompé ?</description>
+    </item>
     
     <item>
       <title>Premiers pas avec Onyxia la plateforme datascience de l&#39;Insee</title>

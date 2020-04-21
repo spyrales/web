@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     <copyright>L&#39;ensemble du contenu de ce site (notamment les articles du blog) sont en [licence ouverte v2](https://www.etalab.gouv.fr/licence-version-2-0-de-la-licence-ouverte-suite-a-la-consultation-et-presentation-du-decret). Le thème utilisé [Themefisher](https://themefisher.com) est copyright &amp;copy; 2019 - All Rights Reserved.</copyright>
-    <lastBuildDate>Wed, 08 Apr 2020 15:30:00 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 17 Apr 2020 21:30:00 +0100</lastBuildDate>
     
 	<atom:link href="https://spyrales.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,27 +15,45 @@
     <item>
       <title>débutant</title>
       <link>https://spyrales.netlify.com/tags/d%C3%A9butant/</link>
-      <pubDate>Wed, 08 Apr 2020 15:30:00 +0100</pubDate>
+      <pubDate>Fri, 17 Apr 2020 21:30:00 +0100</pubDate>
       
       <guid>https://spyrales.netlify.com/tags/d%C3%A9butant/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>expert</title>
+      <link>https://spyrales.netlify.com/tags/expert/</link>
+      <pubDate>Fri, 17 Apr 2020 21:30:00 +0100</pubDate>
+      
+      <guid>https://spyrales.netlify.com/tags/expert/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>formation</title>
       <link>https://spyrales.netlify.com/tags/formation/</link>
-      <pubDate>Wed, 08 Apr 2020 15:30:00 +0100</pubDate>
+      <pubDate>Fri, 17 Apr 2020 21:30:00 +0100</pubDate>
       
       <guid>https://spyrales.netlify.com/tags/formation/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>expert</title>
-      <link>https://spyrales.netlify.com/tags/expert/</link>
-      <pubDate>Tue, 31 Mar 2020 13:30:00 +0100</pubDate>
+      <title>ML</title>
+      <link>https://spyrales.netlify.com/tags/ml/</link>
+      <pubDate>Fri, 17 Apr 2020 21:30:00 +0100</pubDate>
       
-      <guid>https://spyrales.netlify.com/tags/expert/</guid>
+      <guid>https://spyrales.netlify.com/tags/ml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://spyrales.netlify.com/tags/python/</link>
+      <pubDate>Fri, 17 Apr 2020 21:30:00 +0100</pubDate>
+      
+      <guid>https://spyrales.netlify.com/tags/python/</guid>
       <description></description>
     </item>
     
@@ -54,15 +72,6 @@
       <pubDate>Mon, 30 Mar 2020 17:30:00 +0100</pubDate>
       
       <guid>https://spyrales.netlify.com/tags/lectures/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>python</title>
-      <link>https://spyrales.netlify.com/tags/python/</link>
-      <pubDate>Sun, 29 Mar 2020 17:30:00 +0100</pubDate>
-      
-      <guid>https://spyrales.netlify.com/tags/python/</guid>
       <description></description>
     </item>
     
