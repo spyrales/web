@@ -75,10 +75,10 @@ weight = 6
 
 
 # footer menu
-#[[menu.footer]]
-#name = "About"
-#URL = "about"
-#weight = 1
+[[menu.footer]]
+name = "Mentions légales"
+URL = "faq"
+weight = 1
 
 #[[menu.footer]]
 #name = "Project"
@@ -93,12 +93,17 @@ weight = 6
 [[menu.footer]]
 name = "Blog"
 URL = "blog/"
-weight = 4
+weight = 1
 
 [[menu.footer]]
 name = "Contact"
 URL = "contact/"
 weight = 6
+
+[[menu.footer]]
+name = "Liens utiles"
+URL = "bookmark/"
+weight = 4
 
 #################### default parameters ################################
 [params]
@@ -108,7 +113,8 @@ description = "Avec **Spyrales**, nous créons une communauté d'agents publics 
 author = "Themefisher"
 # Contact Information
 phone = "il n'y en a pas... le plus simple est de vous abonner à Tchap : www.tchap.gouv.fr !"
-email = "spyrales.publiques (a) gmail.com"
+mobile = "il n'y en a pas... rdv sur www.tchap.gouv.fr !"
+email = "contact (a) spyrales.fr"
 location = "partout en France pour ne pas faire de jaloux"
 # contact form action
 contact_form_action = "https://formspree.io/mpzljzge" # contact form works with : https://formspree.io
