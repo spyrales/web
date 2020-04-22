@@ -14,13 +14,15 @@ install:
   - curl -LO https://github.com/gohugoio/hugo/releases/download/v0.67.0/hugo_extended_0.67.0_Linux-64bit.deb
   - sudo dpkg -i hugo_extended_0.67.0_Linux-64bit.deb
 
-before_script:
-  - chmod +x ./_deploy.sh
+#Deploy non nécessaire suite à bascule vers netlify
+#before_script:
+#  - chmod +x ./_deploy.sh
 
 script:
   - hugo
 
-deploy:
-  provider: script
-  script: ./_deploy.sh
-  skip_cleanup: true
+#Deploy non nécessaire suite à bascule vers netlify
+#deploy:
+#  provider: script
+#  script: ./_deploy.sh
+#  skip_cleanup: true
