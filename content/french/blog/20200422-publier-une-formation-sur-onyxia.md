@@ -77,8 +77,7 @@ Soyez bien vigilants à utiliser une URL de type _raw_ vers votre script. Avec
 le dépôt ci-dessus, l'URL est
 <https://raw.githubusercontent.com/jmbernabotto/MachineLearning/master/onyxia.sh>.
 
-{{< figure src="/images/onyxia-referencer-formation.png" alt="Référencer un
-script de lancement sous Onyxia" width="100%" >}}
+{{< figure src="/images/onyxia-referencer-formation.png" alt="Référencer un script de lancement sous Onyxia" width="100%" >}}
 
 Vous pouvez alors copier le lien direct qui se trouve en bas du cadre et le
 conserver pour permettre un accès direct à votre formation.
