@@ -20,11 +20,16 @@ https://spyrales.sspcloud.fr
 
 
 ## Les replays et présentations
-- présentation GCP :  
-https://minio.lab.sspcloud.fr/strainel/presentation%20GC-20200410.mkv
-
 - présentation Spyrales SSP CLOUD :  
 https://minio.lab.sspcloud.fr/f2wbnp/presentation-onyxia.mkv
 
 - PlutonAI :  
 https://mlelarge.github.io/dataflowr-web/plutonai.html
+
+### GCP (Google Cloud platform)
+- présentation GCP :  
+https://minio.lab.sspcloud.fr/strainel/presentation%20GC-20200410.mkv
+
+- conférence sur l'analyse d'images avec autoML de Google :
+https://minio.lab.sspcloud.fr/strainel/spyrales_conf1_google_20200423.mp4
+
