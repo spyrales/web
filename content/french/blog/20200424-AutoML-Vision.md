@@ -13,12 +13,12 @@ type: "post"
 
 
 
-#A la découverte de Google Cloud Plateform
+# A la découverte de Google Cloud Plateform
 
 Grâce à notre groupe Spyrales, j'ai pu découvir quelques arcanes de [Google Cloud Plateform](https://console.gloud.google.com). En effet, nous avons pu suivre quelques formations qui furent les bienvenues et je conseille à toutes celles et tous ceux qui veulent se lancer de regarder les vidéos des formations déjà effectuées, c'est simple, clair, et pour ma part cela a beaucoup débroussaillé la jungle des services offerts par la plateforme et qui me rebutait. 
 
 Aussi, après la très instructive présentation d'Alexander Usoltsev (auv@google.com) (_comment ils arrivent à avoir des adresses pareilles avec le nombre d'employés chez Google reste pour moi un mystère !!_) de chez Google et qui s'intitulait conférence sur l'analyse d'images avec autoML de Google 
-[la vidéo est visible ici :] (https://minio.lab.sspcloud.fr/strainel/spyrales_conf1_google_20200423.mp4), j'ai décidé de tester le service AutoML Vision pour "m'amuser" un peu !
+[la vidéo est visible ici :](https://minio.lab.sspcloud.fr/strainel/spyrales_conf1_google_20200423.mp4), j'ai décidé de tester le service AutoML Vision pour "m'amuser" un peu !
 
 J'ai donc décidé d'utiliser une partie d'un jeu de données de [Kaggle](https://www.kaggle.com/ikarus777/best-artworks-of-all-time) qui est un jeu de données que j'adore : il s'agit des oeuvres majeures de 50 des plus grands peintres de notre temps. Un jeu de données conséquent car il pèse la bagatelle de 2 Go. 
 
@@ -61,13 +61,12 @@ J'obtiens une Exactitude de 95,8% (pas mal non !) avec une Precision de 71,43% e
 Ensuite, j'ai pu tester sur des portraits que le modèle ne connaissait pas et ce que j'obtiens en matière de reconnaissance et plutôt pas mal. 
 Voici quelques exemples.
 
-*![Portrait1](https://github.com/jmbernabotto/web/blob/master/static/images/blog/portrait1.png)
-*![Portrait2](https://github.com/jmbernabotto/web/blob/master/static/images/blog/portrait2.png)
-*![Portrait3](https://github.com/jmbernabotto/web/blob/master/static/images/blog/portrait3.png)
-*![Portrait4](https://github.com/jmbernabotto/web/blob/master/static/images/blog/portrait4.png)
-*![Portrait5](https://github.com/jmbernabotto/web/blob/master/static/images/blog/portrait5.png)
-*![Portrait6](https://github.com/jmbernabotto/web/blob/master/static/images/blog/portrait6.png)
-
+* ![Portrait1](https://github.com/jmbernabotto/web/blob/master/static/images/blog/portrait1.png)
+* ![Portrait2](https://github.com/jmbernabotto/web/blob/master/static/images/blog/portrait2.png)
+* ![Portrait3](https://github.com/jmbernabotto/web/blob/master/static/images/blog/portrait3.png)
+* ![Portrait4](https://github.com/jmbernabotto/web/blob/master/static/images/blog/portrait4.png)
+* ![Portrait5](https://github.com/jmbernabotto/web/blob/master/static/images/blog/portrait5.png)
+* ![Portrait6](https://github.com/jmbernabotto/web/blob/master/static/images/blog/portrait6.png)
 
 
 Conclusion : Google arrive à nous faire faire du Deep sans rentrer dans les arcanes de tensorflow. Cela peut intéresser les personnes qui souhaitent utiliser ce genre de technos sans entrer dans le dur. Plutôt assez convaincant je l'avoue. 
