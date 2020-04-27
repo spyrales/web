@@ -72,6 +72,3 @@ Voici quelques exemples.
 Conclusion : Google arrive à nous faire faire du Deep sans rentrer dans les arcanes de tensorflow. Cela peut intéresser les personnes qui souhaitent utiliser ce genre de technos sans entrer dans le dur. Plutôt assez convaincant je l'avoue. 
 
 PS : vous pouvez retrouver ce test dans notre [plateforme de projet commun](https://console.cloud.google.com/vision/datasets?authuser=0&project=autoformation-python)
-
-
-
