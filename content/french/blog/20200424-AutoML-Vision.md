@@ -11,8 +11,6 @@ draft: false
 type: "post"
 ---
 
-
-
 # A la découverte de Google Cloud Plateform
 
 Grâce à notre groupe Spyrales, j'ai pu découvir quelques arcanes de [Google Cloud Plateform](https://console.gloud.google.com). En effet, nous avons pu suivre quelques formations qui furent les bienvenues et je conseille à toutes celles et tous ceux qui veulent se lancer de regarder les vidéos des formations déjà effectuées, c'est simple, clair, et pour ma part cela a beaucoup débroussaillé la jungle des services offerts par la plateforme et qui me rebutait. 
