@@ -5,7 +5,7 @@ author: ["Jean-Michel Bernabotto"]
 image : "images/blog/visionautoml.png"
 bg_image: "images/featue-bg.jpg"
 categories: ["Outil"]
-tags: [,"débutant","expert","formation", "AutoML","GCP"]
+tags: ["débutant","expert","formation", "AutoML","GCP"]
 description: "Première expérience avec le module VISION AutoML de GCP"
 draft: false
 type: "post"
