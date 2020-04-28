@@ -26,7 +26,7 @@ Aussi, j'ai choisi pour mon premier test Vision AutoML, 54 portraits. 32 de femm
 
 J'ai importé ces portraits dans un bucket (qu'on avait appris à créer dans une formation précédente) et j'ai commencé l'étiquetage de chacun des portraits dans le module de Vision. C'est un peu long car il faut dessiner un cadre ppur chaque portrait, cadre autour des éléments qui caractérisent la féminité ou la masculinité du portrait, puis ensuite lui donner une des deux étiquettes (créées au préalable) femme ou homme. Il y a un seul tableau où il y a une femme et un homme, je l'ai également choisi ! 
 
-Une fois cette étiquetage terminé, j'ai voulu lancer l'entrainement. Mais, j'avais une erreur, il manquait des images dans le validation set des hommes. Je n'ai pas compris pourquoi la plateforem y était arrivé toute seule pour les femmes et pas pour les hommes ! Il faut, d'après les préconisations de la plateforme une distribution 80% pour le train set, 10% pour le test set, 10% poue le validation set. 
+Une fois cet étiquetage terminé, j'ai voulu lancer l'entrainement. Mais, j'avais une erreur, il manquait des images dans le validation set des hommes. Je n'ai pas compris pourquoi la plateforem y était arrivé toute seule pour les femmes et pas pour les hommes ! Il faut, d'après les préconisations de la plateforme une distribution 80% pour le train set, 10% pour le test set, 10% poue le validation set. 
 
 J'ai donc exporter le fichier csv créé lors de l'étiquetage, que j'ai ouvert sous mon tableur préféré. Chaque ligne correspond à un tableau étiqueté. Il y a 11 colonnes séparées par des virgules :
 
