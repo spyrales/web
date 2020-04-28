@@ -7,7 +7,7 @@ bg_image: "images/featue-bg.jpg"
 categories: ["Outil"]
 tags: ["débutant","expert","formation", "AutoML","GCP"]
 description: "Première expérience avec le module VISION AutoML de GCP"
-draft: false
+draft: true
 type: "post"
 ---
 
