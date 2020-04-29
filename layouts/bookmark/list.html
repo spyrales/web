@@ -1,0 +1,18 @@
+{{ define "main" }}
+
+{{ partial "page-title.html" . }}
+
+<section class="page-wrapper">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+					{{ .Content }}
+			</div>
+			<div class="col-md-4">
+					{{ partial "blog-sidebar.html" . }}
+		  </div>
+		</div>
+	</div>
+</section>
+
+{{ end }}
