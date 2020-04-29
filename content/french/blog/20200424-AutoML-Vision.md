@@ -13,22 +13,22 @@ type: "post"
 
 # A la découverte de Google Cloud Plateform
 
-Grâce à notre groupe Spyrales, j'ai pu découvir quelques arcanes de [Google Cloud Plateform](https://console.gloud.google.com). En effet, nous avons pu suivre quelques formations qui furent les bienvenues et je conseille à toutes celles et tous ceux qui veulent se lancer de regarder les vidéos des formations déjà effectuées, c'est simple, clair, et pour ma part cela a beaucoup débroussaillé la jungle des services offerts par la plateforme et qui me rebutait. 
+Grâce à notre groupe Spyrales, j'ai pu découvir quelques arcanes de [Google Cloud Plateform](https://console.gloud.google.com). En effet, nous avons pu suivre quelques formations qui furent les bienvenues et je conseille à toutes celles et tous ceux qui veulent se lancer de regarder les vidéos des formations déjà effectuées, c'est simple, clair, et pour ma part cela a beaucoup débroussaillé la jungle des services offerts par la plateforme. 
 
-Aussi, après la très instructive présentation d'Alexander Usoltsev (auv@google.com) (_comment ils arrivent à avoir des adresses pareilles avec le nombre d'employés chez Google reste pour moi un mystère !!_) de chez Google et qui s'intitulait conférence sur l'analyse d'images avec autoML de Google 
+Aussi, après la très instructive présentation d'Alexander Usoltsev de chez Google et qui s'intitulait conférence sur l'analyse d'images avec autoML de Google 
 [la vidéo est visible ici :](https://minio.lab.sspcloud.fr/strainel/spyrales_conf1_google_20200423.mp4), j'ai décidé de tester le service AutoML Vision pour "m'amuser" un peu !
 
-J'ai donc décidé d'utiliser une partie d'un jeu de données de [Kaggle](https://www.kaggle.com/ikarus777/best-artworks-of-all-time) qui est un jeu de données que j'adore : il s'agit des oeuvres majeures de 50 des plus grands peintres de notre temps. Un jeu de données conséquent car il pèse la bagatelle de 2 Go. 
+J'ai donc choisi d'utiliser une partie d'un jeu de données de [Kaggle](https://www.kaggle.com/ikarus777/best-artworks-of-all-time) qui est un jeu de données que j'adore : il s'agit des oeuvres majeures de 50 des plus grands peintres de notre temps. Un jeu de données conséquent car il pèse la bagatelle de 2 Go. 
 
 Pour ne pas trop partir dans un délire (vous comprendrez vite pourquoi), j'ai décidé de ne chosir que l'artiste Amadeo Modigliani. Il y a dans ce dataset 194 tableaux de Modigliani, presque tous sont des portraits. Et je ne sais pas vous, mais parfois j'ai du mal à savoir s'il s'agit d'un homme ou d'une femme !
 
-Aussi, j'ai choisi pour mon premier test Vision AutoML, 54 portraits. 32 de femmes et 22 d'hommes. Visiblement, Modigliani faisait plus de portraits de femmes que d'hommes !! 
+Aussi, j'ai choisi pour mon premier test Vision AutoML, 54 portraits. 32 de femmes et 22 d'hommes. Visiblement, Modigliani peignait plus de portraits de femmes que d'hommes !! 
 
 J'ai importé ces portraits dans un bucket (qu'on avait appris à créer dans une formation précédente) et j'ai commencé l'étiquetage de chacun des portraits dans le module de Vision. C'est un peu long car il faut dessiner un cadre ppur chaque portrait, cadre autour des éléments qui caractérisent la féminité ou la masculinité du portrait, puis ensuite lui donner une des deux étiquettes (créées au préalable) femme ou homme. Il y a un seul tableau où il y a une femme et un homme, je l'ai également choisi ! 
 
-Une fois cet étiquetage terminé, j'ai voulu lancer l'entrainement. Mais, j'avais une erreur, il manquait des images dans le validation set des hommes. Je n'ai pas compris pourquoi la plateforem y était arrivé toute seule pour les femmes et pas pour les hommes ! Il faut, d'après les préconisations de la plateforme une distribution 80% pour le train set, 10% pour le test set, 10% poue le validation set. 
+Une fois cet étiquetage terminé, j'ai voulu lancer l'entrainement. Mais, j'avais une erreur, il manquait des images dans le _validation set_ des hommes. Je n'ai pas compris pourquoi la plateforme GCP était arrivée toute seule à créer convenablement le _validation set_ pour les femmes et pas pour les hommes ! Il faut, d'après les préconisations de la plateforme, une distribution 80% pour le _train set_, 10% pour le _test set_, 10% pour le _validation set_. 
 
-J'ai donc exporter le fichier csv créé lors de l'étiquetage, que j'ai ouvert sous mon tableur préféré. Chaque ligne correspond à un tableau étiqueté. Il y a 11 colonnes séparées par des virgules :
+J'ai donc exporté le fichier _.csv_ créé lors de l'étiquetage, que j'ai ouvert sous mon tableur préféré. Chaque ligne correspond à un tableau étiqueté. Il y a 11 colonnes séparées par des virgules :
 
 1. TRAIN,gs://bucket-jmb-artistes/Amedeo_Modigliani_35-2020-04-23T17:03:02.894Z.jpg,homme,0.17892644,0.024922118,0.8250497,0.024922118,0.8250497,0.7429907,0.17892644,0.7429907
 2. TRAIN,gs://bucket-jmb-artistes/Amedeo_Modigliani_50-2020-04-23T17:03:02.894Z.jpg,femme,0.23863636,0.11682243,0.7083333,0.11682243,0.7083333,0.6542056,0.23863636,0.6542056
@@ -37,9 +37,9 @@ J'ai donc exporter le fichier csv créé lors de l'étiquetage, que j'ai ouvert 
 
 La 1ère colonne c'est pour dire à quel dataset l'image correspond, la deuxième colonne son emplacement et son nom dans mon bucket, la troisième colonne le ou les étiquettes et ensuite les positions en abscisses et en ordonnées du cadre de sélection qui a servi à l'étiquette.
 
-J'ai donc remplacé des "TRAIN" en "VALIDATION", puis j'ai réimporté ce ficher csv dans VISION AutoML. 
+J'ai donc remplacé des "TRAIN" en "VALIDATION", puis j'ai réimporté ce ficher _.csv_ dans VISION AutoML. 
 
-J'ai pu ainsi avoir un data set respectant les desiderata de la console pour commencer l'entrainement.
+J'ai pu ainsi avoir un _data set_ respectant les desiderata de la console pour commencer l'entrainement.
 
 femme :32
 Entraînement : 26
