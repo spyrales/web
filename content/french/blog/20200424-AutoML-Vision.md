@@ -59,7 +59,9 @@ J'obtiens une Exactitude de 95,8% (pas mal non !) avec une Precision de 71,43% e
 Ensuite, j'ai pu tester sur des portraits que le modèle ne connaissait pas et ce que j'obtiens en matière de reconnaissance est plutôt pas mal. 
 Voici quelques exemples.
 
-* ![Portrait1](/images/blog/portrait1.png)
+{{< figure src="/images/blog/portrait1.png" alt="Portrait 1" width="100%" >}}
+
+
 * ![Portrait2](/images/blog/portrait2.png)
 * ![Portrait3](/images/blog/portrait3.png)
 * ![Portrait4](/images/blog/portrait4.png)
