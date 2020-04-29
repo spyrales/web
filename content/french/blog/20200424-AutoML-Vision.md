@@ -60,14 +60,11 @@ Ensuite, j'ai pu tester sur des portraits que le modèle ne connaissait pas et c
 Voici quelques exemples.
 
 {{< figure src="/images/blog/portrait1.png" alt="Portrait 1" width="100%" >}}
-
-
-* ![Portrait2](/images/blog/portrait2.png)
-* ![Portrait3](/images/blog/portrait3.png)
-* ![Portrait4](/images/blog/portrait4.png)
-* ![Portrait5](/images/blog/portrait5.png)
-* ![Portrait6](/images/blog/portrait6.png)
-
+{{< figure src="/images/blog/portrait2.png" alt="Portrait 2" width="100%" >}}
+{{< figure src="/images/blog/portrait3.png" alt="Portrait 3" width="100%" >}}
+{{< figure src="/images/blog/portrait4.png" alt="Portrait 4" width="100%" >}}
+{{< figure src="/images/blog/portrait5.png" alt="Portrait 5" width="100%" >}}
+{{< figure src="/images/blog/portrait6.png" alt="Portrait 6" width="100%" >}}
 
 Conclusion : Google arrive à nous faire faire du Deep sans rentrer dans les arcanes de tensorflow. Cela peut intéresser les personnes qui souhaitent utiliser ce genre de technos sans entrer dans le dur. Plutôt assez convaincant je l'avoue. 
 
