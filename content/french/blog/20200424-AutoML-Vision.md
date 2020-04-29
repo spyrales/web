@@ -60,11 +60,11 @@ Ensuite, j'ai pu tester sur des portraits que le modèle ne connaissait pas et c
 Voici quelques exemples.
 
 * ![Portrait1](/images/blog/portrait1.png)
-* ![Portrait2](https://github.com/jmbernabotto/web/blob/master/static/images/blog/portrait2.png)
-* ![Portrait3](https://github.com/jmbernabotto/web/blob/master/static/images/blog/portrait3.png)
-* ![Portrait4](https://github.com/jmbernabotto/web/blob/master/static/images/blog/portrait4.png)
-* ![Portrait5](https://github.com/jmbernabotto/web/blob/master/static/images/blog/portrait5.png)
-* ![Portrait6](https://github.com/jmbernabotto/web/blob/master/static/images/blog/portrait6.png)
+* ![Portrait2](/images/blog/portrait2.png)
+* ![Portrait3](/images/blog/portrait3.png)
+* ![Portrait4](/images/blog/portrait4.png)
+* ![Portrait5](/images/blog/portrait5.png)
+* ![Portrait6](/images/blog/portrait6.png)
 
 
 Conclusion : Google arrive à nous faire faire du Deep sans rentrer dans les arcanes de tensorflow. Cela peut intéresser les personnes qui souhaitent utiliser ce genre de technos sans entrer dans le dur. Plutôt assez convaincant je l'avoue. 
