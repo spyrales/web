@@ -59,7 +59,7 @@ J'obtiens une Exactitude de 95,8% (pas mal non !) avec une Precision de 71,43% e
 Ensuite, j'ai pu tester sur des portraits que le modèle ne connaissait pas et ce que j'obtiens en matière de reconnaissance est plutôt pas mal. 
 Voici quelques exemples.
 
-* ![Portrait1](https://github.com/jmbernabotto/web/blob/master/static/images/blog/portrait1.png)
+* ![Portrait1](/images/blog/portrait1.png)
 * ![Portrait2](https://github.com/jmbernabotto/web/blob/master/static/images/blog/portrait2.png)
 * ![Portrait3](https://github.com/jmbernabotto/web/blob/master/static/images/blog/portrait3.png)
 * ![Portrait4](https://github.com/jmbernabotto/web/blob/master/static/images/blog/portrait4.png)
