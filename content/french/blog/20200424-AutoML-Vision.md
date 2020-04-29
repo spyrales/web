@@ -7,7 +7,7 @@ bg_image: "images/featue-bg.jpg"
 categories: ["Outil"]
 tags: ["débutant","expert","formation", "AutoML","GCP"]
 description: "Première expérience avec le module VISION AutoML de GCP"
-draft: true
+draft: false
 type: "post"
 ---
 
@@ -56,7 +56,7 @@ L'entrainement (on doit chosir un nombre de noeuds de calculs proportionnel à l
 
 J'obtiens une Exactitude de 95,8% (pas mal non !) avec une Precision de 71,43% et un Rappel de 83,33%  Ce qui est assez satisfaisant. J'ai évidement quelques faux positifs, quelques faux négatifs...(cf mon billet précédent pour de plus amples précisions).
 
-Ensuite, j'ai pu tester sur des portraits que le modèle ne connaissait pas et ce que j'obtiens en matière de reconnaissance et plutôt pas mal. 
+Ensuite, j'ai pu tester sur des portraits que le modèle ne connaissait pas et ce que j'obtiens en matière de reconnaissance est plutôt pas mal. 
 Voici quelques exemples.
 
 * ![Portrait1](https://github.com/jmbernabotto/web/blob/master/static/images/blog/portrait1.png)
