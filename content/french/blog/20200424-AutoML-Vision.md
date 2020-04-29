@@ -22,7 +22,7 @@ J'ai donc choisi d'utiliser une partie d'un jeu de données de [Kaggle](https://
 
 Pour ne pas trop partir dans un délire (vous comprendrez vite pourquoi), j'ai décidé de ne chosir que l'artiste Amadeo Modigliani. Il y a dans ce dataset 194 tableaux de Modigliani, presque tous sont des portraits. Et je ne sais pas vous, mais parfois j'ai du mal à savoir s'il s'agit d'un homme ou d'une femme !
 
-Aussi, j'ai choisi pour mon premier test Vision AutoML, 54 portraits. 32 de femmes et 22 d'hommes. Visiblement, Modigliani peignait plus de portraits de femmes que d'hommes !! 
+Aussi, j'ai choisi pour mon premier test Vision AutoML, 54 portraits :  32 de femmes et 22 d'hommes. Visiblement, Modigliani peignait plus de portraits de femmes que d'hommes !! 
 
 J'ai importé ces portraits dans un bucket (qu'on avait appris à créer dans une formation précédente) et j'ai commencé l'étiquetage de chacun des portraits dans le module de Vision. C'est un peu long car il faut dessiner un cadre ppur chaque portrait, cadre autour des éléments qui caractérisent la féminité ou la masculinité du portrait, puis ensuite lui donner une des deux étiquettes (créées au préalable) femme ou homme. Il y a un seul tableau où il y a une femme et un homme, je l'ai également choisi ! 
 
