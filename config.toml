@@ -119,7 +119,7 @@ location = "partout en France pour ne pas faire de jaloux"
 # contact form action
 contact_form_action = "https://formspree.io/mpzljzge" # contact form works with : https://formspree.io
 # Google Analitycs
-google_analitycs_id = "" # Your ID
+google_analitycs_id = "UA-165370141-1" # Your ID
 # multi-author support (if set to true, you must use an Array in the author field)
 multi_author = true
 
