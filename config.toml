@@ -116,6 +116,11 @@ name = "Liens utiles"
 URL = "bookmark/"
 weight = 4
 
+[[menu.footer]]
+name = "Flux RSS"
+URL = "atom.xml"
+weight = 5
+
 #################### default parameters ################################
 [params]
 logo = "images/logo.png"
@@ -133,6 +138,7 @@ contact_form_action = "https://formspree.io/mpzljzge" # contact form works with 
 google_analitycs_id = "UA-165370141-1" # Your ID
 # multi-author support (if set to true, you must use an Array in the author field)
 multi_author = true
+rsslink = "atom.xml"
 
 # Preloader
 [params.preloader]
