@@ -14,6 +14,17 @@ DefaultContentLanguage = "fr"
 # ignore blogdown files
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
+
+
+#################################### Output  ##############################
+[outputs]
+home = [ "HTML", "RSS" ]
+
+[outputFormats]
+[outputFormats.RSS]
+mediatype = "application/rss"
+baseName = "atom"
+
 #################################### Plugins ##############################
 
 # CSS Plugins
