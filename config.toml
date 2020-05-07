@@ -1,6 +1,6 @@
 baseURL = "https://spyrales.netlify.com"
 languageCode = "en-us"
-title = "spyrales - site web"
+title = "spyrales"
 theme = "airspace"
 # post pagination
 paginate = "4"

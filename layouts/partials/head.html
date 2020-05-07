@@ -10,7 +10,7 @@
   {{ hugo.Generator }}
 
   {{ "<!-- rss -->" | safeHTML }}
-     <link href="{{ .Params.rsslink }}" rel="alternate" title="{{ .Title }}" type="application/atom+xml">
+     <link href="{{ .Site.Params.rsslink }}" rel="alternate" title="{{ .Title }} &gt;&gt; {{ with .Params.Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}" type="application/atom+xml">
 
   {{ "<!-- plugins -->" | safeHTML }}
   {{ range .Site.Params.plugins.css }}
