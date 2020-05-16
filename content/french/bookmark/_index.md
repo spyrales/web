@@ -43,5 +43,5 @@ Les différentes conférences proposées pour **spyrales** ont été enregistré
 
 - conférence **data-analytics avec GCP** : [vidéo](https://minio.lab.sspcloud.fr/strainel/spyrales_conf3_google_20200430.mp4), [support](/docs/conf3.pdf)
 
-- conférence **découvrir le deep learning appliqué aux données structurées** : [vidéo](https://minio.lab.sspcloud.fr/strainel/spyrales_conf5_20200507.mp4), [support](/docs/conf5.pdf)
+- conférence **traitement des données structurées avec AutoML Tables et BigQuery ML** : [vidéo](https://minio.lab.sspcloud.fr/strainel/spyrales_conf5_20200507.mp4), [support](/docs/conf5.pdf)
 
