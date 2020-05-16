@@ -1,47 +1,47 @@
 ---
-title: "Des ressources utiles"
-description: "Où est la piscine ? Où sont les replays ? ..."
-date: 2020-05-16T11:00:00+01:00
+title: "Des ressources à consommer sans modération"
+description: "Où est la piscine ? Où sont les replays ?"
+date: 2020-05-16T17:00:00+01:00
 draft: false
 bg_image: "images/featue-bg.jpg"
 ---
 
-## Les liens Spyrales
-- Le repository sur GitHub :  
-https://github.com/spyrales/web
+Bienvenue sur la page des ressources inédites de la communauté **spyrales** !
 
-- La piscine pour s'entraîner :  
-https://github.com/spyrales/la-piscine
+## Tout d'abord quelques liens de **spyrales**
+- Le [repository spyrales](https://github.com/spyrales/web) sur GitHub
 
-
-## Les plateformes
-- Onyxia / Insee :  
-https://spyrales.sspcloud.fr
-
-- Google Cloud Plateform :
-https://console.cloud.google.com
-
-## Les replays et présentations
-- présentation Spyrales SSP CLOUD :  
-https://minio.lab.sspcloud.fr/f2wbnp/presentation-onyxia.mkv
-
-- PlutonAI :  
-https://mlelarge.github.io/dataflowr-web/plutonai.html
-
-- Initiation au machine learning et au deep learning :
-https://minio.lab.sspcloud.fr/strainel/spyrales_conf6_igf_20200512.mkv
+- La [piscine](https://github.com/spyrales/la-piscine) pour s'entraîner et présenter des exemples de tra
 
 
-### GCP (Google Cloud platform)
-- présentation GCP  
-https://minio.lab.sspcloud.fr/strainel/presentation%20GC-20200410.mkv
+## Les plateformes disponibles
+- Environnement datascience **Onyxia proposé par l'Insee** : [portail](https://spyrales.sspcloud.fr)
 
-- conférence sur l'analyse d'images avec autoML de Google  
-https://minio.lab.sspcloud.fr/strainel/spyrales_conf1_google_20200423.mp4
+- **Google Cloud Plateform** : [portail](https://console.cloud.google.com)
 
-- conférence pour **comprendre et aniciper l'évolution de phénomènes en constante évolution démographique**  
-https://minio.lab.sspcloud.fr/strainel/spyrales_conf2_google_20200428.mp4
+- découverte de **PlutonAI** : [lien web](https://mlelarge.github.io/dataflowr-web/plutonai.html)
 
-- conférence pour **découvrir le deep learning appliqué aux données structurées**
-https://minio.lab.sspcloud.fr/strainel/spyrales_conf5_20200507.mp4
+## Les replays
+
+Les différentes conférences proposées pour **spyrales** ont été enregistrées et sont mises à disposition ici pour partager les pratiques de datascience.
+
+### Les replays de conférences animées par des membres de la communauté **spyrales**
+
+- présentation de la plateforme **onyxia de l'Insee** : [vidéo](https://minio.lab.sspcloud.fr/f2wbnp/presentation-onyxia.mkv)
+
+- Initiation au machine learning et au deep learning : [vidéo](https://minio.lab.sspcloud.fr/strainel/spyrales_conf6_igf_20200512.mkv)
+
+- conférence **analyse automatique d'images avec GCP : l'expérience au ministère des armées** : [vidéo](https://minio.lab.sspcloud.fr/strainel/spyrales_conf4_minarmees_20200505.mp4), [support](/docs/conf4.pdf)
+
+### Les replays des conférences animées par des googlers (Google Cloud platform)
+
+- conférence **découverte de GCP** : [vidéo](https://minio.lab.sspcloud.fr/strainel/presentation%20GC-20200410.mkv)
+
+- conférence **analyse d'images avec autoML** de Google : [vidéo](https://minio.lab.sspcloud.fr/strainel/spyrales_conf1_google_20200423.mp4)
+
+- conférence **découvrir le traitement des données géospatiales avec BigQuery et BigQuery Geo Viz** : [vidéo](https://minio.lab.sspcloud.fr/strainel/spyrales_conf2_google_20200428.mp4), [support](/docs/conf2.pdf)
+
+- conférence **data-analytics avec GCP** : [vidéo](https://minio.lab.sspcloud.fr/strainel/spyrales_conf3_google_20200430.mp4), [support](/docs/conf3.pdf)
+
+- conférence **découvrir le deep learning appliqué aux données structurées** : [vidéo](https://minio.lab.sspcloud.fr/strainel/spyrales_conf5_20200507.mp4), [support](/docs/conf5.pdf)
 
