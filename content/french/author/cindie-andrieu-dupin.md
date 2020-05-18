@@ -8,7 +8,7 @@ social:
     link : "https://fr.linkedin.com/in/cindie-andrieu-dupin-0635435b"
 ---
 
-Après une thèse en statistiques à l'IFSTTAR sur la modélisation fonctionnelle des profils de vitesse, et plusieurs années dans le privé dans le secteur aéronautique sur l'analyse des traces avions, j'ai rejoins la DRIEA Île-de-France en juillet 2019 en tant que Directrice d'études au sein du Service de la Connaissance, des Etudes et de la Prospective (SCEP).
+Après une thèse en statistiques à l'IFSTTAR sur la modélisation fonctionnelle des profils de vitesse, et plusieurs années dans le privé dans le secteur aéronautique sur l'analyse des traces avions, j'ai rejoint la DRIEA Île-de-France en juillet 2019 en tant que Directrice d'études au sein du Service de la Connaissance, des Etudes et de la Prospective (SCEP).
 
 Mes principales thématiques à la DRIEA sont la modélisation des déplacements et l'apport des nouvelles sources de données ("Floating Car Data", données de téléphonie mobile, applications smartphones...) pour la connaissance de la mobilité.
 
