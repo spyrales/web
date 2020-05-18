@@ -37,7 +37,7 @@ De mon point de vue, les livres en français sont souvent moins complets et péd
 
 * **"Data Science : fondamentaux et études de cas"** par *Biernat & Lutz*.
 
-Un livre assez pédagogique et accessible aux débutants, avec une approche "terrain" qui n'approfondit pas trop les concepts mathématiques mais présente des cas pratiques d'applications avec R et Python. A noter, la préface rédigée par Yann Le Cun, le "père" du Deep Learning, même si le livre n'aborde pas cette notion. Ce livre n'est pas disponible gratuitement mais vous trouverez quelques extraits sur [le site de l'éditeur](https://www.eyrolles.com/Informatique/Livre/data-science-fondamentaux-et-etudes-de-cas-9782212142433/).
+Un livre assez pédagogique et accessible aux débutants, avec une approche "terrain" qui n'approfondit pas trop les concepts mathématiques, mais présente des cas pratiques d'applications avec R et Python. À noter, la préface rédigée par Yann Le Cun, le "père" du Deep Learning, même si le livre n'aborde pas cette notion. Ce livre n'est pas disponible gratuitement, mais vous trouverez quelques extraits sur [le site de l'éditeur](https://www.eyrolles.com/Informatique/Livre/data-science-fondamentaux-et-etudes-de-cas-9782212142433/).
 
 ## Ressources pédagogiques pour la Statistique et le Machine Learning : Wikistat
 
