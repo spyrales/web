@@ -60,11 +60,6 @@ link = "plugins/google-map/gmap.js"
 #weight = 1
 
 #[[menu.main]]
-#name = "Project"
-#URL = "project"
-#weight = 2
-
-#[[menu.main]]
 #name = "Service"
 #URL = "service"
 #weight = 3
@@ -72,17 +67,22 @@ link = "plugins/google-map/gmap.js"
 [[menu.main]]
 name = "Blog"
 URL = "blog/"
-weight = 4
+weight = 1
+
+[[menu.main]]
+name = "Agenda"
+URL = "project/"
+weight = 2
 
 [[menu.main]]
 name = "Liens utiles"
 URL = "bookmark/"
-weight = 4
+weight = 3
 
 [[menu.main]]
 name = "Contact"
 URL = "contact/"
-weight = 6
+weight = 4
 
 
 # footer menu
