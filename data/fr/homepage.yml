@@ -72,7 +72,7 @@ funfacts:
     # funfacts item loop
     - icon : "ion-ios-compose-outline" #ionicon pack v2 : https://ionicons.com/v2/
       name : "articles publiés"
-      count : "19"
+      count : "20"
       
     # funfacts item loop
     - icon : "ion-ios-briefcase-outline" #ionicon pack v2 : https://ionicons.com/v2/
@@ -82,7 +82,7 @@ funfacts:
     # funfacts item loop
     - icon : "ion-ios-flask-outline" #ionicon pack v2 : https://ionicons.com/v2/
       name : "longueurs nage libre dans la piscine"
-      count : "2"
+      count : "3"
 
   testimonial_slider:
     # testimonial item loop
