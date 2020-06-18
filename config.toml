@@ -1,4 +1,4 @@
-baseURL = "https://spyrales.netlify.com"
+baseURL = "https://spyrales.netlify.app"
 languageCode = "en-us"
 title = "spyrales"
 theme = "airspace"
@@ -103,7 +103,7 @@ weight = 1
 
 [[menu.footer]]
 name = "Blog"
-URL = "blog/"
+URL = "/blog/"
 weight = 1
 
 [[menu.footer]]
@@ -113,7 +113,7 @@ weight = 6
 
 [[menu.footer]]
 name = "Liens utiles"
-URL = "bookmark/"
+URL = "/bookmark/"
 weight = 4
 
 [[menu.footer]]
