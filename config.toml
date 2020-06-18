@@ -118,7 +118,7 @@ weight = 4
 
 [[menu.footer]]
 name = "Flux RSS"
-URL = "atom.xml"
+URL = "/blog/atom.xml"
 weight = 5
 
 #################### default parameters ################################
