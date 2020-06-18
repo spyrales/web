@@ -88,7 +88,7 @@ weight = 4
 # footer menu
 [[menu.footer]]
 name = "Mentions légales"
-URL = "faq"
+URL = "/faq"
 weight = 1
 
 #[[menu.footer]]
@@ -108,7 +108,7 @@ weight = 1
 
 [[menu.footer]]
 name = "Contact"
-URL = "contact/"
+URL = "/contact/"
 weight = 6
 
 [[menu.footer]]
