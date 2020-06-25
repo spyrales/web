@@ -29,9 +29,11 @@ Les différentes conférences proposées pour **spyrales** ont été enregistré
 
 - présentation de la plateforme **onyxia de l'Insee** : [vidéo](https://minio.lab.sspcloud.fr/f2wbnp/presentation-onyxia.mkv)
 
-- Initiation au machine learning et au deep learning : [vidéo](https://minio.lab.sspcloud.fr/strainel/spyrales_conf6_igf_20200512.mkv)
+- initiation au machine learning et au deep learning : [vidéo](https://minio.lab.sspcloud.fr/strainel/spyrales_conf6_igf_20200512.mkv)
 
 - conférence **analyse automatique d'images avec GCP : l'expérience au ministère des armées** : [vidéo](https://minio.lab.sspcloud.fr/strainel/spyrales_conf4_minarmees_20200505.mp4), [support](/docs/conf4.pdf)
+
+- conférence **analyse NLP sur les documents CADA** animée par Etalab : [vidéo](https://minio.lab.sspcloud.fr/strainel/spyrales_conf8_nlp_cada.mp4)
 
 ### Les replays des conférences animées par des googlers (Google Cloud platform)
 
