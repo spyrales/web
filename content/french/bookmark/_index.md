@@ -33,7 +33,7 @@ Les différentes conférences proposées pour **spyrales** ont été enregistré
 
 - conférence **analyse automatique d'images avec GCP : l'expérience au ministère des armées** : [vidéo](https://minio.lab.sspcloud.fr/strainel/spyrales_conf4_minarmees_20200505.mp4), [support](/docs/conf4.pdf)
 
-- conférence **analyse NLP sur les documents CADA** animée par Etalab : [vidéo](https://minio.lab.sspcloud.fr/strainel/spyrales_conf8_nlp_cada.mp4)
+- conférence **analyse NLP sur les documents CADA** animée par Etalab : [vidéo](https://minio.lab.sspcloud.fr/strainel/spyrales_conf8_nlp_cada.mp4), [notebook](https://colab.research.google.com/github/etalab-ia/ami-ia/blob/master/session2/introduction_au_NLP.ipynb)
 
 ### Les replays des conférences animées par des googlers (Google Cloud platform)
 
