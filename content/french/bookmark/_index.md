@@ -47,3 +47,5 @@ Les différentes conférences proposées pour **spyrales** ont été enregistré
 
 - conférence **traitement des données structurées avec AutoML Tables et BigQuery ML** : [vidéo](https://minio.lab.sspcloud.fr/strainel/spyrales_conf5_20200507.mp4), [support](/docs/conf5.pdf)
 
+- conférence **présentation et demonstration de looker le nouvel outil de dataviz de Google** : [vidéo](https://minio.lab.sspcloud.fr/strainel/spyrales_conf9_google_20200701.mp4)
+
