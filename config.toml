@@ -164,9 +164,9 @@ map_longitude = "-0.1622023"
 map_marker = "images/marker.png"
  
 ############################# social site ########################
-#[[params.social]]
-#icon = "ion-social-linkedin-outline" #ionicon pack v2 : https://ionicons.com/v2/
-#link = "#"
+[[params.social]]
+icon = "ion-social-youtube-outline" #ionicon pack v2 : https://ionicons.com/v2/
+link = "https://www.youtube.com/channel/UC4xuVNZQrtULrV2j2nuZbRg"
 
 [[params.social]]
 icon = "ion-social-twitter-outline" #ionicon pack v2 : https://ionicons.com/v2/
