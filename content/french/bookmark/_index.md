@@ -35,6 +35,8 @@ Les différentes conférences proposées pour **spyrales** ont été enregistré
 
 - conférence **analyse NLP sur les documents CADA** animée par Etalab : [vidéo](https://minio.lab.sspcloud.fr/strainel/spyrales_conf8_nlp_cada.mp4), [notebook](https://colab.research.google.com/github/etalab-ia/ami-ia/blob/master/session2/introduction_au_NLP.ipynb)
 
+- conférence **gouvdown** animée par plusieurs agents publics (Maël, Romain et Thomas) : [vidéo](https://minio.lab.sspcloud.fr/strainel/spyrales_conf11_gouvdown.mp4)
+
 ### Les replays des conférences animées par des googlers (Google Cloud platform)
 
 - conférence **découverte de GCP** : [vidéo](https://minio.lab.sspcloud.fr/strainel/presentation%20GC-20200410.mkv)
