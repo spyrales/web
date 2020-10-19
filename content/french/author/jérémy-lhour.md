@@ -12,7 +12,7 @@ social:
     link: https://sites.google.com/site/jeremylhour/
 ---
 
-Je suis data scientist au sein du SSP Lab à l'Insee et enseignant à l'ENSAE Paris. J'ai soutenu mon doctorat en économétrie théorique à l'ENSAE Paris en 2019.
+Je suis data scientist au sein du SSP Lab à l'Insee et enseignant à l'ENSAE Paris. J'ai soutenu mon doctorat en économétrie théorique à l'ENSAE Paris (Université Paris-Saclay) en 2019.
 
 En tant que data scientist, je travaille notamment sur des problèmes liés au NLP et à la modélisation économétrique des durées. Mes thèmes de recherche sont principalement l'utilisation des méthodes de machine learning en économétrie, ainsi que les méthodes d'inférence causale (e.g. contrôle synthétique, différence-de-différences non-paramétrique, sélection de variables).
 
