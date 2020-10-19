@@ -15,7 +15,7 @@ Bienvenue sur la page des ressources inédites de la communauté **spyrales** !
 
 
 ## Les plateformes disponibles
-- Environnement datascience **Onyxia proposé par l'Insee** : [portail](https://spyrales.sspcloud.fr)
+- Environnement datascience **Onyxia proposé par l'Insee** : [portail](https://datalab.sspcloud.fr/)
 
 - **Google Cloud Plateform** : [portail](https://console.cloud.google.com)
 
