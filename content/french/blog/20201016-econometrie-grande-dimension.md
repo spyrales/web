@@ -1,6 +1,6 @@
 ---
 title: "Introduction à l'économétrie en grande dimension et à la sélection de variables"
-date: 2020-10-16T10:15:10+01:00
+date: 2020-10-19T10:15:10+01:00
 author: ["Jérémy L'Hour"]
 image: "images/blog/books-img.jpg"
 bg_image: "images/featue-bg.jpg"
@@ -11,7 +11,7 @@ draft: false
 type: "post"
 ---
 
-Vous voulez en savoir plus sur l'économétrie en grande dimension et la sélection de variables? Ce billet est fait pour vous.
+Vous voulez en savoir plus sur l'économétrie en grande dimension et la sélection de variable? Ce billet est fait pour vous.
 
 Les situations de "grande dimension", c'est-à-dire lorsque l'on souhaite estimer un grand nombre de paramètres relativement à la taille de l'échantillon disponible et où les méthodes économétriques traditionnelles sont mises en défaut, apparaissent dans une large variété de domaines:
 
@@ -25,14 +25,20 @@ Les situations de "grande dimension", c'est-à-dire lorsque l'on souhaite estime
 
 Ces exemples requièrent ou, dans tous les cas, peuvent tirer parti d'une approche qui pénalise la complexité du modèle ou séléctionne les variables à considérer. C'est ce que l'on va voir, pas à pas, dans ce [document de travail Insee]() ainsi que dans [les notebooks R qui l'accompagnent](https://github.com/InseeFrLab/grandedim).
 
-L'idée est d'abord de présenter les méthodes qui résolvent les principaux problèmes qui se présentent en grande dimension. On verra notamment le Lasso, qui permet également de faire de la sélection de variables. On verra néanmoins les dangers de faire de la sélection de variables "comme si" le modèle sélectionné était le bon, sans prendre en compte l'incertitude qui entâche totue procédure de sélection de variables.
+Ce document de travail passe d'abord en revue les différentes méthodes qui résolvent les principaux problèmes qui se présentent en grande dimension dans un cadre linéaire simple, i.e. lorsque les moindres carrés sont mis en défaut. On verra en particulier le Lasso qui, par nature, permet de faire de la sélection de variables de façon automatique. Cette première partie évoque également les extensions possibles et présente des méthodes telles que la validation croisée pour choisir les paramètres de régularisation.
 
-Au menu: de la théorie, des codes pour la mise en application des méthodes, des exemples empiriques en R, etc.
+Malgré l'attrait du Lasso pour sélectionner les variables à inclure dans un modèle, on verra les dangers de faire de l'inférence dans le modèle choisi "comme si" ce modèle était le bon, sans prendre en compte l'incertitude qui entache toute procédure de sélection de variable. En effet, lorsqu'une étape de sélection de variable précéde l'estimation d'un modèle, l'estimateur qui en résulte n'aura généralement pas une distribution asymptotiquement gaussienne, ce qui peut fausser le niveau des intervalles de confiance ou des tests que l'on souhaite mettre en œuvre de façon standard. Pour corriger de ces biais, il existe une procédure d'immunisation, qui prend, dans certains cas simples, la forme d'une procédure de double sélection. La mise en œuvre de cette procédure est détaillée dans un exemple où l'on cherche à quantifier l'impact du niveau de diplôme sur le salaire grâce aux données de l'Enquête Emploi.
 
-## Références
+Enfin, la dernière partie montre comment on peut utiliser le Machine Learning (ML) pour la détection d'effets hétérogènes, c'est-à-dire de la modulation de l'intensité d'un lien causal par des facteurs confondants. Cette tâche répond à plusieurs objectifs: d'une part, on peut souhaiter évaluer l'efficacité d'un traitement ou d'une politique pour des sous-populations distinctes afin de décider quels individus traiter, d'autre part, cela permet d'établir la validité externe des résultats en évaluant l'impact d'une politique sur une autre population, différente de celle ayant servie à l'expérimentation. Cette tâche est également de grande dimension dans la mesure où on peut vouloir considérer des sous-populations générées par un croisement de multiples caractéristiques. Le danger est alors de faire des découvertes fallacieuses concernant les dimensions selon lesquelles l'effet du traitement varie, en se lançant dans de la recherche de spécification (ou pêche aux p-values). Une solution peut être alors d'utiliser des algorithmes de ML afin d'étudier de façon automatique l'hétérogénéité d'un traitement.
 
-[Lien vers le document de travail]()
+Au menu: de la théorie pour bien comprendre les différents phénomènes à l'œuvre, du code R pour la mise en application des méthodes grâce aux packages existants, des exemples empiriques reproductibles, des simulations pour illustrer les différents problèmes qui peuvent survenir etc.
 
-[Lien vers le répertoire GitHub](https://github.com/InseeFrLab/grandedim)
+A noter que la première partie peut également servir d'introduction douce au machine learning pour un public débutant.
 
-[Lien vers le polycopié du cours de l'ENSAE Paris -- "Machine Learning for Econometrics"](https://drive.google.com/file/d/1L_iervUBKj3RsXHLEGOtAFlyHEHpmyT4/view)
+## Liens utiles
+
+[Document de travail Insee]()
+
+[Répertoire GitHub correspondant](https://github.com/InseeFrLab/grandedim)
+
+Pour aller plus loin: [polycopié du cours de l'ENSAE Paris -- "Machine Learning for Econometrics"](https://drive.google.com/file/d/1L_iervUBKj3RsXHLEGOtAFlyHEHpmyT4/view)
