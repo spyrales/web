@@ -1,4 +1,4 @@
-baseURL = "https://spyrales.netlify.com"
+baseURL = "https://www.spyrales.fr"
 languageCode = "en-us"
 title = "spyrales"
 theme = "airspace"
@@ -88,7 +88,7 @@ weight = 4
 # footer menu
 [[menu.footer]]
 name = "Mentions légales"
-URL = "faq"
+URL = "/faq"
 weight = 1
 
 #[[menu.footer]]
@@ -103,22 +103,22 @@ weight = 1
 
 [[menu.footer]]
 name = "Blog"
-URL = "blog/"
+URL = "/blog/"
 weight = 1
 
 [[menu.footer]]
 name = "Contact"
-URL = "contact/"
+URL = "/contact/"
 weight = 6
 
 [[menu.footer]]
 name = "Liens utiles"
-URL = "bookmark/"
+URL = "/bookmark/"
 weight = 4
 
 [[menu.footer]]
 name = "Flux RSS"
-URL = "atom.xml"
+URL = "/blog/atom.xml"
 weight = 5
 
 #################### default parameters ################################
@@ -164,9 +164,9 @@ map_longitude = "-0.1622023"
 map_marker = "images/marker.png"
  
 ############################# social site ########################
-#[[params.social]]
-#icon = "ion-social-linkedin-outline" #ionicon pack v2 : https://ionicons.com/v2/
-#link = "#"
+[[params.social]]
+icon = "ion-social-youtube-outline" #ionicon pack v2 : https://ionicons.com/v2/
+link = "https://www.youtube.com/channel/UC4xuVNZQrtULrV2j2nuZbRg"
 
 [[params.social]]
 icon = "ion-social-twitter-outline" #ionicon pack v2 : https://ionicons.com/v2/

@@ -29,9 +29,13 @@ Les différentes conférences proposées pour **spyrales** ont été enregistré
 
 - présentation de la plateforme **onyxia de l'Insee** : [vidéo](https://minio.lab.sspcloud.fr/f2wbnp/presentation-onyxia.mkv)
 
-- Initiation au machine learning et au deep learning : [vidéo](https://minio.lab.sspcloud.fr/strainel/spyrales_conf6_igf_20200512.mkv)
+- initiation au machine learning et au deep learning : [vidéo](https://minio.lab.sspcloud.fr/strainel/spyrales_conf6_igf_20200512.mkv)
 
 - conférence **analyse automatique d'images avec GCP : l'expérience au ministère des armées** : [vidéo](https://minio.lab.sspcloud.fr/strainel/spyrales_conf4_minarmees_20200505.mp4), [support](/docs/conf4.pdf)
+
+- conférence **analyse NLP sur les documents CADA** animée par Etalab : [vidéo](https://minio.lab.sspcloud.fr/strainel/spyrales_conf8_nlp_cada.mp4), [notebook](https://colab.research.google.com/github/etalab-ia/ami-ia/blob/master/session2/introduction_au_NLP.ipynb)
+
+- conférence **gouvdown** animée par plusieurs agents publics (Maël, Romain et Thomas) : [vidéo](https://minio.lab.sspcloud.fr/strainel/spyrales_conf11_gouvdown.mp4)
 
 ### Les replays des conférences animées par des googlers (Google Cloud platform)
 
@@ -44,4 +48,8 @@ Les différentes conférences proposées pour **spyrales** ont été enregistré
 - conférence **data-analytics avec GCP** : [vidéo](https://minio.lab.sspcloud.fr/strainel/spyrales_conf3_google_20200430.mp4), [support](/docs/conf3.pdf)
 
 - conférence **traitement des données structurées avec AutoML Tables et BigQuery ML** : [vidéo](https://minio.lab.sspcloud.fr/strainel/spyrales_conf5_20200507.mp4), [support](/docs/conf5.pdf)
+
+- conférence **présentation et demonstration de looker le nouvel outil de dataviz de Google** : [vidéo](https://minio.lab.sspcloud.fr/strainel/spyrales_conf9_google_20200701.mp4)
+
+- conférence **Transcription vocale, traduction et synthèse vocale avec les API Google Cloud** : [vidéo](https://minio.lab.sspcloud.fr/strainel/spyrales_conf12_20201008.mp4)
 
