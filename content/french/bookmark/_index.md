@@ -15,7 +15,7 @@ Bienvenue sur la page des ressources inédites de la communauté **spyrales** !
 
 
 ## Les plateformes disponibles
-- Environnement datascience **Onyxia proposé par l'Insee** : [portail](https://datalab.sspcloud.fr/)
+- Environnement datascience **Onyxia proposé par l'Insee** aux agents du service statistique public : [portail](https://datalab.sspcloud.fr/)
 
 - **Google Cloud Plateform** : [portail](https://console.cloud.google.com)
 
@@ -52,4 +52,3 @@ Les différentes conférences proposées pour **spyrales** ont été enregistré
 - conférence **présentation et demonstration de looker le nouvel outil de dataviz de Google** : [vidéo](https://minio.lab.sspcloud.fr/strainel/spyrales_conf9_google_20200701.mp4)
 
 - conférence **Transcription vocale, traduction et synthèse vocale avec les API Google Cloud** : [vidéo](https://minio.lab.sspcloud.fr/strainel/spyrales_conf12_20201008.mp4)
-
