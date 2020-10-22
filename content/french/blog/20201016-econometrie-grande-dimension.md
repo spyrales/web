@@ -1,6 +1,6 @@
 ---
 title: "Introduction à l'économétrie en grande dimension et à la sélection de variables"
-date: 2020-10-19T10:15:10+01:00
+date: 2020-10-22T10:15:10+01:00
 author: ["Jérémy L'Hour"]
 image: "images/blog/books-img.jpg"
 bg_image: "images/featue-bg.jpg"
@@ -23,7 +23,7 @@ Les situations de "grande dimension", c'est-à-dire lorsque l'on souhaite estime
     
 * L'analyse textuelle et en particulier la classification de documents. Cette analyse se base généralement sur la constitution d'un dictionnaire établi à partir des mots retrouvés dans les documents inclus dans la base de données. Ce dictionnaire permet alors de construire la matrice (généralement de très grande dimension) terme-document qui compte, par document, le nombre de fois où un mot du dictionnaire est utilisé. Cette matrice est ensuite utilisée directement ou indirectement pour construire des variables explicatives puisque l'utilisation d'un terme plutôt que d'un autre reflète un document de nature particulière. Il y a donc autant de variables que de mots dans le dictionnaire.
 
-Ces exemples requièrent ou, dans tous les cas, peuvent tirer parti d'une approche qui pénalise la complexité du modèle ou séléctionne les variables à considérer. C'est ce que l'on va voir, pas à pas, dans ce [document de travail Insee]() ainsi que dans [les notebooks R qui l'accompagnent](https://github.com/InseeFrLab/grandedim).
+Ces exemples requièrent ou, dans tous les cas, peuvent tirer parti d'une approche qui pénalise la complexité du modèle ou séléctionne les variables à considérer. C'est ce que l'on va voir, pas à pas, dans ce [document de travail Insee](https://www.insee.fr/fr/statistiques/4923129) ainsi que dans [les notebooks R qui l'accompagnent](https://github.com/InseeFrLab/grandedim).
 
 Ce document de travail passe d'abord en revue les différentes méthodes qui résolvent les principaux problèmes qui se présentent en grande dimension dans un cadre linéaire simple, i.e. lorsque les moindres carrés sont mis en défaut. On verra en particulier le Lasso qui, par nature, permet de faire de la sélection de variables de façon automatique. Cette première partie évoque également les extensions possibles et présente des méthodes telles que la validation croisée pour choisir les paramètres de régularisation.
 
@@ -37,7 +37,7 @@ A noter que la première partie peut également servir d'introduction douce au m
 
 ## Liens utiles
 
-[Document de travail Insee]()
+[Document de travail Insee](https://www.insee.fr/fr/statistiques/4923129)
 
 [Répertoire GitHub correspondant](https://github.com/InseeFrLab/grandedim)
 
