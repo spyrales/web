@@ -37,6 +37,8 @@ Les différentes conférences proposées pour **spyrales** ont été enregistré
 
 - conférence **gouvdown** animée par plusieurs agents publics (Maël, Romain et Thomas) : [vidéo](https://minio.lab.sspcloud.fr/strainel/spyrales_conf11_gouvdown.mp4)
 
+- conférence **PROPRE** (outil clef en main pour publier régulièrement des analyses homogènes) animée par deux agents publics (Juliette et Maël) : [vidéo](https://minio.lab.sspcloud.fr/strainel/spyrales_conf13_propre_20210107.mp4), [code](https://gitlab.com/rdes_dreal/propre.rpls)
+
 ### Les replays des conférences animées par des googlers (Google Cloud platform)
 
 - conférence **découverte de GCP** : [vidéo](https://minio.lab.sspcloud.fr/strainel/presentation%20GC-20200410.mkv)
