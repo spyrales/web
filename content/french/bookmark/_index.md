@@ -39,7 +39,7 @@ Les différentes conférences proposées pour **spyrales** ont été enregistré
 
 - conférence **PROPRE** (outil clef en main pour publier régulièrement des analyses homogènes) animée par deux agents publics (Juliette et Maël) : [vidéo](https://minio.lab.sspcloud.fr/strainel/spyrales_conf13_propre_20210107.mp4), [code](https://gitlab.com/rdes_dreal/propre.rpls)
 
-- conférence **apprentissage à R par le jeu**  animée par un agent public (Arnaud) : [vidéo](https://minio.lab.sspcloud.fr/strainel/spyrales_conf14_20210319.mp4), [code](/docs/conf14.pdf)
+- conférence **apprentissage à R par le jeu** (bienvenue dans *The legend of icaRius*) animée par un agent public (Arnaud) : [vidéo](https://minio.lab.sspcloud.fr/strainel/spyrales_conf14_20210319.mp4), [support](/docs/conf14.pdf)
 
 ### Les replays des conférences animées par des googlers (Google Cloud platform)
 
