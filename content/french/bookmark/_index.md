@@ -42,7 +42,7 @@ Les différentes conférences proposées pour **spyrales** ont été enregistré
 - conférence **apprentissage à R par le jeu** (bienvenue dans *The legend of icaRius*) animée par un agent public (Arnaud) : [vidéo](https://minio.lab.sspcloud.fr/strainel/spyrales_conf14_20210319.mp4), [support](/docs/conf14.pdf)
 
 
-### Les replays des conférences animées par des OVH
+### Les replays des conférences animées par des OVH
 
 - conférence **découverte d'OVHcloud et de l'IA** : [vidéo](https://minio.lab.sspcloud.fr/strainel/spyrales_conf15_20210415.mp4), [support](/docs/conf15.pdf)
 
