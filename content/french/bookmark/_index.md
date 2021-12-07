@@ -25,6 +25,13 @@ Bienvenue sur la page des ressources inédites de la communauté **spyrales** !
 
 Les différentes conférences proposées pour **spyrales** ont été enregistrées et sont mises à disposition ici pour partager les pratiques de datascience.
 
+
+### Les replays des **Rencontres Spyrales**
+
+- 30 novembre 2021 - **la première rencontre** : [vidéo](https://bbb-dinum-scalelite.visio.education.fr/playback/presentation/2.3/eec15f34873e87fbe0533bc72f260901565eba46-1638276570674)
+
+-
+
 ### Les replays de conférences animées par des membres de la communauté **spyrales**
 
 - présentation de la plateforme **onyxia de l'Insee** : [vidéo](https://minio.lab.sspcloud.fr/f2wbnp/presentation-onyxia.mkv)
@@ -46,6 +53,7 @@ Les différentes conférences proposées pour **spyrales** ont été enregistré
 
 - conférence **découverte d'OVHcloud et de l'IA** : [vidéo](https://minio.lab.sspcloud.fr/strainel/spyrales_conf15_20210415.mp4), [support](/docs/conf15.pdf)
 
+-
 
 ### Les replays des conférences animées par des googlers (Google Cloud platform)
 
