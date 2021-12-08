@@ -30,7 +30,8 @@ Cette initiative est un exemple des attentes évoquées dans le rapport des mét
 
 JL Tavernier a souligné l'importance de l'entraide pour enrichir les compétences individuelles et collectives, car les compétences restent rares et donc en sous nombre, et que le partage d'expérience est une source inépuisable d'inspiration.
 
-JL Tavernier a souligné son soutien à une prochaine conférence des métiers de la donnée, première rencontre physique qui serait le "Viva-Tech" de la statistique et des données et pour laquelle l'Insee serait un grand partenaire.
+JL Tavernier a indiqué son soutien à une **conférence des métiers de la donnée**, qui pourait se tenir en mars 2022, probablement en présentiel, ce qui serait alors la première rencontre physique de la communauté Spyrales. Cet événement autait vocation à être régulier, si le succès est au rendez-vous, afin de devenir le "Viva-Tech" de la statistique, de la data science et des données pour le secteur public. L'Insee serait alors un partenaire privilégié.
+
 
 ## Supports
 
